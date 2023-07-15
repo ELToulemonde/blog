@@ -17,8 +17,8 @@ Depuis 2017, Emmanuel-Lin Toulemonde construit et maintient dataPreparation. C'e
 
 Pytesseract est une librairie python permettant la reconnaissance de texte dans les images. Emmanuel-Lin Toulemonde a contribué à l'occasion de 2 _pull requests_. Une pour faciliter la vie des utilisateurs, une pour résoudre un bug.
 
-## Stackoverflow : répondre aux questions de la communautés
+## Stackoverflow : répondre aux questions de la communauté
 
 [https://stackoverflow.com/users/5227259/emmanuel-lin](https://stackoverflow.com/users/5227259/emmanuel-lin)
 
-Un soixantaine de réponses à des questions concernant la manipulation de données en R et en python.
+Une soixantaine de réponses à des questions concernant la manipulation de données en R et en python.

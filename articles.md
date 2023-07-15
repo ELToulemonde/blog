@@ -125,7 +125,7 @@ Article écrit avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine)
 
 [https://www.linkedin.com/pulse/de-la-donnée-et-qualité-emmanuel-lin-toulemonde](https://www.linkedin.com/pulse/de-la-donnée-et-qualité-emmanuel-lin-toulemonde)
 
-Écrit sur linkedin, cet article trace les raisons de la non qualité de donnée et propose 5 actions pour l'améliorer.
+Écrit sur linkedin, cet article trace les raisons de la non-qualité de donnée et propose 5 actions pour l'améliorer.
 
 * * *
 
