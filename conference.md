@@ -15,7 +15,8 @@ Conférence réalisée avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%A
 
 Un talk itératif durant lequel Sofia et Emmanuel-Lin dessine une architecture de Data Science au fil des évolutions des besoins métiers.
 
-https://www.youtube.com/watch?v=7jyyBaV8jjI
+[![Vidéo conférence](https://img.youtube.com/vi/7jyyBaV8jjI/0.jpg)](https://www.youtube.com/watch?v=7jyyBaV8jjI)
+
 
 ## 2021/11 : Tutoriel sur la librairie dataPreparation
 
@@ -29,7 +30,7 @@ Vidéo à venir, [ce tutoriel](https://datasciconference.com/schedule/tutorial-2
 
 Conférence organisée par [OCTO](https://www.octo.com/).
 
-https://www.youtube.com/watch?v=qj3lVoaAe3Q
+[![Vidéo conférence](https://img.youtube.com/vi/qj3lVoaAe3Q/0.jpg)](https://www.youtube.com/watch?v=qj3lVoaAe3Q)
 
 [Le compte rendu](https://blog.octo.com/histoire-dune-architecture-emergente-compte-rendu-du-talk-de-emmanuel-lin-toulemonde-a-la-duck-conf-2021/) par [Alessandro Mosca](https://fr.linkedin.com/in/alessandro-mosca).
 
@@ -39,7 +40,7 @@ https://www.youtube.com/watch?v=qj3lVoaAe3Q
 
 Conférence réalisée avec [Marc Frignet](https://fr.linkedin.com/in/marc-frignet-0582b09) et organisée par [OCTO](https://www.octo.com/).
 
-https://www.youtube.com/watch?v=2gTdE6HI12g
+[![Vidéo conférence](https://img.youtube.com/vi/2gTdE6HI12g/0.jpg)](https://www.youtube.com/watch?v=2gTdE6HI12g)
 
 * * *
 
@@ -57,7 +58,8 @@ https://fr.slideshare.net/EmmanuelLinTOULEMOND/meetup-crafting-data-science-3-ma
 
 Conférence organisée par l'[espace éthique d’Île de France](https://www.espace-ethique.org/).
 
-https://www.youtube.com/watch?v=Pa5YeciG2-8
+[![Vidéo conférence](https://img.youtube.com/vi/Pa5YeciG2-8/0.jpg)](https://www.youtube.com/watch?v=Pa5YeciG2-8)
+
 
 * * *
 
@@ -65,7 +67,8 @@ https://www.youtube.com/watch?v=Pa5YeciG2-8
 
 Conférence réalisée avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine) et organisée par [OCTO](https://www.octo.com/).
 
-https://www.youtube.com/watch?v=neZ4KnfHUtY
+[![Vidéo conférence](https://img.youtube.com/vi/neZ4KnfHUtY/0.jpg)](https://www.youtube.com/watch?v=neZ4KnfHUtY)
+
 
 [Le compte rendu](https://blog.octo.com/mise-en-prod-de-la-data-science-le-jour-dapres-compte-rendu-du-talk-de-mehdi-houacine-et-emmanuel-lin-toulemonde-a-la-duck-conf-2020/) par [Hugo Robellaz](https://fr.linkedin.com/in/hrobellaz).
 
@@ -75,7 +78,7 @@ https://www.youtube.com/watch?v=neZ4KnfHUtY
 
 Conférence organisée par [OCTO](https://www.octo.com/).
 
-https://youtu.be/o\_TBFPvUQ30?t=5740
+[![Vidéo conférence](https://img.youtube.com/vi/Pa5YeciG2-8/0.jpg)](https://www.youtube.com/watch?v=Pa5YeciG2-8)
 
 [Le compte rendu](https://www.alliancy.fr/solution-ia-confiance-etait-ethical-by-design) écrit par Christophe Auffray.
 
