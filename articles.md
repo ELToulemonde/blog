@@ -3,8 +3,6 @@ layout: page
 title: "Articles"
 ---
 
-# Articles 
-
 ## 2023/04/12 Architecture Decision Record : on commence aujourd'hui
 
 [https://blog.octo.com/architecture-decision-record/](https://blog.octo.com/architecture-decision-record/)

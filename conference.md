@@ -3,8 +3,6 @@ layout: page
 title: "Conférences"
 ---
 
-# Conférences
-
 ## 2022/11 : Meet Up Crafting _Data Science_ #9 Co-consturction d'un architecture de DS avec le public
 
 [https://www.meetup.com/fr-FR/crafting-datascience/events/289540895/](https://www.meetup.com/fr-FR/crafting-datascience/events/289540895/)

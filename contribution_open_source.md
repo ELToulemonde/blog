@@ -3,8 +3,6 @@ layout: page
 title: "Contributions Open Source"
 ---
 
-# Contributions open source
-
 ## dataPreparation une librairie R pour faciliter la préparation de données
 
 [![Github actions](https://github.com/ELToulemonde/dataPreparation/actions/workflows/r.yml/badge.svg)](https://github.com/ELToulemonde/dataPreparation/actions/workflows/r.yml) [![codecov](https://codecov.io/gh/ELToulemonde/dataPreparation/branch/master/graph/badge.svg)](https://codecov.io/gh/ELToulemonde/dataPreparation) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/dataPreparation)](https://cran.r-project.org/package=dataPreparation) [![](http://cranlogs.r-pkg.org/badges/dataPreparation)](https://CRAN.R-project.org/package=dataPreparation) [![](https://cranlogs.r-pkg.org/badges/grand-total/dataPreparation)](https://CRAN.R-project.org/package=dataPreparation)
