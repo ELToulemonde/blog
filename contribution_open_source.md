@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Contributions Open Source"
+title: "Open Source"
 ---
 
 ## dataPreparation une librairie R pour faciliter la préparation de données
