@@ -6,6 +6,7 @@ hr {
 /* Post navigation links */
 .post_navi {
   display: flex;
+  flex-direction: row;
 }
 
 .post_navi-label {
