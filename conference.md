@@ -14,6 +14,8 @@ En Machine Learning, il faut gérer un artefact supplémentaire.
 Au court de ce talk, à travers 3 besoins (prototyper, développer, scaler), nous étudions les différents patterns pour
 entraîner, versionner et déployer une nouvelle version des modèles de ML.
 
+* * *
+
 ## 2022/11 : Meet Up Crafting _Data Science_ #9 Co-consturction d'un architecture de DS avec le public
 
 [https://www.meetup.com/fr-FR/crafting-datascience/events/289540895/](https://www.meetup.com/fr-FR/crafting-datascience/events/289540895/)
@@ -22,6 +24,10 @@ Conférence réalisée avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%A
 
 Un talk itératif durant lequel Sofia et Emmanuel-Lin dessine une architecture de Data Science au fil des évolutions des
 besoins métiers.
+
+[![Vidéo conférence]](https://img.youtube.com/vi/F7u3lCohVcQ/0.jpg)](https://www.youtube.com/watch?v=F7u3lCohVcQ)
+
+* * *
 
 ## 2022/03 : Dessine moi une architecture de _Data Science_
 
@@ -32,6 +38,8 @@ Un talk itératif durant lequel Sofia et Emmanuel-Lin dessine une architecture d
 besoins métiers.
 
 [![Vidéo conférence](https://img.youtube.com/vi/7jyyBaV8jjI/0.jpg)](https://www.youtube.com/watch?v=7jyyBaV8jjI)
+
+* * *
 
 ## 2021/11 : Tutoriel sur la librairie dataPreparation
 
