@@ -9,11 +9,15 @@ title: "Articles"
 
 Écrit sur le blog d'OCTO, cet article décrit l'architecture decision record comme un puissant moyen de facilitation et d'archivage des prises de décisions. Il propose de rédiger l'ADR as-code et d'intégrer des diagrammes as-code.
 
+* * *
+
 ## 2023/04/04 Compte rendu du talk de Benjamin Bayart – « Sous le capot du cloud souverain »
 
 [https://blog.octo.com/duck-conf-2023-compte-rendu-du-talk-de-benjamin-bayart-sous-le-capot-du-cloud-souverain/](https://blog.octo.com/duck-conf-2023-compte-rendu-du-talk-de-benjamin-bayart-sous-le-capot-du-cloud-souverain/)
 
 Compte rendu du talk de Benjamin Bayart à la Duck Conf 2023. Benjamin Bayart propose de parler de cloud sous contraintes plutôt que souverain. Il cite les contraintes (réglementaires, techniques, etc.), liste les solutions existantes et nous incite à sortir de notre syndrome de l'imposteur.
+
+* * *
 
 ## 2022/12/06 \[MLOps\] Monitoring & proactive notification d’une application de ML
 
@@ -21,17 +25,23 @@ Compte rendu du talk de Benjamin Bayart à la Duck Conf 2023. Benjamin Bayart pr
 
 Écrit sur le blog d'OCTO, cet article détail les origines des erreurs d'une applications de ML en production, propose une démarche pour créer des sondes de _monitoring_ et d_'alerting_.
 
+* * *
+
 ## 2022/09/20 Intégrer au plus tôt la sécurité dans les delivery de Machine Learning
 
 [https://blog.octo.com/integrer-au-plus-tot-la-securite-dans-les-delivery-de-machine-learning/](https://blog.octo.com/integrer-au-plus-tot-la-securite-dans-les-delivery-de-machine-learning/)
 
 Écrit sur le blog d'OCTO, cet article aborde le sujet de la sécurité des modèles de machine learning. Il décrit des exemples concrets d'attaques qui impactent vos modèles, il propose ensuite de nombreuses pratiques à mettre en place pour intégrer la sécurité au plus tôt.
 
+* * *
+
 ## 2022/05/24 Matrice Cynefin x Machine Learning – Aller vite en production pour minimiser le risque des systèmes complexes
 
 [https://blog.octo.com/matrice-cynefin-x-machine-learning-aller-vite-en-production-pour-minimiser-le-risque-des-systemes-complexes/](https://blog.octo.com/matrice-cynefin-x-machine-learning-aller-vite-en-production-pour-minimiser-le-risque-des-systemes-complexes/)
 
 Écrit sur le blog d'OCTO, cet article croise le cadre conceptuel proposé par Cynefin et le _Machine Learning_ pour décider d'aller rapidement (ou non) en production.
+
+* * *
 
 ## 2022/05/10 : Et si les métriques de monitoring de ML devenaient fonctionnalités ?
 
@@ -40,6 +50,8 @@ Compte rendu du talk de Benjamin Bayart à la Duck Conf 2023. Benjamin Bayart pr
 Article écrit avec [Touraya El Hasssani](https://fr.linkedin.com/in/touraya-el-hassani) et [Antoine Moreau](https://fr.linkedin.com/in/antoine-moreau-esiee-paris)
 
 Écrit sur le blog d'OCTO, cet article propose de réutiliser les métriques de monitoring en _Data Science_ sous la forme de fonctionnalités.
+
+* * *
 
 ## 2022/01/25 : Rendre visible la chaine de valeur dans un projet de _Delivery_ de _Machine Learning_
 
