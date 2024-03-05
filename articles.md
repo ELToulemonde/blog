@@ -51,7 +51,7 @@ Compte rendu du talk de Benjamin Bayart à la Duck Conf 2023. Benjamin Bayart pr
 
 ## 2022/05/24 Matrice Cynefin x Machine Learning – Aller vite en production pour minimiser le risque des systèmes complexes
 
-[https://blog.octo.com/matrice-cynefin-x-machine-learning-aller-vite-en-production-pour-minimiser-le-risque-des-systemes-complexes/](https://blog.octo.com/matrice-cynefin-x-machine-learning-aller-vite-en-production-pour-minimiser-le-risque-des-systemes-complexes/)
+[https://blog.octo.com/matrice-cynefin-machine-learning-quand-produire](https://blog.octo.com/matrice-cynefin-machine-learning-quand-produire)
 
 Écrit sur le blog d'OCTO, cet article croise le cadre conceptuel proposé par Cynefin et le _Machine Learning_ pour décider d'aller rapidement (ou non) en production.
 

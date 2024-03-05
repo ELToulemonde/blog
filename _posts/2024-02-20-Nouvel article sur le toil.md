@@ -9,4 +9,4 @@
 
 📄 Avec [Aurélien Massiot](https://www.linkedin.com/in/aur%C3%A9lien-massiot-990bb6b1/), nous avons écrit un article à ce sujet sur le blog OCTO Technology. Au menu, prendre conscience de ce que c'est, de comment il vous paralyse, savoir le mesurer puis le traiter.
 
-[https://blog.octo.com/mlops--en-phase-de-run-le-toil-est-un-ennemi-a-regarder-dans-les-yeux](https://blog.octo.com/mlops--en-phase-de-run-le-toil-est-un-ennemi-a-regarder-dans-les-yeux)
+[https://blog.octo.com/mlops--en-phase-de-run-le-toil-est-un-ennemi-a-regarder-dans-les-yeux](https://blog.octo.com/mlops--en-phase-de-run-le-toil-est-un-ennemi-a-regarder-dans-les-yeux)  
