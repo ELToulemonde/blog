@@ -37,13 +37,13 @@ Compte rendu du talk de Benjamin Bayart à la Duck Conf 2023. Benjamin Bayart pr
 
 [https://blog.octo.com/mlops-monitoring-et-proactive-notification/](https://blog.octo.com/mlops-monitoring-et-proactive-notification/)
 
-Écrit sur le blog d'OCTO, cet article détail les origines des erreurs d'une applications de ML en production, propose une démarche pour créer des sondes de _monitoring_ et d_'alerting_.
+Écrit sur le blog d'OCTO, cet article détail les origines des erreurs d'une application de ML en production, propose une démarche pour créer des sondes de _monitoring_ et d_'alerting_.
 
 * * *
 
 ## 2022/09/20 Intégrer au plus tôt la sécurité dans les delivery de Machine Learning
 
-[https://blog.octo.com/integrer-au-plus-tot-la-securite-dans-les-delivery-de-machine-learning/](https://blog.octo.com/integrer-au-plus-tot-la-securite-dans-les-delivery-de-machine-learning/)
+[https://blog.octo.com/machine-learning-delivery-integrer-la-securite](https://blog.octo.com/machine-learning-delivery-integrer-la-securite)
 
 Écrit sur le blog d'OCTO, cet article aborde le sujet de la sécurité des modèles de machine learning. Il décrit des exemples concrets d'attaques qui impactent vos modèles, il propose ensuite de nombreuses pratiques à mettre en place pour intégrer la sécurité au plus tôt.
 
@@ -105,7 +105,7 @@ Article écrit avec [Maria Mokbel](https://fr.linkedin.com/in/maria-mokbel-b4590
 
 ## 2021/01/13 : Nos 10 convictions pour mieux réussir nos projets de _Data Science_ en 2021
 
-[https://blog.octo.com/nos-10-convictions-pour-mieux-reussir-nos-projets-de-data-science-en-2021/](https://blog.octo.com/nos-10-convictions-pour-mieux-reussir-nos-projets-de-data-science-en-2021/)
+[https://blog.octo.com/reussir-ses-projets-de-data-science-en-2021](https://blog.octo.com/reussir-ses-projets-de-data-science-en-2021)
 
 Article écrit avec [Eric Biernat](https://fr.linkedin.com/in/eric-biernat-0ab939b7)
 
