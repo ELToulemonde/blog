@@ -14,5 +14,8 @@ environnements efficaces et où il fait bon travailler.
 Ses sujets d'intérêts sont : la _data science_, le _MLEng_, le _MLOps_, le monitoring de systèmes de _data science,_
 l'interprétabilité des systèmes de _data science_, le développement logiciel, l'architecture émergente, l'agilité, etc.
 
+Il écrit de nombreux [articles](https://eltoulemonde.fr/articles), parlent dans
+des [conférences](https://eltoulemonde.fr/conference) et a co-écrit
+le [livre Culture MLOps](https://blog.octo.com/culture-mlops--le-machine-learning-est-un-logiciel-qui-se-delivre-comme-les-autres-1).
 
 ![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Feltoulemonde.fr&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
