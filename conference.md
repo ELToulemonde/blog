@@ -3,6 +3,20 @@ layout: page
 title: "Conférences"
 ---
 
+## 2024/03 : PyCon 2024 Lithuania : CI/CD at Machine Learning Era
+
+La CI/CD est un outil bien connu du logiciel pour construire et déployer des artefacts. En Machine Learning, c'est un peu particulier : 
+
+🔢 En plus de devoir construire et déployer du code, il faut gérer l'artefact modèle.
+
+🗓️ Le build du modèle correspond à son entraînement, il ne se fait pas que quand le code change, il peut également être déclenché par un changement dans les données.
+
+🏋️‍♀️ Le code pèse généralement quelques Mo, le modèle peut lui peser jusqu'à plusieurs Go. 
+
+Ces trois particularités font que le processus de construction et de déploiement doit être repensé.
+
+Le support en anglais est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2024/PyCon%202024%20Lithuania/CI_CD%20at%20Machine%20Learning%20time.pdf)
+
 ## 2023/12 : Meet Up Crafting Data Science #11 La CI/CD à l'heure du Machine Learning
 
 [https://www.meetup.com/crafting-datascience/events/297496877/](https://www.meetup.com/crafting-datascience/events/297496877/)
