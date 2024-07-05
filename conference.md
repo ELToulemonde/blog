@@ -67,6 +67,8 @@ par [OCTO](https://www.octo.com/).
 Un talk itératif durant lequel Sofia et Emmanuel-Lin dessine une architecture de Data Science au fil des évolutions des
 besoins métiers.
 
+Le support est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2021/La%20Duck%20Conf/Histoire%20d'une%20architecture%20%C3%A9mergeante.pdf)
+
 [![Vidéo conférence](https://img.youtube.com/vi/7jyyBaV8jjI/0.jpg)](https://www.youtube.com/watch?v=7jyyBaV8jjI)
 
 * * *
