@@ -3,6 +3,18 @@ layout: page
 title: "Conférences"
 ---
 
+## 2024/06 : Breizh camp : Optimisation de performance bénéfice ou sacrifice ?
+
+⚡ Plus le code est rapide, plus le code est bon. 
+
+🥧 Au-delà de cette phrase tarte à la crème, ce talk propose de voir quand il faut optimiser du code, comment s'y prendre, et à quel moment s'arrêter. 
+
+🚀 Les premières optimisations relèvent des bonnes pratiques que tout le monde devrait savoir faire, les suivantes sont sacrificielles : elles dégradent la lisibilité, la maintenabilité du code. Pensé comme une déclinaise concrète de la loi de Eroom proposé par Tristan Nitot, ce talk, commencera avec un exemple de code bien mal codé comme nous l'avons tous déjà fait, puis au fil des optimisations, nous verrons bénéfices et sacrifices à faire pour aller toujours plus vite.
+
+Le support est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
+
+* * *
+
 ## 2024/03 : PyCon 2024 Lithuania : CI/CD at Machine Learning Era
 
 La CI/CD est un outil bien connu du logiciel pour construire et déployer des artefacts. En Machine Learning, c'est un peu particulier : 
@@ -16,6 +28,10 @@ La CI/CD est un outil bien connu du logiciel pour construire et déployer des ar
 Ces trois particularités font que le processus de construction et de déploiement doit être repensé.
 
 Le support en anglais est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2024/PyCon%202024%20Lithuania/CI_CD%20at%20Machine%20Learning%20time.pdf)
+
+[![Vidéo de la conférence](https://img.youtube.com/vi/093T744olQ4/1.jpg)](https://www.youtube.com/watch?v=093T744olQ4)
+
+* * *
 
 ## 2023/12 : Meet Up Crafting Data Science #11 La CI/CD à l'heure du Machine Learning
 
