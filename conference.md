@@ -2,6 +2,16 @@
 layout: page
 title: "Conférences"
 ---
+## 2025/01 : Snow camp : Optimisation de performance bénéfice ou sacrifice ?
+
+⚡ Plus le code est rapide, plus le code est bon. 
+
+Plutôt que d'ajouter des ressources de calculs, des technologies, réfléchissez à l'architecture, au code et au stockage des données pour économiser les dressources matériels.
+
+🚀 Les premières optimisations relèvent des bonnes pratiques que tout le monde devrait savoir faire, les suivantes sont sacrificielles : elles dégradent la lisibilité, la maintenabilité du code. Pensé comme une déclinaise concrète de la loi de Eroom proposé par Tristan Nitot, ce talk, commencera avec un exemple de code bien mal codé comme nous l'avons tous déjà fait, puis au fil des optimisations, nous verrons bénéfices et sacrifices à faire pour aller toujours plus vite.
+
+Le support est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2025/Snow%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
+
 
 ## 2024/06 : Breizh camp : Optimisation de performance bénéfice ou sacrifice ?
 
@@ -13,6 +23,7 @@ title: "Conférences"
 
 Le support est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
 
+[![Vidéo de la conférence](https://img.youtube.com/vi/obKSKpPyaGo/0.jpg)](https://www.youtube.com/watch?v=obKSKpPyaGo)
 * * *
 
 ## 2024/03 : PyCon 2024 Lithuania : CI/CD at Machine Learning Era
@@ -29,7 +40,7 @@ Ces trois particularités font que le processus de construction et de déploieme
 
 Le support en anglais est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2024/PyCon%202024%20Lithuania/CI_CD%20at%20Machine%20Learning%20time.pdf)
 
-[![Vidéo de la conférence](https://img.youtube.com/vi/093T744olQ4/1.jpg)](https://www.youtube.com/watch?v=093T744olQ4)
+[![Vidéo de la conférence](https://img.youtube.com/vi/093T744olQ4/0.jpg)](https://www.youtube.com/watch?v=093T744olQ4)
 
 * * *
 

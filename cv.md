@@ -7,21 +7,27 @@ title: CV
 
 ### Consultant chez OCTO Technology
 
-Depuis Septembre 2018
+Depuis septembre 2018, j'endosse 4 casquettes : 
+- Consultant
+- Formateur
+- Manager & Leader d'équipe
+- Auteur & conférencier
 
-#### Consultant Tech Lead
+#### Consultant Tech Lead, Architect, Data Engineer, Data Scientist
 
-Pour Faurecia, Total Digital Factory, Engie Digital : prendre la posture de Tech Lead afin de delivrer des projets
-embarquant de la data science.
+Pour des grandes organisations du CAC 40 ou du secteur public, j'interviens dans des contextes intensifs en données ou en modèles de ML.
+- J'apporte des conseils pragmatiques et éclairés à travers des missions d'audit, de cadrage, de coaching.
+- Je développe, du design d'architecture, à la mise en production, et un peu de run.
+- Je fais grandir les équipes en les formants aux pratiques de développement en équipe, d'amélioration continue.
+- Je m'investis au long court sur les projets pour apporter durablement des changements
+- Je pilote l'engagement de dispositif d'une 10 aines de personnes.
 
-Advisor de Tech Lead pour la Total Digital Factory (TDF) : accompagner les 25 Tech Leads de la TDF sur leur posture
-vis-à-vis de leur équipe, du métier et des stakeholders.
 
-#### Manager
+#### Manager & Leader de tribu
 
-Manager de 5 consultants pour les aider à s'épanouir au sein d'OCTO.
+Manager de 5 consultants en assurant l'équilibre entre le managé, l'entreprise et ses clients.
 
-Leader de la tribu Machine Learning Engineering, une équipe de 20 personnes qui s'intéressent aux problématiques de
+Leader de la tribu MLOps, une équipe de 10 personnes qui s'intéressent aux problématiques de
 MLEng et MLOps. Nous menons une R&D sur les outils (MLFlow, Tensorflow serving, DVC, ...) et sur les méthodologies (
 souvent inspirés des meilleurs pratiques du logiciel) afin d'apprendre, de partager, et d'être toujours plus pertinent
 dans nos missions.
@@ -39,15 +45,16 @@ Co-concevoir et donner 4 formations qui tirent profit de nos pratiques en missio
   Maintenir et faire évoluer une application de ML
 - Cadrage et pilotage d'un projet de data science : Défricher, cadrer et délivrer un projet de data science.
 
-#### Consultant data scientist
+#### Auteur et conférencier.
 
-Pour Engie, réaliser des prototypes de data science, du cadrage du besoin métier à la mise en production.
-
-Quelques missions d'expertises ponctuelles sur du NLP, de la data science appliqué aux métiers de l'Ops.
+Je capitalise sur mes missions, ma veille, ma R&D et je partage mes apprentissages à travers :
+- Des articles de blogs
+- L'écriture d'un livre Culture MLOps
+- L'intervention en conférences.
 
 ### Data Scientist chez Crédit Agricole
 
-De Janvier 2015 à Septembre 2018
+De janvier 2015 à septembre 2018
 
 Au sein du groupe Crédit Agricole, participer à la création du data lab, construire des modèles de Machine Learning,
 acculturer le groupe aux sujets de la data science.
@@ -71,7 +78,7 @@ Méthodologiques :
 
 - Architecture : architecture émergente, architecture hexagonale, découplage
 - Agilité, lean
-- TDD, refactoring
+- TDD, refactoring, profiling
 - Développement logiciel en équipe : pair et mob programming, code review
 
 Soft skills :
