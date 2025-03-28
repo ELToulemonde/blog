@@ -2,7 +2,32 @@
 layout: page
 title: "Conférences"
 ---
-## 2025/01 : Snow camp : Optimisation de performance bénéfice ou sacrifice ?
+
+## Sommaire
+
+- [MLOps à l’échelle : Plateformiser le registre et l’inférence pour accélérer les déploiements](#mlops-à-léchelle--plateformiser-le-registre-et-linférence-pour-accélérer-les-déploiements)
+- [Optimisation de performance : bénéfice ou sacrifice ?](#optimisation-de-performance-bénéfice-ou-sacrifice-)
+- [La CI/CD à l'heure du Machine Learning](#la-cicd-à-lheure-du-machine-learning)
+- [Dessine-moi une architecture de Data Science](#dessine-moi-une-architecture-de-Data-Science)
+- [L'histoire d'une architecture émergente](#lhistoire-dune-architecture-émergente)
+- [MLOps : Mise en production, et après](#mlops--mise-en-production-et-après-)
+- [Interprétabilité des Systèmes de Data Science](#interprétabilité-des-systèmes-de-data-science)
+- [Tutoriel sur la librairie dataPreparation](#tutoriel-sur-la-librairie-datapreparation)
+
+## MLOps à l’échelle : Plateformiser le registre et l’inférence pour accélérer les déploiements
+
+L’intelligence artificielle est désormais au cœur de toutes les organisations. Les plateformes de données facilitent la création de modèles performants, mais le déploiement reste souvent artisanal, nécessitant la recréation de registres, API et runners pour chaque projet.
+
+Ce talk propose une approche innovante pour standardiser et automatiser ces étapes en quelques clics ou lignes de commande.
+
+En 2025, il est crucial de mettre en places des models platforms qui intègrent registre de modèles, déploiement, A/B testing et production shadow en toute simplicité.
+
+Une démonstration en live montrera comment, grâce à des technologies open source, un modèle peut être mis en production en moins de 5 minutes.
+
+📍 Talk donné à :
+- Data Days Lille, mars 2025, Lille : [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Data%20Days%20Lille/MLOps_%20Model%20plateforme%20pour%20passer%20%C3%A0%20l'%C3%A9chelle.pdf)
+
+## Optimisation de performance bénéfice ou sacrifice ?
 
 ⚡ Plus le code est rapide, plus le code est bon. 
 
@@ -10,23 +35,14 @@ Plutôt que d'ajouter des ressources de calculs, des technologies, réfléchisse
 
 🚀 Les premières optimisations relèvent des bonnes pratiques que tout le monde devrait savoir faire, les suivantes sont sacrificielles : elles dégradent la lisibilité, la maintenabilité du code. Pensé comme une déclinaise concrète de la loi de Eroom proposé par Tristan Nitot, ce talk, commencera avec un exemple de code bien mal codé comme nous l'avons tous déjà fait, puis au fil des optimisations, nous verrons bénéfices et sacrifices à faire pour aller toujours plus vite.
 
-Le support est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2025/Snow%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
+📍 Talk donné à :
+- Touraine Tech, Février 2025, Tour
+- Snow Camp, Janvier 2025, Grenoble : [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Snow%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
+- Breizh Camp, Juin 2024, Rennes : [slides](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf), [vidéo](https://www.youtube.com/watch?v=obKSKpPyaGo)
 
 
-## 2024/06 : Breizh camp : Optimisation de performance bénéfice ou sacrifice ?
-
-⚡ Plus le code est rapide, plus le code est bon. 
-
-🥧 Au-delà de cette phrase tarte à la crème, ce talk propose de voir quand il faut optimiser du code, comment s'y prendre, et à quel moment s'arrêter. 
-
-🚀 Les premières optimisations relèvent des bonnes pratiques que tout le monde devrait savoir faire, les suivantes sont sacrificielles : elles dégradent la lisibilité, la maintenabilité du code. Pensé comme une déclinaise concrète de la loi de Eroom proposé par Tristan Nitot, ce talk, commencera avec un exemple de code bien mal codé comme nous l'avons tous déjà fait, puis au fil des optimisations, nous verrons bénéfices et sacrifices à faire pour aller toujours plus vite.
-
-Le support est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
-
-[![Vidéo de la conférence](https://img.youtube.com/vi/obKSKpPyaGo/0.jpg)](https://www.youtube.com/watch?v=obKSKpPyaGo)
-* * *
-
-## 2024/03 : PyCon 2024 Lithuania : CI/CD at Machine Learning Era
+* * * 
+## La CI/CD à l'heure du Machine Learning
 
 La CI/CD est un outil bien connu du logiciel pour construire et déployer des artefacts. En Machine Learning, c'est un peu particulier : 
 
@@ -38,124 +54,61 @@ La CI/CD est un outil bien connu du logiciel pour construire et déployer des ar
 
 Ces trois particularités font que le processus de construction et de déploiement doit être repensé.
 
-Le support en anglais est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2024/PyCon%202024%20Lithuania/CI_CD%20at%20Machine%20Learning%20time.pdf)
-
-[![Vidéo de la conférence](https://img.youtube.com/vi/093T744olQ4/0.jpg)](https://www.youtube.com/watch?v=093T744olQ4)
-
-* * *
-
-## 2023/12 : Meet Up Crafting Data Science #11 La CI/CD à l'heure du Machine Learning
-
-[https://www.meetup.com/crafting-datascience/events/297496877/](https://www.meetup.com/crafting-datascience/events/297496877/)
-
-Conférence réalisée avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno)
-
-La CI/CD est un puissant outil pour construire, versionner et déployer les versions successives d'une application.
-En Machine Learning, il faut gérer un artefact supplémentaire.
-Au court de ce talk, à travers 3 besoins (prototyper, développer, scaler), nous étudions les différents patterns pour
-entraîner, versionner et déployer une nouvelle version des modèles de ML.
+📍 Talk donné à : 
+- Pycon Lithuania, avril 2024, Vilnius : [slides en anglais](https://github.com/ELToulemonde/talks/blob/main/2024/PyCon%202024%20Lithuania/CI_CD%20at%20Machine%20Learning%20time.pdf), [vidéo](https://www.youtube.com/watch?v=093T744olQ4)
+- Meetup Crafting Data Science #11, Novembre 2023, Paris avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno)
 
 * * *
 
-## 2022/11 : Meet Up Crafting _Data Science_ #9 Co-consturction d'un architecture de DS avec le public
-
-[https://www.meetup.com/fr-FR/crafting-datascience/events/289540895/](https://www.meetup.com/fr-FR/crafting-datascience/events/289540895/)
-
-Conférence réalisée avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno)
+## Dessine-moi une architecture de Data Science
 
 Un talk itératif durant lequel Sofia et Emmanuel-Lin dessine une architecture de Data Science au fil des évolutions des
 besoins métiers.
 
-[![Vidéo conférence]](https://img.youtube.com/vi/F7u3lCohVcQ/0.jpg)](https://www.youtube.com/watch?v=F7u3lCohVcQ)
+📍 Talk donné à :
+- La Duck Conf, Mars 2022, Paris, avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno) : [vidéo](https://www.youtube.com/watch?v=7jyyBaV8jjI)
+- Meetup crafting Data Science #9, Novembre 2022, Paris, avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno) : [vidéo](https://www.youtube.com/watch?v=F7u3lCohVcQ)
 
 * * *
 
-## 2022/03 : Dessine moi une architecture de _Data Science_
+## L'histoire d'une architecture émergente
 
-Conférence réalisée avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno) et organisée
-par [OCTO](https://www.octo.com/).
+Un modèle de Data Science en production au jour 1, une architecture émergente, des clients satisfaits, une équipe sereine. 
 
-Un talk itératif durant lequel Sofia et Emmanuel-Lin dessine une architecture de Data Science au fil des évolutions des
-besoins métiers.
+C'est l'histoire racontée dans ce talk, celle d’un projet d'architecture émergente qui a permis de gagner des centaines de milliers d’euros dès la première journée de développement. C’est l’histoire d’un MVP vraiment minimaliste.
 
-[![Vidéo conférence](https://img.youtube.com/vi/7jyyBaV8jjI/0.jpg)](https://www.youtube.com/watch?v=7jyyBaV8jjI)
-
-* * *
-
-## 2021/11 : Tutoriel sur la librairie dataPreparation
-
-Conférence organisée par [Data Science Conférence Europe](https://datasciconference.com).
-
-Vidéo à venir, [ce tutoriel](https://datasciconference.com/schedule/tutorial-2.html) présente la librairie R
-dataPreparation ainsi qu'un benchmark de ses performances par rapport à d'autres librairies.
+📍 Talk donné à :
+- La Duck Conf, février 2021, remote : [slides](https://github.com/ELToulemonde/talks/blob/main/2021/La%20Duck%20Conf/Histoire%20d'une%20architecture%20%C3%A9mergeante.pdf), [vidéo](https://www.youtube.com/watch?v=qj3lVoaAe3Q)
+- Comptoir Octo, la même histoire sous l'angle métier, avec [Marc Frignet](https://fr.linkedin.com/in/marc-frignet-0582b09) : [vidéo](https://www.youtube.com/watch?v=2gTdE6HI12g)
 
 * * *
 
-## 2021/02 : Histoire d'une architecture émergente
+## MLOps : Mise en production, et après ?
 
-Conférence organisée par [OCTO](https://www.octo.com/).
+Une fois en production, il faut monitorer son système modèle, a part un drift de donnée dans tous les sens, comment choisir les bonnes métriques à suivre dans un système qui contient beaucoup d'incertitudes.
 
-[![Vidéo conférence](https://img.youtube.com/vi/qj3lVoaAe3Q/0.jpg)](https://www.youtube.com/watch?v=qj3lVoaAe3Q)
-
-Le support est disponible [ici](https://github.com/ELToulemonde/talks/blob/main/2021/La%20Duck%20Conf/Histoire%20d'une%20architecture%20%C3%A9mergeante.pdf)
-
-[Le compte rendu](https://blog.octo.com/histoire-dune-architecture-emergente-compte-rendu-du-talk-de-emmanuel-lin-toulemonde-a-la-duck-conf-2021/) par [Alessandro Mosca](https://fr.linkedin.com/in/alessandro-mosca).
+📍 Talk donné à :
+- La Duck Conf, janvier 2020, Paris, avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine) : [vidéo](https://www.youtube.com/watch?v=neZ4KnfHUtY)
+- Meetup Crafting Data Science, février 2022, Paris, avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine) : [slides](https://fr.slideshare.net/EmmanuelLinTOULEMOND/meetup-crafting-data-science-3-mars)
 
 * * *
 
-## 2020/12 : REX d'un projet de Data Science en production au jour 1
+## Interprétabilité des Systèmes de Data Science
 
-Conférence réalisée avec [Marc Frignet](https://fr.linkedin.com/in/marc-frignet-0582b09) et organisée
-par [OCTO](https://www.octo.com/).
+Le besoin d'interprétabilité sur les systèmes de Data Science est clairement identifié mais pas toujours clairement défini. 
 
-[![Vidéo conférence](https://img.youtube.com/vi/2gTdE6HI12g/0.jpg)](https://www.youtube.com/watch?v=2gTdE6HI12g)
+Ce talk, vise à reposer le pourquoi, pour qui, pour quoi et le comment de l'interprétabilité de ces systèmes.
 
-* * *
-
-## 2020/02 : Meetup crafting data science : Après la production
-
-Conférence donnée avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine) et organisée
-par [crafting data science](https://www.meetup.com/crafting-datascience).
-
-https://fr.slideshare.net/EmmanuelLinTOULEMOND/meetup-crafting-data-science-3-mars
-
-[Lien de d'évènement](https://www.meetup.com/crafting-datascience/events/266808362/)
+📍 Talk donné à :
+- L'[espace éthique d’Île de France](https://www.espace-ethique.org/), février 2020, Paris : [vidéo](https://www.youtube.com/watch?v=Pa5YeciG2-8)
+- La matinale Ethical by Design d'Octo, novembre 2019, Paris : [vidéo](https://youtu.be/o_TBFPvUQ30?si=kDOehwTVNQ93HRAa&t=5753), [compte rendu dans la press](https://www.alliancy.fr/solution-ia-confiance-etait-ethical-by-design) écrit par Christophe Auffray
 
 * * *
 
-## 2020/02 : Pourquoi et comment intégrer l'éthique dans la conception des algorithmes
+## Tutoriel sur la librairie dataPreparation
 
-Conférence organisée par l'[espace éthique d’Île de France](https://www.espace-ethique.org/).
+Présentation de la librairie R open source que j'ai développé et maintient depuis de nombreuses années pour faire de la préparation de données éfficiente.
 
-[![Vidéo conférence](https://img.youtube.com/vi/Pa5YeciG2-8/0.jpg)](https://www.youtube.com/watch?v=Pa5YeciG2-8)
-
-
-* * *
-
-## 2020/01 : Mise en production le jour d'après
-
-Conférence réalisée avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine) et organisée
-par [OCTO](https://www.octo.com/).
-
-[![Vidéo conférence](https://img.youtube.com/vi/neZ4KnfHUtY/0.jpg)](https://www.youtube.com/watch?v=neZ4KnfHUtY)
-
-[Le compte rendu](https://blog.octo.com/mise-en-prod-de-la-data-science-le-jour-dapres-compte-rendu-du-talk-de-mehdi-houacine-et-emmanuel-lin-toulemonde-a-la-duck-conf-2020/)
-par [Hugo Robellaz](https://fr.linkedin.com/in/hrobellaz).
-
-* * *
-
-## 2019/10 : Contribution à la matinale Ethical by Design
-
-Conférence organisée par [OCTO](https://www.octo.com/).
-
-[![Vidéo conférence](https://img.youtube.com/vi/Pa5YeciG2-8/0.jpg)](https://www.youtube.com/watch?v=Pa5YeciG2-8)
-
-[Le compte rendu](https://www.alliancy.fr/solution-ia-confiance-etait-ethical-by-design) écrit par Christophe Auffray.
-
-* * *
-
-## 2018/08 : Présentation de la librairie dataPreparation
-
-Conférence organisée par le groupe [R addicts Paris](https://www.meetup.com/fr-FR/rparis/).
-
-https://fr.slideshare.net/EmmanuelLinTOULEMOND/presentation-of-datapreparation-at-mett-up-raddicts
+📍 Talk donné à :
+- [Data Science Conférence Europe](https://datasciconference.com), Novembre 2021, (remote)
+- Meetup [R addicts Paris](https://www.meetup.com/fr-FR/rparis/), Aout 2018 (Paris) : [slides](https://fr.slideshare.net/EmmanuelLinTOULEMOND/presentation-of-datapreparation-at-mett-up-raddicts)

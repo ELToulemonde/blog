@@ -3,6 +3,7 @@ layout: page
 title: CV
 ---
 
+
 ## Expériences professionnelles
 
 ### Consultant chez OCTO Technology
