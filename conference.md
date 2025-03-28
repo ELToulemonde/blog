@@ -16,13 +16,15 @@ title: "Conférences"
 
 ## MLOps à l’échelle : Plateformiser le registre et l’inférence pour accélérer les déploiements
 
-L’intelligence artificielle est désormais au cœur de toutes les organisations. Les plateformes de données facilitent la création de modèles performants, mais le déploiement reste souvent artisanal, nécessitant la recréation de registres, API et runners pour chaque projet.
+L'intelligence artificielle est aujourd'hui au cœur de toutes les organisations. Les plateformes de données facilitent la création de modèles performants, mais le **déploiement reste souvent artisanal**, nécessitant la recréation de registres, d'API et de runners **pour chaque projet**. La **gouvernance à l'échelle** des modèles, exigée par **l'IA Act**, est fastidieuse.
 
-Ce talk propose une approche innovante pour standardiser et automatiser ces étapes en quelques clics ou lignes de commande.
+Cette présentation prospective propose un concept pour standardiser et automatiser ces étapes en quelques clics ou lignes de commande : la **model platform**.
 
-Ce talk prospectif, présente ce que je pense être l'avenir du MLOps : des models platforms qui intègrent registre de modèles, déploiement, A/B testing et production shadow en toute simplicité. D'ici 2-3 ans tous les clouds providers offriront cette capacité.
+Ce talk explore ce que je pense être **l'avenir du MLOps** : des model platforms intégrant registre de modèles, déploiement, A/B testing et production shadow en toute simplicité. D'ici 2-3 ans, tous les fournisseurs de cloud offriront cette capacité.
 
-Une démonstration en live montrera comment, grâce à des technologies open source, un modèle peut être mis en production en moins de 5 minutes.
+Une **démonstration** en direct d'une plateforme basée sur des **technologies open source** (MLflow, Kubernetes) montrera comment un modèle peut être mis en production en moins de 5 minutes grâce à ces technologies.
+
+À l'issue de cette présentation, vous comprendrez l'utilité d'une model platform, identifierez ses fonctionnalités principales, et découvrirez une proposition d'implémentation. De quoi accélérer tous vos projets d'IA.
 
 📍 Talk donné à :
 - Data Days Lille, mars 2025, Lille : [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Data%20Days%20Lille/MLOps_%20Model%20plateforme%20pour%20passer%20%C3%A0%20l'%C3%A9chelle.pdf)
