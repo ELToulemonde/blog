@@ -20,7 +20,7 @@ L’intelligence artificielle est désormais au cœur de toutes les organisation
 
 Ce talk propose une approche innovante pour standardiser et automatiser ces étapes en quelques clics ou lignes de commande.
 
-En 2025, il est crucial de mettre en places des models platforms qui intègrent registre de modèles, déploiement, A/B testing et production shadow en toute simplicité.
+Ce talk prospectif, présente ce que je pense être l'avenir du MLOps : des models platforms qui intègrent registre de modèles, déploiement, A/B testing et production shadow en toute simplicité. D'ici 2-3 ans tous les clouds providers offriront cette capacité.
 
 Une démonstration en live montrera comment, grâce à des technologies open source, un modèle peut être mis en production en moins de 5 minutes.
 
