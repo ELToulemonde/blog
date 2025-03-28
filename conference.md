@@ -27,6 +27,13 @@ Une démonstration en live montrera comment, grâce à des technologies open sou
 📍 Talk donné à :
 - Data Days Lille, mars 2025, Lille : [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Data%20Days%20Lille/MLOps_%20Model%20plateforme%20pour%20passer%20%C3%A0%20l'%C3%A9chelle.pdf)
 
+Tags : 
+- MLOps
+- Architecture
+- Prospective
+
+* * *
+
 ## Optimisation de performance bénéfice ou sacrifice ?
 
 ⚡ Plus le code est rapide, plus le code est bon. 
@@ -40,6 +47,10 @@ Plutôt que d'ajouter des ressources de calculs, des technologies, réfléchisse
 - Snow Camp, Janvier 2025, Grenoble : [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Snow%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
 - Breizh Camp, Juin 2024, Rennes : [slides](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf), [vidéo](https://www.youtube.com/watch?v=obKSKpPyaGo)
 
+Tags : 
+- Data
+- Architecture
+- Numérique responsable
 
 * * * 
 ## La CI/CD à l'heure du Machine Learning
@@ -58,6 +69,10 @@ Ces trois particularités font que le processus de construction et de déploieme
 - Pycon Lithuania, avril 2024, Vilnius : [slides en anglais](https://github.com/ELToulemonde/talks/blob/main/2024/PyCon%202024%20Lithuania/CI_CD%20at%20Machine%20Learning%20time.pdf), [vidéo](https://www.youtube.com/watch?v=093T744olQ4)
 - Meetup Crafting Data Science #11, Novembre 2023, Paris avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno)
 
+Tags : 
+- MLOps
+- Architecture
+
 * * *
 
 ## Dessine-moi une architecture de Data Science
@@ -68,6 +83,11 @@ besoins métiers.
 📍 Talk donné à :
 - La Duck Conf, Mars 2022, Paris, avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno) : [vidéo](https://www.youtube.com/watch?v=7jyyBaV8jjI)
 - Meetup crafting Data Science #9, Novembre 2022, Paris, avec [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno) : [vidéo](https://www.youtube.com/watch?v=F7u3lCohVcQ)
+
+Tags : 
+- Architecture
+- Data Science
+- MlOps
 
 * * *
 
@@ -81,6 +101,10 @@ C'est l'histoire racontée dans ce talk, celle d’un projet d'architecture éme
 - La Duck Conf, février 2021, remote : [slides](https://github.com/ELToulemonde/talks/blob/main/2021/La%20Duck%20Conf/Histoire%20d'une%20architecture%20%C3%A9mergeante.pdf), [vidéo](https://www.youtube.com/watch?v=qj3lVoaAe3Q)
 - Comptoir Octo, la même histoire sous l'angle métier, avec [Marc Frignet](https://fr.linkedin.com/in/marc-frignet-0582b09) : [vidéo](https://www.youtube.com/watch?v=2gTdE6HI12g)
 
+Tags : 
+- Architecture
+- Data Science
+
 * * *
 
 ## MLOps : Mise en production, et après ?
@@ -90,6 +114,11 @@ Une fois en production, il faut monitorer son système modèle, a part un drift 
 📍 Talk donné à :
 - La Duck Conf, janvier 2020, Paris, avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine) : [vidéo](https://www.youtube.com/watch?v=neZ4KnfHUtY)
 - Meetup Crafting Data Science, février 2022, Paris, avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine) : [slides](https://fr.slideshare.net/EmmanuelLinTOULEMOND/meetup-crafting-data-science-3-mars)
+
+Tags : 
+- MLOps
+- Data Science
+- Monitoring
 
 * * *
 
@@ -103,6 +132,11 @@ Ce talk, vise à reposer le pourquoi, pour qui, pour quoi et le comment de l'int
 - L'[espace éthique d’Île de France](https://www.espace-ethique.org/), février 2020, Paris : [vidéo](https://www.youtube.com/watch?v=Pa5YeciG2-8)
 - La matinale Ethical by Design d'Octo, novembre 2019, Paris : [vidéo](https://youtu.be/o_TBFPvUQ30?si=kDOehwTVNQ93HRAa&t=5753), [compte rendu dans la press](https://www.alliancy.fr/solution-ia-confiance-etait-ethical-by-design) écrit par Christophe Auffray
 
+Tags : 
+- Data Science
+- Interprétabilité
+- Numérique responsable
+
 * * *
 
 ## Tutoriel sur la librairie dataPreparation
@@ -112,3 +146,7 @@ Présentation de la librairie R open source que j'ai développé et maintient de
 📍 Talk donné à :
 - [Data Science Conférence Europe](https://datasciconference.com), Novembre 2021, (remote)
 - Meetup [R addicts Paris](https://www.meetup.com/fr-FR/rparis/), Aout 2018 (Paris) : [slides](https://fr.slideshare.net/EmmanuelLinTOULEMOND/presentation-of-datapreparation-at-mett-up-raddicts)
+
+Tags : 
+- Data Engineering
+- R
