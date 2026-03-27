@@ -5,6 +5,7 @@ title: "Conférences"
 
 ## Sommaire
 
+- [Agents & GenAI : Comment nous avons boosté un projet de data engineering à l’échelle de 150 microservices](#agents--genai--comment-nous-avons-boosté-un-projet-de-data-engineering-à-léchelle-de-150-microservices)
 - [MLOps à l’échelle : Plateformiser le registre et l’inférence pour accélérer les déploiements](#mlops-à-léchelle--plateformiser-le-registre-et-linférence-pour-accélérer-les-déploiements)
 - [Optimisation de performance : bénéfice ou sacrifice ?](#optimisation-de-performance-bénéfice-ou-sacrifice-)
 - [La CI/CD à l'heure du Machine Learning](#la-cicd-à-lheure-du-machine-learning)
