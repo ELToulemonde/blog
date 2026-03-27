@@ -14,6 +14,32 @@ title: "Conférences"
 - [Interprétabilité des Systèmes de Data Science](#interprétabilité-des-systèmes-de-data-science)
 - [Tutoriel sur la librairie dataPreparation](#tutoriel-sur-la-librairie-datapreparation)
 
+## Agents & GenAI : Comment nous avons boosté un projet de data engineering à l’échelle de 150 microservices
+
+Depuis 2,5 ans, notre équipe livre un projet de data engineering à grande échelle : plus de 150 microservices, des pipelines complexes, et des exigences de qualité élevées.
+Depuis un an, nous avons intégré la GenAI et des agents pour transformer notre façon de travailler.
+
+Dans ce talk, nous partagerons comment l’IA a accéléré certaines tâches critiques :
+
+Refactoring de code : industrialiser 4 fois plus vite du code de prototypage pour qu’il respecte l’ensemble de nos standards.
+Data contracts : rédiger 10 fois plus vite cette documentation, avec une précision qui rivalise avec l’expertise humaine.
+Tests d’architecture : automatiser des contrôles sur les standards d’architecture et les exigences du cloud provider pour limiter les bugs.
+Mais l’IA n’est pas une solution magique. Nous aborderons aussi :
+
+Ce qui résiste lui résiste encore : implémenter des choses que l'on a jamais faites dans le projet, refactoring complexes.
+Nos bonnes pratiques : documentation as code & documentation optimisée pour l’IA, mono-repository pour centraliser le contexte, et serveurs MCP pour donner des accès sécurisés et maîtrisés au LLM.
+Avec de nombreuses démonstrations, ce retour d'expérience brut, avec des succès, des échecs, et des leçons concrètes pour intégrer l’IA dans vos projets sans perdre le contrôle.
+
+📍 Talk donné à :
+- Data Days Lille, mars 2026, Lille : [slides](https://github.com/ELToulemonde/talks/blob/main/2026/Data%20Days%20Lille/Conf%C3%A9rence%20%20Agents%20%26%20GenAI%20_%20Comment%20nous%20avons%20boost%C3%A9%20un%20projet%20de%20data%20engineering%20%C3%A0%20l%E2%80%99%C3%A9chelle%20de%20150%20microservices.pdf)
+
+Tags : 
+- Data Engineering
+- GenAI
+- Agents
+
+* * *
+
 ## MLOps à l’échelle : Plateformiser le registre et l’inférence pour accélérer les déploiements
 
 L'intelligence artificielle est aujourd'hui au cœur de toutes les organisations. Les plateformes de données facilitent la création de modèles performants, mais le **déploiement reste souvent artisanal**, nécessitant la recréation de registres, d'API et de runners **pour chaque projet**. La **gouvernance à l'échelle** des modèles, exigée par **l'IA Act**, est fastidieuse.
