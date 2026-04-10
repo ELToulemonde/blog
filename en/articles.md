@@ -3,6 +3,7 @@ layout: page
 title: "Articles"
 lang: en
 lang_alternate: /articles
+nav_order: 1
 ---
 
 ## 2026/03/13 : Software architecture tests: 4 examples to get started

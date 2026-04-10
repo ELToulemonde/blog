@@ -3,6 +3,7 @@ layout: page
 title: "Open Source"
 lang: en
 lang_alternate: /contribution_open_source
+nav_order: 3
 ---
 
 ## dataPreparation — an R library for streamlined data preparation

@@ -8,18 +8,9 @@ stackoverflow_username: 5227259/emmanuel-lin
 
 theme: "minima"
 
-header_pages:
-  - articles.md
-  - conference.md
-  - contribution_open_source.md
-  - cv.md
+header_pages: []
 
-header_pages_en:
-  - en/articles.md
-  - en/conference.md
-  - en/open-source.md
-  - en/cv.md
-
+kramdown:
 kramdown:
   syntax_highlighter_opts:
     disable: true

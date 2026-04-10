@@ -3,6 +3,7 @@ layout: page
 title: "Articles"
 lang: fr
 lang_alternate: /en/articles
+nav_order: 1
 ---
 ## 2026/03/13 : Les tests d’architecture logicielle : 4 exemples pour les adopter
 [https://blog.octo.com/les-tests-d'architecture--4-exemples-pour-les-adopter.](https://blog.octo.com/les-tests-d'architecture--4-exemples-pour-les-adopter.)

@@ -3,6 +3,7 @@ layout: page
 title: "Conferences"
 lang: en
 lang_alternate: /conference
+nav_order: 2
 ---
 
 ## Table of contents

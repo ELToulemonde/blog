@@ -3,6 +3,7 @@ layout: page
 title: "Conférences"
 lang: fr
 lang_alternate: /en/conference
+nav_order: 2
 ---
 
 ## Sommaire

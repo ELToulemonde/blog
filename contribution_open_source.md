@@ -3,6 +3,7 @@ layout: page
 title: "Open Source"
 lang: fr
 lang_alternate: /en/open-source
+nav_order: 3
 ---
 
 ## dataPreparation une librairie R pour faciliter la préparation de données

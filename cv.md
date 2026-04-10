@@ -3,6 +3,7 @@ layout: page
 title: CV
 lang: fr
 lang_alternate: /en/cv
+nav_order: 4
 ---
 
 
