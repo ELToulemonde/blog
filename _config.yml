@@ -14,6 +14,12 @@ header_pages:
   - contribution_open_source.md
   - cv.md
 
+header_pages_en:
+  - en/articles.md
+  - en/conference.md
+  - en/open-source.md
+  - en/cv.md
+
 kramdown:
   syntax_highlighter_opts:
     disable: true
