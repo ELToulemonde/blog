@@ -1,26 +1,27 @@
 ---
 layout: page
 title: "Open Source"
-lang: fr
-lang_alternate: /en/open-source
+lang: en
+lang_alternate: /contribution_open_source
 ---
 
-## dataPreparation une librairie R pour faciliter la préparation de données
+## dataPreparation — an R library for streamlined data preparation
 
 [![Github actions](https://github.com/ELToulemonde/dataPreparation/actions/workflows/r.yml/badge.svg)](https://github.com/ELToulemonde/dataPreparation/actions/workflows/r.yml) [![codecov](https://codecov.io/gh/ELToulemonde/dataPreparation/branch/master/graph/badge.svg)](https://codecov.io/gh/ELToulemonde/dataPreparation) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/dataPreparation)](https://cran.r-project.org/package=dataPreparation) [![](http://cranlogs.r-pkg.org/badges/dataPreparation)](https://CRAN.R-project.org/package=dataPreparation) [![](https://cranlogs.r-pkg.org/badges/grand-total/dataPreparation)](https://CRAN.R-project.org/package=dataPreparation)
 
 [https://github.com/ELToulemonde/dataPreparation](https://github.com/ELToulemonde/dataPreparation)
 
-Depuis 2017, Emmanuel-Lin Toulemonde construit et maintient dataPreparation. C'est une librairie open source en R qui vise à simplifier la préparation de données tabulaires pour les projets de _Data Science_. Cette librairie se veut rapide, parcimonieuse en RAM, stable et verbeuse. Fin 2021, sa 16ème version a été publiée et elle atteint les 95 000 téléchargements.
+Since 2017, Emmanuel-Lin Toulemonde has been building and maintaining dataPreparation. It is an open source R library designed to simplify tabular data preparation for _Data Science_ projects. The library aims to be fast, memory-efficient, stable, and verbose. By the end of 2021, its 16th version had been released and it had reached 95,000 downloads.
 
-## pytesseract une librairie python pour l'OCR
+## pytesseract — a Python library for OCR
 
 [https://github.com/madmaze/pytesseract](https://github.com/madmaze/pytesseract)
 
-Pytesseract est une librairie python permettant la reconnaissance de texte dans les images. Emmanuel-Lin Toulemonde a contribué à l'occasion de 2 _pull requests_. Une pour faciliter la vie des utilisateurs, une pour résoudre un bug.
+Pytesseract is a Python library for text recognition in images. Emmanuel-Lin Toulemonde contributed on 2 occasions via _pull requests_: one to improve the user experience, one to fix a bug.
 
-## Stackoverflow : répondre aux questions de la communauté
+## Stackoverflow: answering the community's questions
 
 [https://stackoverflow.com/users/5227259/emmanuel-lin](https://stackoverflow.com/users/5227259/emmanuel-lin)
 
-Une soixantaine de réponses à des questions concernant la manipulation de données en R et en python.
+Around sixty answers to questions about data manipulation in R and Python.
+

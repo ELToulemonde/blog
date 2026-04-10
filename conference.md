@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Conférences"
+lang: fr
+lang_alternate: /en/conference
 ---
 
 ## Sommaire

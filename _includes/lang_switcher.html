@@ -1,0 +1,14 @@
+{% if page.lang %}
+<div class="lang-switcher">
+  {% if page.lang == 'en' %}
+    <a href="{{ page.lang_alternate }}">🇫🇷 FR</a>
+    &nbsp;|&nbsp;
+    <strong>🇬🇧 EN</strong>
+  {% else %}
+    <strong>🇫🇷 FR</strong>
+    &nbsp;|&nbsp;
+    <a href="{{ page.lang_alternate }}">🇬🇧 EN</a>
+  {% endif %}
+</div>
+{% endif %}
+

@@ -1,3 +1,10 @@
+---
+layout: page
+title: Accueil
+lang: fr
+lang_alternate: /en/
+---
+
 Bienvenue sur ce site qui rassemble les articles, les conférences, les contributions open source que Emmanuel-Lin
 Toulemonde a été amené à faire.
 
