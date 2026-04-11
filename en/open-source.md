@@ -6,6 +6,13 @@ lang_alternate: /contribution_open_source
 nav_order: 3
 ---
 
+## Model platform
+[https://github.com/octo-technology/model_platform](https://github.com/octo-technology/model_platform)
+
+Model Platform is an open-source MLOps platform that lets ML engineers version, deploy, host, and govern machine learning models on Kubernetes with minimal configuration. It bridges the gap between model training (MLflow) and production serving — while generating the compliance documentation that the EU AI Act now requires.
+
+As a contributor, I participated in building and designing the project.
+
 ## dataPreparation — an R library for streamlined data preparation
 
 [![Github actions](https://github.com/ELToulemonde/dataPreparation/actions/workflows/r.yml/badge.svg)](https://github.com/ELToulemonde/dataPreparation/actions/workflows/r.yml) [![codecov](https://codecov.io/gh/ELToulemonde/dataPreparation/branch/master/graph/badge.svg)](https://codecov.io/gh/ELToulemonde/dataPreparation) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/dataPreparation)](https://cran.r-project.org/package=dataPreparation) [![](http://cranlogs.r-pkg.org/badges/dataPreparation)](https://CRAN.R-project.org/package=dataPreparation) [![](https://cranlogs.r-pkg.org/badges/grand-total/dataPreparation)](https://CRAN.R-project.org/package=dataPreparation)
