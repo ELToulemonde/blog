@@ -6,6 +6,19 @@ lang_alternate: /articles
 nav_order: 1
 ---
 
+## 2026/05/26 : Harnessing : 9 practices from the software industry
+[https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel](https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel)
+
+Old habits die hard—this article is a plea not to forget software best practices, but rather to use and adapt them to maximize the impact of code agents.
+
+Agentic Engineering, a term coined by Andrej Karpaty, is sweeping through our projects like a tidal wave. To ensure that the use of code agents doesn’t turn into an industrial disaster—especially in brownfield environments and in production—we need best practices. The term “harnessing” has been proposed by OpenAI, Anthropic, and others to describe the set of practices aimed at keeping code agents on a “leash.”
+
+The market is then quickly tempted to invent new practices to do this, but we are convinced that it is better to use and adapt our expertise in agentless software.
+
+In this article, we explore and adapt nine software practices that help effectively manage both the code agent and the developer.
+
+* * *
+
 ## 2026/03/13 : Software architecture tests: 4 examples to get started
 
 [https://blog.octo.com/les-tests-d'architecture--4-exemples-pour-les-adopter.](https://blog.octo.com/les-tests-d'architecture--4-exemples-pour-les-adopter.)
@@ -17,6 +30,8 @@ How many times has a technical limitation (e.g. a variable name that is too long
 And how many times has the promised documentation remained just a forgotten ticket?
 
 If you have answered "often" or "too often" to at least one of these questions, architecture tests should appeal to you!
+
+* * *
 
 ## 2024/02/20 MLOps: In the run phase, toil is an enemy to face head-on
 

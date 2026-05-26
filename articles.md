@@ -5,6 +5,21 @@ lang: fr
 lang_alternate: /en/articles
 nav_order: 1
 ---
+
+
+## 2026/05/26 : Harnessing des agents : 9 pratiques venant du logiciel
+[https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel](https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel)
+
+C’est dans les vieux pots que l’on fait les meilleures soupes, cet article est un plaidoyer pour ne pas oublier les bonnes pratiques du logiciel mais plutôt les utiliser et les adapter pour maximiser l’impact des agents de code.
+
+L’Agentic Engineering, terme proposé par Andrej Karpaty, débarque comme une déferlante sur nos projets. Pour que l’utilisation d’agent de code ne se transforme pas en catastrophe industrielle, en particulier en brownfield, en production, il faut des pratiques. Le terme harnessing a été proposé par OpenAI, Anthropic et d’autres pour désigner l’ensemble des pratiques qui visent à tenir en “laisse” les agents de code.
+
+Le marché est alors vite tenté d’inventer des nouvelles pratiques pour faire cela, nous avons la conviction qu’il est préférable d’utiliser et adapter notre savoir faire du logiciel sans agent.
+
+Dans cet article, nous explorons et adaptons 9 pratiques du logiciel qui permettent de bien cadrer l’agent de code comme le développeur.
+
+* * *
+
 ## 2026/03/13 : Les tests d’architecture logicielle : 4 exemples pour les adopter
 [https://blog.octo.com/les-tests-d'architecture-logicielle--4-exemples-pour-les-adopter](https://blog.octo.com/les-tests-d'architecture-logicielle--4-exemples-pour-les-adopter)
 
@@ -15,6 +30,8 @@ Combien de fois une limite technique (ex un nom de variable trop long) vous a-t-
 Et combien de fois la documentation promise est-elle restée un simple ticket oublié ?
 
 Si vous aussi, vous avez répondu “souvent” ou “trop souvent” à au moins l’une de ses questions, les tests d’architecture devraient vous plaire !
+
+* * *
 
 ## 2024/02/20 MLOps : En phase de run, le toil est un ennemi à regarder dans les yeux
 
