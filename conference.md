@@ -43,6 +43,30 @@ Tags :
 - GenAI
 - Agents
 
+
+* * *
+
+## Pragmatique data plateforme : construire une data plateforme sans faire exploser les coûts
+
+💰 "Pourquoi ma data plateforme coûte 10 fois plus cher que celle d’un autre client ?"
+💸 "Nos coûts de licence ont explosé !"
+
+Ces verbatims de clients résument un problème devenu trop courant : toutes les organisations construisent leur data plateforme, mais à quel prix ? L’empilement technologique et la quête du "state of the art" finissent souvent par faire flamber les coûts d’infrastructure et de licences, parfois sans réelle justification.
+
+Depuis 3 ans, avec une équipe de 6 développeurs, nous avons construit et maintenons une data plateforme qui traite plusieurs To de données chaque mois, >1 million d'événements par jour, supporte une centaine de cas d’usage… pour moins de 5 000€/mois de coûts cloud.
+
+🚀 Comment est-ce possible ?
+Ce talk est un retour d’expérience sur nos choix d’architecture, notre organisation et notre approche pragmatique : une data plateforme qui fait le job, sans superflu ni dépenses inutiles.
+
+📍 Talk donné à :
+- Cloud Toulouse, mai 2025, Toulouse : [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Cloud%20Toulouse/Pragmatic%20data%20platform.pdf)
+
+Tags : 
+- Data Engineering
+- Architecture
+- Data Plateforme
+- Pragmatisme
+
 * * *
 
 ## MLOps à l’échelle : Plateformiser le registre et l’inférence pour accélérer les déploiements

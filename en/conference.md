@@ -45,6 +45,29 @@ Tags:
 
 * * *
 
+## Pragmatic Data Platform: Building a Data Platform Without Skyrocketing Costs
+
+💰 “Why does my data platform cost 10 times more than another customer's?”
+💸 “Our licensing costs have skyrocketed!”
+
+These customer quotes sum up a problem that has become all too common: every organization is building its own data platform, but at what cost? Technology stack complexity and the pursuit of “state-of-the-art” solutions often end up driving up infrastructure and licensing costs, sometimes without real justification.
+
+For the past three years, with a team of six developers, we have built and maintained a data platform that processes several terabytes of data each month, handles over one million events per day, and supports around a hundred use cases—all for less than €5,000 per month in cloud costs.
+
+🚀 How is this possible?
+This talk is a look back at our architectural choices, our organization, and our pragmatic approach: a data platform that gets the job done, without frills or unnecessary expenses.
+
+📍 Talk given at:
+- Cloud Toulouse, May 2025, Toulouse: [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Cloud%20Toulouse/Pragmatic%20data%20platform.pdf)
+
+Tags: 
+- Data Engineering
+- Architecture
+- Data Platform
+- Pragmatism
+
+* * *
+
 ## MLOps at scale: Platforming the registry and inference to accelerate deployments
 
 AI is now at the heart of all organizations. Data platforms facilitate the creation of high-performing models, but **deployment often remains artisanal**, requiring the recreation of registries, APIs and runners **for each project**. **Governance at scale** of models, required by **the AI Act**, is tedious.
