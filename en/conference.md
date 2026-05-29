@@ -36,6 +36,7 @@ With many live demonstrations, this raw feedback includes successes, failures, a
 
 📍 Talk given at:
 - Data Days Lille, March 2026, Lille: [slides](https://github.com/ELToulemonde/talks/blob/main/2026/Data%20Days%20Lille/Conf%C3%A9rence%20%20Agents%20%26%20GenAI%20_%20Comment%20nous%20avons%20boost%C3%A9%20un%20projet%20de%20data%20engineering%20%C3%A0%20l%E2%80%99%C3%A9chelle%20de%20150%20microservices.pdf)
+- Cloud Toulouse, mai 2026, Toulouse : [slides](https://github.com/ELToulemonde/talks/blob/main/2026/Cloud%20Toulouse/Conf%C3%A9rence%20Agents%20%26%20GenAI%20_%20Comment%20nous%20avons%20boost%C3%A9%20un%20projet%20de%20data%20engineering%20%C3%A0%20l%E2%80%99%C3%A9chelle%20de%20150%20microservices.pdf)
 
 Tags:
 - Data Engineering
