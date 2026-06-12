@@ -100,6 +100,7 @@ Plutôt que d'ajouter des ressources de calculs, des technologies, réfléchisse
 🚀 Les premières optimisations relèvent des bonnes pratiques que tout le monde devrait savoir faire, les suivantes sont sacrificielles : elles dégradent la lisibilité, la maintenabilité du code. Pensé comme une déclinaise concrète de la loi de Eroom proposé par Tristan Nitot, ce talk, commencera avec un exemple de code bien mal codé comme nous l'avons tous déjà fait, puis au fil des optimisations, nous verrons bénéfices et sacrifices à faire pour aller toujours plus vite.
 
 📍 Talk donné à :
+- DevQuest, Juin 2026, Niort : [slides](https://github.com/ELToulemonde/talks/blob/main/2026/DevQuest%20Niort/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice%20_.pdf) 
 - Touraine Tech, Février 2025, Tour
 - Snow Camp, Janvier 2025, Grenoble : [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Snow%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
 - Breizh Camp, Juin 2024, Rennes : [slides](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf), [vidéo](https://www.youtube.com/watch?v=obKSKpPyaGo)

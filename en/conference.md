@@ -99,6 +99,7 @@ Rather than adding computing resources and technologies, think about architectur
 🚀 The first optimizations are best practices that everyone should know; the following ones are sacrificial: they degrade code readability and maintainability. Conceived as a concrete declension of Eroom's law proposed by Tristan Nitot, this talk starts with an example of poorly written code as we have all done before, then through successive optimizations, we will see the benefits and sacrifices to make to go ever faster.
 
 📍 Talk given at:
+- DevQuest, June 2026, Niort : [slides](https://github.com/ELToulemonde/talks/blob/main/2026/DevQuest%20Niort/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice%20_.pdf)
 - Touraine Tech, February 2025, Tours
 - Snow Camp, January 2025, Grenoble: [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Snow%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
 - Breizh Camp, June 2024, Rennes: [slides](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf), [video](https://www.youtube.com/watch?v=obKSKpPyaGo)
