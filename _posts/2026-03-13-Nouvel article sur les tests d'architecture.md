@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Nouvel article sur les tests d'architecture"
+date: 2026-03-13
+---
+
 ## Nouvel article sur les tests d'architecture
 
 

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Publication du livre Culture MLOps"
+date: 2024-03-13
+---
+
 ## Publication du livre Culture MLOps
 
 Le Machine Learning a permis suffisamment de progrès technologiques pour influencer chaque pan de la société, parfois

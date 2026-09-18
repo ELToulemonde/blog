@@ -42,6 +42,8 @@ Et combien de fois la documentation promise est-elle restée un simple ticket ou
 
 Si vous aussi, vous avez répondu “souvent” ou “trop souvent” à au moins l’une de ses questions, les tests d’architecture devraient vous plaire !
 
+🔗 [Voir mon billet et le partager](/2026/03/13/Nouvel-article-sur-les-tests-d'architecture.html)
+
 * * *
 
 ## 2024/02/20 MLOps : En phase de run, le toil est un ennemi à regarder dans les yeux
@@ -56,6 +58,8 @@ Si vous aussi, vous avez répondu “souvent” ou “trop souvent” à au moin
 
 📄 Avec [Aurélien Massiot](https://www.linkedin.com/in/aur%C3%A9lien-massiot-990bb6b1/), nous avons écrit un article à ce sujet sur le blog OCTO Technology. Au menu, prendre conscience de ce que c'est, de comment il vous paralyse, savoir le mesurer puis le traiter.
 
+🔗 [Voir mon billet et le partager](/2024/02/20/Nouvel-article-sur-le-toil.html)
+
 * * *
 
 ## 2023/04/12 Architecture Decision Record : on commence aujourd'hui
@@ -63,6 +67,8 @@ Si vous aussi, vous avez répondu “souvent” ou “trop souvent” à au moin
 [https://blog.octo.com/architecture-decision-record/](https://blog.octo.com/architecture-decision-record/)
 
 Écrit sur le blog d'OCTO, cet article décrit l'architecture decision record comme un puissant moyen de facilitation et d'archivage des prises de décisions. Il propose de rédiger l'ADR as-code et d'intégrer des diagrammes as-code.
+
+🔗 [Voir mon billet et le partager](/2023/04/12/Nouvel-article-sur-les-ADR.html)
 
 * * *
 

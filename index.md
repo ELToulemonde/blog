@@ -23,3 +23,11 @@ l'interprétabilité des systèmes de _data science_, le développement logiciel
 
 Il écrit de nombreux [articles](https://eltoulemonde.fr/articles), parle dans des [conférences](https://eltoulemonde.fr/conference) et a co-écrit le [livre Culture MLOps](https://blog.octo.com/culture-mlops--le-machine-learning-est-un-logiciel-qui-se-delivre-comme-les-autres-1).
 
+## Derniers billets
+
+{% for post in site.posts limit: 3 %}
+- **{{ post.date | date: "%d/%m/%Y" }}** — [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
+
+[Voir tous les articles →](/articles.html)
+
