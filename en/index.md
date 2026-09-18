@@ -18,4 +18,28 @@ He enjoys building end-to-end projects, from business needs to production. He st
 
 His areas of interest include: _data science_, _MLEng_, _MLOps_, monitoring of _data science_ systems, interpretability of _data science_ systems, software development, emergent architecture, agility, etc.
 
-He writes many [articles](https://eltoulemonde.fr/en/articles), speaks at [conferences](https://eltoulemonde.fr/en/conference) and co-authored the [book Culture MLOps](https://blog.octo.com/culture-mlops--le-machine-learning-est-un-logiciel-qui-se-delivre-comme-les-autres-1).
+He writes many [articles](https://eltoulemonde.fr/en/articles), speaks at [conferences](https://eltoulemonde.fr/en/conference), and co-authored the [book Culture MLOps](https://publication.octo.com/culture-mlops).
+
+## Featured work
+
+<div class="home-highlights">
+  <div class="feature-card feature-card--book">
+    <div class="feature-cover">
+      <img src="/assets/photo/culture-mlops.png" alt="Cover of the book Culture MLOps" width="474" height="666">
+    </div>
+    <div class="feature-copy">
+      <p class="feature-kicker">Book · free download in French</p>
+      <h3>Culture MLOps</h3>
+      <p>Co-authored with Sofia Calcagno, a book about treating Machine Learning like software and putting models into production sustainably.</p>
+      <a class="feature-link" href="https://publication.octo.com/culture-mlops">Download for free <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <div class="feature-card feature-card--conference">
+    <div class="feature-copy">
+      <p class="feature-kicker">Curation · for 4 years</p>
+      <h3>La Grosse Conf</h3>
+      <p>Curator of this conference designed for 300 data and AI professionals: selecting topics, supporting speakers, and shaping the programme.</p>
+      <p class="feature-actions"><a class="feature-link" href="https://www.lagrosseconf.com/">Discover the conference <span aria-hidden="true">→</span></a> <a href="https://www.youtube.com/@LaGrosseConf">Watch the videos</a></p>
+    </div>
+  </div>
+</div>

@@ -4,22 +4,39 @@ layout: default
 <article class="post portfolio portfolio--{{ page.presentation | default: 'page' | escape }}">
   <header class="post-header">
     {% if page.presentation == 'home' %}
-    <p class="eyebrow">{{ page.title | escape }}</p>
-    <h1 class="post-title">{{ site.title | escape }}</h1>
+    <div class="home-heading">
+      <div>
+        <p class="eyebrow">{{ page.title | escape }}</p>
+        <h1 class="post-title">{{ site.title | escape }}</h1>
+        {% include lang_switcher.html %}
+      </div>
+      <img class="profile-photo" src="{{ '/assets/photo/photo_profil.jpg' | relative_url }}" alt="{% if page.lang == 'en' %}Portrait of Emmanuel-Lin Toulemonde{% else %}Portrait d'Emmanuel-Lin Toulemonde{% endif %}" width="320" height="320">
+    </div>
     {% else %}
     <h1 class="post-title">{{ page.title | escape }}</h1>
-    {% endif %}
     {% include lang_switcher.html %}
-  </header>
-  {% if page.presentation == 'articles' or page.presentation == 'conferences' %}
-    {% include tag-filters.html %}
-    <script src="{{ '/js/tag-filters.js' | relative_url }}" defer></script>
-  {% endif %}
-  <div class="post-content" id="portfolio-content">
-    {% if page.presentation %}
-      {% include portfolio-sections.html content=content %}
-    {% else %}
-      {{ content }}
     {% endif %}
-  </div>
+  </header>
+  {% if page.presentation == 'conferences' %}
+    <figure class="conference-hero">
+      <img src="{{ '/assets/photo/photo_speaker.jpeg' | relative_url }}" alt="{% if page.lang == 'en' %}Emmanuel-Lin Toulemonde speaking on stage{% else %}Emmanuel-Lin Toulemonde intervient sur scène{% endif %}" width="1248" height="832">
+    </figure>
+  {% endif %}
+  {% if page.presentation == 'articles' or page.presentation == 'conferences' %}
+    <div class="portfolio-browser">
+      {% include tag-filters.html %}
+      <div class="post-content" id="portfolio-content">
+        {% include portfolio-sections.html content=content %}
+      </div>
+    </div>
+    <script src="{{ '/js/tag-filters.js' | relative_url }}" defer></script>
+  {% else %}
+    <div class="post-content" id="portfolio-content">
+      {% if page.presentation %}
+        {% include portfolio-sections.html content=content %}
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </div>
+  {% endif %}
 </article>

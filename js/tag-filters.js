@@ -94,5 +94,6 @@
     });
     update();
     filters.hidden = false;
+    filters.closest("[data-tag-sidebar]").hidden = false;
   });
 })();

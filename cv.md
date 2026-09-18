@@ -54,8 +54,9 @@ Coconcevoir et donner 4 formations qui tirent profit de nos pratiques en mission
 
 Je capitalise sur mes missions, ma veille, ma R&D et je partage mes apprentissages à travers :
 - Des articles de blogs
-- L'écriture du livre Culture MLOps
-- L'intervention en conférences.
+- L'écriture du livre [Culture MLOps](https://publication.octo.com/culture-mlops)
+- L'intervention en conférences
+- La curation de [La Grosse Conf](https://www.lagrosseconf.com/), conférence destinée à 300 professionnels de la data et de l'IA, depuis 4 ans.
 
 ### Data Scientist chez Crédit Agricole
 

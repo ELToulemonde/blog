@@ -1,10 +1,12 @@
-<div class="tag-filters" data-tag-filters data-lang="{{ page.lang | default: 'fr' }}" hidden>
-  <fieldset aria-describedby="tag-filter-help">
-    <legend>{% if page.lang == 'en' %}Filter by topic{% else %}Filtrer par sujet{% endif %}</legend>
-    <p id="tag-filter-help" class="tag-filter-help">{% if page.lang == 'en' %}Select one or more tags. Results match at least one selected tag.{% else %}Choisis un ou plusieurs tags. Les résultats correspondent à au moins un tag sélectionné.{% endif %}</p>
-    <div class="tag-filter-options" data-tag-options>
-      <button type="button" data-tag-reset aria-pressed="true" aria-controls="portfolio-content">{% if page.lang == 'en' %}Show all{% else %}Tout afficher{% endif %}</button>
-    </div>
-  </fieldset>
-  <p class="tag-filter-status" data-tag-status role="status" aria-live="polite" aria-atomic="true"></p>
-</div>
+<aside class="tag-sidebar" data-tag-sidebar aria-label="{% if page.lang == 'en' %}Topic navigation{% else %}Navigation par sujet{% endif %}" hidden>
+  <div class="tag-filters" data-tag-filters data-lang="{{ page.lang | default: 'fr' }}" hidden>
+    <fieldset aria-describedby="tag-filter-help">
+      <legend>{% if page.lang == 'en' %}Explore by topic{% else %}Explorer par sujet{% endif %}</legend>
+      <p id="tag-filter-help" class="tag-filter-help">{% if page.lang == 'en' %}Select one or more topics. Results match at least one selection.{% else %}Choisissez un ou plusieurs sujets. Les résultats correspondent à au moins une sélection.{% endif %}</p>
+      <div class="tag-filter-options" data-tag-options>
+        <button type="button" data-tag-reset aria-pressed="true" aria-controls="portfolio-content">{% if page.lang == 'en' %}Show all{% else %}Tout afficher{% endif %}</button>
+      </div>
+    </fieldset>
+    <p class="tag-filter-status" data-tag-status role="status" aria-live="polite" aria-atomic="true"></p>
+  </div>
+</aside>

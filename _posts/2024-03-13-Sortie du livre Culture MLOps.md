@@ -6,6 +6,8 @@ date: 2024-03-13
 
 ## Publication du livre Culture MLOps
 
+<img class="book-cover-post" src="/assets/photo/culture-mlops.png" alt="Couverture du livre Culture MLOps" width="474" height="666">
+
 Le Machine Learning a permis suffisamment de progrès technologiques pour influencer chaque pan de la société, parfois
 même en profondeur. Pourtant, entre grandes attentes des utilisateurs et difficultés à mettre du ML en production, la
 construction d’un produit avec ML ressemble souvent à un ascenseur émotionnel.

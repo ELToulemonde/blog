@@ -22,7 +22,31 @@ environnements efficaces et où il fait bon travailler.
 Ses sujets d'intérêt sont : la _data science_, le _MLEng_, le _MLOps_, le monitoring de systèmes de _data science_,
 l'interprétabilité des systèmes de _data science_, le développement logiciel, l'architecture émergente, l'agilité, etc.
 
-Il écrit de nombreux [articles](https://eltoulemonde.fr/articles), parle dans des [conférences](https://eltoulemonde.fr/conference) et a coécrit le [livre Culture MLOps](https://blog.octo.com/culture-mlops--le-machine-learning-est-un-logiciel-qui-se-delivre-comme-les-autres-1).
+Il écrit de nombreux [articles](https://eltoulemonde.fr/articles), intervient dans des [conférences](https://eltoulemonde.fr/conference) et a coécrit le [livre Culture MLOps](https://publication.octo.com/culture-mlops).
+
+## À la une
+
+<div class="home-highlights">
+  <div class="feature-card feature-card--book">
+    <div class="feature-cover">
+      <img src="/assets/photo/culture-mlops.png" alt="Couverture du livre Culture MLOps" width="474" height="666">
+    </div>
+    <div class="feature-copy">
+      <p class="feature-kicker">Livre · téléchargement libre</p>
+      <h3>Culture MLOps</h3>
+      <p>Coécrit avec Sofia Calcagno, un livre pour traiter le Machine Learning comme un logiciel et mettre durablement les modèles en production.</p>
+      <a class="feature-link" href="https://publication.octo.com/culture-mlops">Télécharger gratuitement <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <div class="feature-card feature-card--conference">
+    <div class="feature-copy">
+      <p class="feature-kicker">Curation · depuis 4 ans</p>
+      <h3>La Grosse Conf</h3>
+      <p>Curateur de cette conférence conçue pour 300 professionnels de la data et de l’IA : choix des sujets, accompagnement des speakers et construction du programme.</p>
+      <p class="feature-actions"><a class="feature-link" href="https://www.lagrosseconf.com/">Découvrir la conférence <span aria-hidden="true">→</span></a> <a href="https://www.youtube.com/@LaGrosseConf">Voir les vidéos</a></p>
+    </div>
+  </div>
+</div>
 
 ## Derniers billets
 

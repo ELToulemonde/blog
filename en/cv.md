@@ -50,8 +50,9 @@ Co-designing and delivering 4 training courses that draw on our field experience
 
 I capitalise on my assignments, research and R&D, and share my learnings through:
 - Blog articles
-- Co-authoring the book Culture MLOps
-- Speaking at conferences.
+- Co-authoring the book [Culture MLOps](https://publication.octo.com/culture-mlops)
+- Speaking at conferences
+- Curating [La Grosse Conf](https://www.lagrosseconf.com/), a conference for 300 data and AI professionals, for 4 years.
 
 ### Data Scientist at Crédit Agricole
 
