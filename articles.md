@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: articles
 title: "Articles"
 lang: fr
 lang_alternate: /en/articles

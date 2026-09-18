@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: home
 title: Accueil
 lang: fr
 lang_alternate: /en/
@@ -25,9 +26,16 @@ Il écrit de nombreux [articles](https://eltoulemonde.fr/articles), parle dans d
 
 ## Derniers billets
 
+<ul class="recent-posts">
 {% for post in site.posts limit: 3 %}
-- **{{ post.date | date: "%d/%m/%Y" }}** — [{{ post.title }}]({{ post.url | relative_url }})
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+      <span class="recent-post-title">{{ post.title | escape }}</span>
+      <span class="card-arrow" aria-hidden="true">↗</span>
+    </a>
+  </li>
 {% endfor %}
+</ul>
 
 [Voir tous les articles →](/articles.html)
-

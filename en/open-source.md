@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: projects
 title: "Open Source"
 lang: en
 lang_alternate: /contribution_open_source
@@ -32,4 +33,3 @@ Pytesseract is a Python library for text recognition in images. Emmanuel-Lin Tou
 [https://stackoverflow.com/users/5227259/emmanuel-lin](https://stackoverflow.com/users/5227259/emmanuel-lin)
 
 Around sixty answers to questions about data manipulation in R and Python.
-

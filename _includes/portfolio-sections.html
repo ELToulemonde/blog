@@ -1,0 +1,29 @@
+{% comment %}
+  Portfolio Markdown uses top-level h2 headings for its sections. At the layout
+  stage content is already HTML: wrap these sections without rewriting their
+  text, links or generated heading IDs. Nested headings remain inside a section.
+  Use this only for portfolio pages, not arbitrary post HTML.
+{% endcomment %}
+{% assign sections = include.content | split: '<h2' %}
+{{ sections.first }}
+{% for section in sections offset: 1 %}
+  <section class="portfolio-section">
+    {% if page.presentation == 'articles' %}
+      {% assign heading = section | split: '</h2>' | first | prepend: '<h2' %}
+      {% assign heading_text = heading | strip_html | strip %}
+      {% assign date_label = heading_text | split: ' ' | first %}
+      {% if date_label contains '/' %}
+        {% assign dated_prefix = date_label | append: ' :' %}
+        {% if heading_text contains dated_prefix %}
+          {% assign date_label = dated_prefix %}
+        {% endif %}
+        {% capture date_markup %}<span class="entry-date">{{ date_label }}</span>{% endcapture %}
+        <h2{{ section | replace_first: date_label, date_markup }}
+      {% else %}
+        <h2{{ section }}
+      {% endif %}
+    {% else %}
+      <h2{{ section }}
+    {% endif %}
+  </section>
+{% endfor %}

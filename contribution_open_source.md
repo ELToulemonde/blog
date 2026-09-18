@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: projects
 title: "Open Source"
 lang: fr
 lang_alternate: /en/open-source

@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: conferences
 title: "Conférences"
 lang: fr
 lang_alternate: /en/conference

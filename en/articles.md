@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: articles
 title: "Articles"
 lang: en
 lang_alternate: /articles
@@ -206,4 +207,3 @@ Published on LinkedIn, this article traces the reasons for poor data quality and
 [https://www.linkedin.com/pulse/ia-la-fin-de-lemploi-emmanuel-lin-toulemonde](https://www.linkedin.com/pulse/ia-la-fin-de-lemploi-emmanuel-lin-toulemonde)
 
 Published on LinkedIn, this post is a reflection on the impact of various technological revolutions on employment, from the agricultural revolution to that of artificial intelligence.
-

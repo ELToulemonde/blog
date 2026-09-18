@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: resume
 title: CV
 lang: en
 lang_alternate: /cv
@@ -86,4 +87,3 @@ Soft skills:
 - Effective decision-making
 - Written and oral communication
 - _Servant leadership_
-

@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: home
 title: Home
 lang: en
 lang_alternate: /
@@ -18,4 +19,3 @@ He enjoys building end-to-end projects, from business needs to production. He st
 His areas of interest include: _data science_, _MLEng_, _MLOps_, monitoring of _data science_ systems, interpretability of _data science_ systems, software development, emergent architecture, agility, etc.
 
 He writes many [articles](https://eltoulemonde.fr/en/articles), speaks at [conferences](https://eltoulemonde.fr/en/conference) and co-authored the [book Culture MLOps](https://blog.octo.com/culture-mlops--le-machine-learning-est-un-logiciel-qui-se-delivre-comme-les-autres-1).
-

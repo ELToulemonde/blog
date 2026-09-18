@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: conferences
 title: "Conferences"
 lang: en
 lang_alternate: /conference
@@ -207,4 +208,3 @@ Presentation of the open source R library that I have developed and maintained f
 Tags:
 - Data Engineering
 - R
-

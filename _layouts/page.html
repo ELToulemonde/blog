@@ -1,12 +1,21 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post portfolio portfolio--{{ page.presentation | default: 'page' | escape }}">
   <header class="post-header">
+    {% if page.presentation == 'home' %}
+    <p class="eyebrow">{{ page.title | escape }}</p>
+    <h1 class="post-title">{{ site.title | escape }}</h1>
+    {% else %}
     <h1 class="post-title">{{ page.title | escape }}</h1>
+    {% endif %}
     {% include lang_switcher.html %}
   </header>
   <div class="post-content">
-    {{ content }}
+    {% if page.presentation %}
+      {% include portfolio-sections.html content=content %}
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 </article>

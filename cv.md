@@ -1,5 +1,6 @@
 ---
 layout: page
+presentation: resume
 title: CV
 lang: fr
 lang_alternate: /en/cv
