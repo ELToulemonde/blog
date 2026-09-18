@@ -6,6 +6,17 @@ lang_alternate: /en/articles
 nav_order: 1
 ---
 
+## 2026/09/18 : Agentic Engineering : Au-delà du prototype
+[https://blog.octo.com/agentic-engineering--au-dela-du-prototype](https://blog.octo.com/agentic-engineering--au-dela-du-prototype)
+🤖 Pourquoi le x10 ou x100 annoncé avec l’IA ne se retrouve pas forcément dans votre projet ?
+
+Parce qu’entre un prototype et un produit complexe en production, le contexte change tout.
+
+Plus d’exigences, plus d’information, plus d’implicite, plus de contraintes… et une dynamique d’équipe qui évolue.
+
+Dans cet article, on explore 5 freins qui expliquent pourquoi l’Agentic Engineering est très différent lorsqu’on passe du prototype à un projet réel.
+
+* * * 
 
 ## 2026/05/26 : Harnessing des agents : 9 pratiques venant du logiciel
 [https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel](https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel)

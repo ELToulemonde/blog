@@ -6,6 +6,23 @@ lang_alternate: /articles
 nav_order: 1
 ---
 
+
+
+## 2026/09/18 : Agentic Engineering — Beyond the Prototype
+[https://blog.octo.com/agentic-engineering--au-dela-du-prototype](https://blog.octo.com/agentic-engineering--au-dela-du-prototype)
+
+
+🤖 Why don’t the 10x or 100x productivity gains promised by AI necessarily show up in your project?
+
+Because between a prototype and a complex production product, context changes everything.
+
+More requirements, more information, more implicit knowledge, more constraints… and team dynamics that evolve along the way.
+
+In this article, we explore 5 key barriers that explain why Agentic Engineering looks very different when moving from a prototype to a real-world project.
+
+
+* * *
+
 ## 2026/05/26 : Harnessing : 9 practices from the software industry
 [https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel](https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel)
 
