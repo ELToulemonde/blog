@@ -3,6 +3,14 @@ hr {
   margin-bottom: 20px;
 }
 
+/* Active nav link */
+.site-nav .page-link.active {
+  color: #4338ca;
+  font-weight: 700;
+  border-bottom: 2px solid #4338ca;
+}
+
+
 /* Language switcher */
 .lang-switcher {
   font-size: 0.9em;
