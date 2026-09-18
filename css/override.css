@@ -135,8 +135,6 @@ blockquote {
 .eyebrow { color: var(--accent); font-size: 0.78rem; font-weight: 650; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 1rem; }
 .home-heading { display: grid; grid-template-columns: minmax(0, 1fr) 152px; align-items: center; gap: clamp(28px, 6vw, 72px); }
 .profile-photo { width: 152px; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 50% 50% 46% 54% / 48% 44% 56% 52%; border: 6px solid var(--surface); box-shadow: 0 0 0 1px var(--line), var(--shadow); transform: rotate(2deg); }
-.conference-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 320px); align-items: center; gap: clamp(28px, 6vw, 72px); }
-.conference-photo { display: block; width: 100%; height: auto; aspect-ratio: 1.65 / 1; object-fit: cover; object-position: 56% center; border-radius: 12px 42px 12px 42px; box-shadow: var(--shadow); }
 
 /* The content stays in Markdown; the layout groups its existing h2 sections. */
 .portfolio-section { padding-block: 2.5rem; border-bottom: 1px solid var(--line); min-width: 0; }
@@ -157,6 +155,9 @@ blockquote {
 /* Progressive enhancement: these controls appear only after JS initializes. */
 .portfolio-browser { display: grid; grid-template-columns: 232px minmax(0, 1fr); align-items: start; gap: clamp(32px, 5vw, 64px); }
 .tag-sidebar { position: sticky; top: 24px; min-width: 0; }
+.tag-sidebar-photo { display: block; width: 100%; height: auto; aspect-ratio: 1.16 / 1; margin-bottom: 14px; border-radius: 12px 32px 12px 32px; object-fit: cover; box-shadow: var(--shadow); }
+.tag-sidebar-photo--conferences { object-position: 61% center; }
+.tag-sidebar-photo--articles { object-position: 48% center; }
 .tag-filters { padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); box-shadow: var(--shadow); }
 .tag-filters fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
 .tag-filters legend { padding: 0; font-size: 1rem; font-weight: 650; }
@@ -287,6 +288,7 @@ pre code { overflow-wrap: normal; }
   .site-header > .wrapper { flex-direction: column; align-items: flex-start; gap: 14px; }
   .portfolio-browser { display: block; }
   .tag-sidebar { top: 0; z-index: 5; margin: 0 -16px 2rem; padding: 8px 16px; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(10px); }
+  .tag-sidebar-photo { display: none; }
   .tag-filters { padding: 12px 14px; }
   .tag-filter-help { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
   .tag-filter-options { flex-direction: row; overflow-x: auto; padding: 6px 0 8px; scrollbar-width: thin; }
@@ -309,8 +311,6 @@ pre code { overflow-wrap: normal; }
   .post-header { margin-bottom: 2rem; }
   .home-heading { grid-template-columns: minmax(0, 1fr) 92px; gap: 18px; }
   .profile-photo { width: 92px; border-width: 4px; }
-  .conference-heading { grid-template-columns: minmax(0, 1fr) 128px; gap: 18px; }
-  .conference-photo { border-radius: 8px 24px 8px 24px; }
   .feature-card--book { grid-template-columns: 112px minmax(0, 1fr); }
   .feature-cover { padding: 16px 10px; }
   .feature-copy { padding: 22px; }

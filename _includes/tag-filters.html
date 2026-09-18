@@ -1,4 +1,9 @@
-<aside class="tag-sidebar" data-tag-sidebar aria-label="{% if page.lang == 'en' %}Topic navigation{% else %}Navigation par sujet{% endif %}" hidden>
+<aside class="tag-sidebar" data-tag-sidebar aria-label="{% if page.lang == 'en' %}Topic navigation{% else %}Navigation par sujet{% endif %}">
+  {% if page.presentation == 'conferences' %}
+    <img class="tag-sidebar-photo tag-sidebar-photo--conferences" src="{{ '/assets/photo/photo_speaker.jpeg' | relative_url }}" alt="{% if page.lang == 'en' %}Emmanuel-Lin Toulemonde speaking on stage{% else %}Emmanuel-Lin Toulemonde intervient sur scène{% endif %}" width="1280" height="853">
+  {% else %}
+    <img class="tag-sidebar-photo tag-sidebar-photo--articles" src="{{ '/assets/photo/photo_working.jpg' | relative_url }}" alt="{% if page.lang == 'en' %}Emmanuel-Lin Toulemonde working during a conference{% else %}Emmanuel-Lin Toulemonde travaille pendant une conférence{% endif %}" width="2048" height="1365">
+  {% endif %}
   <div class="tag-filters" data-tag-filters data-lang="{{ page.lang | default: 'fr' }}" hidden>
     <fieldset aria-describedby="tag-filter-help">
       <legend>{% if page.lang == 'en' %}Explore by topic{% else %}Explorer par sujet{% endif %}</legend>

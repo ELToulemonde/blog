@@ -12,14 +12,6 @@ layout: default
       </div>
       <img class="profile-photo" src="{{ '/assets/photo/photo_profil.jpg' | relative_url }}" alt="{% if page.lang == 'en' %}Portrait of Emmanuel-Lin Toulemonde{% else %}Portrait d'Emmanuel-Lin Toulemonde{% endif %}" width="300" height="300">
     </div>
-    {% elsif page.presentation == 'conferences' %}
-    <div class="conference-heading">
-      <div>
-        <h1 class="post-title">{{ page.title | escape }}</h1>
-        {% include lang_switcher.html %}
-      </div>
-      <img class="conference-photo" src="{{ '/assets/photo/photo_speaker.jpeg' | relative_url }}" alt="{% if page.lang == 'en' %}Emmanuel-Lin Toulemonde speaking on stage{% else %}Emmanuel-Lin Toulemonde intervient sur scène{% endif %}" width="1280" height="853">
-    </div>
     {% else %}
     <h1 class="post-title">{{ page.title | escape }}</h1>
     {% include lang_switcher.html %}
