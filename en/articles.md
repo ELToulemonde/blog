@@ -26,7 +26,8 @@ Tags :
 
 * * *
 
-## 2026/05/26 : [Harnessing : 9 practices from the software industry](https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel)
+## 2026/05/26 : [Harnessing: 9 practices from the software industry](https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel)
+{: #20260526--harnessing--9-practices-from-the-software-industry}
 
 Old habits die hard—this article is a plea not to forget software best practices, but rather to use and adapt them to maximize the impact of code agents.
 
@@ -94,9 +95,10 @@ Tags :
 
 * * *
 
-## 2022/12/06 [Monitoring & proactive notification of a ML application](https://blog.octo.com/mlops-monitoring-et-proactive-notification/)
+## 2022/12/06 [Monitoring & proactive notification of an ML application](https://blog.octo.com/mlops-monitoring-et-proactive-notification/)
+{: #20221206-monitoring--proactive-notification-of-a-ml-application}
 
-Published on the OCTO blog, this article details the origins of errors in a ML application in production, and proposes an approach to create _monitoring_ and _alerting_ probes.
+Published on the OCTO blog, this article details the origins of errors in an ML application in production, and proposes an approach to create _monitoring_ and _alerting_ probes.
 
 Tags :
 - MLOps
@@ -226,7 +228,7 @@ Tags :
 
 ## 2017/10/26 : [Benchmark of dataPreparation versus standard R](https://rpubs.com/ELToulemonde/326980)
 
-Published on RPUBS.com, this article presents the benefits of the dataPreparation library compared to standard R on a classic data preparation operation: centering and scaling data.
+Published on RPubs.com, this article presents the benefits of the dataPreparation library compared to standard R on a classic data preparation operation: centering and scaling data.
 
 Tags :
 - Data Engineering

@@ -27,7 +27,7 @@ For the past year, we have integrated GenAI and agents to transform how we work.
 In this talk, we share how AI has accelerated certain critical tasks:
 
 Code refactoring: industrializing prototype code 4x faster to meet all our standards.
-Data contracts: writing this documentation 10x faster, with a precision rivaling human expertise.
+Data contracts: writing this documentation 10x faster, with precision rivaling human expertise.
 Architecture tests: automating checks on architecture standards and cloud provider requirements to reduce bugs.
 But AI is not a magic solution. We will also address:
 
@@ -37,7 +37,7 @@ With many live demonstrations, this raw feedback includes successes, failures, a
 
 📍 Talk given at:
 - Data Days Lille, March 2026, Lille: [slides](https://github.com/ELToulemonde/talks/blob/main/2026/Data%20Days%20Lille/Conf%C3%A9rence%20%20Agents%20%26%20GenAI%20_%20Comment%20nous%20avons%20boost%C3%A9%20un%20projet%20de%20data%20engineering%20%C3%A0%20l%E2%80%99%C3%A9chelle%20de%20150%20microservices.pdf)
-- Cloud Toulouse, mai 2026, Toulouse : [slides](https://github.com/ELToulemonde/talks/blob/main/2026/Cloud%20Toulouse/Conf%C3%A9rence%20Agents%20%26%20GenAI%20_%20Comment%20nous%20avons%20boost%C3%A9%20un%20projet%20de%20data%20engineering%20%C3%A0%20l%E2%80%99%C3%A9chelle%20de%20150%20microservices.pdf)
+- Cloud Toulouse, May 2026, Toulouse: [slides](https://github.com/ELToulemonde/talks/blob/main/2026/Cloud%20Toulouse/Conf%C3%A9rence%20Agents%20%26%20GenAI%20_%20Comment%20nous%20avons%20boost%C3%A9%20un%20projet%20de%20data%20engineering%20%C3%A0%20l%E2%80%99%C3%A9chelle%20de%20150%20microservices.pdf)
 
 Tags:
 - Data Engineering
@@ -77,7 +77,7 @@ This forward-looking presentation proposes a concept to standardize and automate
 
 This talk explores what I believe to be **the future of MLOps**: model platforms integrating model registries, deployment, A/B testing and shadow production seamlessly. Within 2-3 years, all cloud providers will offer this capability.
 
-A **live demonstration** of a platform based on **open source technologies** (MLflow, Kubernetes) will show how a model can be put into production in less than 5 minutes.
+A **live demonstration** of a platform based on **open-source technologies** (MLflow, Kubernetes) will show how a model can be put into production in less than 5 minutes.
 
 After this presentation, you will understand the value of a model platform, identify its main features, and discover a proposed implementation.
 
@@ -97,10 +97,10 @@ Tags:
 
 Rather than adding computing resources and technologies, think about architecture, code and data storage to save hardware resources.
 
-🚀 The first optimizations are best practices that everyone should know; the following ones are sacrificial: they degrade code readability and maintainability. Conceived as a concrete declension of Eroom's law proposed by Tristan Nitot, this talk starts with an example of poorly written code as we have all done before, then through successive optimizations, we will see the benefits and sacrifices to make to go ever faster.
+🚀 The first optimizations are best practices that everyone should know; the following ones are sacrificial: they degrade code readability and maintainability. Conceived as a concrete application of Eroom's law proposed by Tristan Nitot, this talk starts with an example of poorly written code as we have all done before, then through successive optimizations, we will see the benefits and sacrifices to make to go ever faster.
 
 📍 Talk given at:
-- DevQuest, June 2026, Niort : [slides](https://github.com/ELToulemonde/talks/blob/main/2026/DevQuest%20Niort/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice%20_.pdf)
+- DevQuest, June 2026, Niort: [slides](https://github.com/ELToulemonde/talks/blob/main/2026/DevQuest%20Niort/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice%20_.pdf)
 - Touraine Tech, February 2025, Tours
 - Snow Camp, January 2025, Grenoble: [slides](https://github.com/ELToulemonde/talks/blob/main/2025/Snow%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf)
 - Breizh Camp, June 2024, Rennes: [slides](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf), [video](https://www.youtube.com/watch?v=obKSKpPyaGo)
@@ -118,14 +118,14 @@ CI/CD is a well-known software tool for building and deploying artifacts. In Mac
 
 🔢 In addition to building and deploying code, you need to manage the model artifact.
 
-🗓️ Building the model corresponds to its training; it doesn't only happen when the code changes, it can also be triggered by a change in the data.
+🗓️ Building the model corresponds to its training; it doesn't only happen when the code changes. It can also be triggered by a change in the data.
 
 🏋️‍♀️ Code typically weighs a few MB, while the model can weigh up to several GB.
 
 These three particularities mean the build and deployment process must be rethought.
 
 📍 Talk given at:
-- Pycon Lithuania, April 2024, Vilnius: [slides (in English)](https://github.com/ELToulemonde/talks/blob/main/2024/PyCon%202024%20Lithuania/CI_CD%20at%20Machine%20Learning%20time.pdf), [video](https://www.youtube.com/watch?v=093T744olQ4)
+- PyCon Lithuania, April 2024, Vilnius: [slides (in English)](https://github.com/ELToulemonde/talks/blob/main/2024/PyCon%202024%20Lithuania/CI_CD%20at%20Machine%20Learning%20time.pdf), [video](https://www.youtube.com/watch?v=093T744olQ4)
 - Meetup Crafting Data Science #11, November 2023, Paris with [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno)
 
 Tags:
@@ -140,7 +140,7 @@ An iterative talk during which Sofia and Emmanuel-Lin draw a Data Science archit
 
 📍 Talk given at:
 - La Duck Conf, March 2022, Paris, with [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno): [video](https://www.youtube.com/watch?v=7jyyBaV8jjI)
-- Meetup crafting Data Science #9, November 2022, Paris, with [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno): [video](https://www.youtube.com/watch?v=F7u3lCohVcQ)
+- Meetup Crafting Data Science #9, November 2022, Paris, with [Sofia Calcagno](https://fr.linkedin.com/in/sof%C3%ADa-calcagno): [video](https://www.youtube.com/watch?v=F7u3lCohVcQ)
 
 Tags:
 - Architecture
@@ -157,7 +157,7 @@ This is the story told in this talk — that of an emergent architecture project
 
 📍 Talk given at:
 - La Duck Conf, February 2021, remote: [slides](https://github.com/ELToulemonde/talks/blob/main/2021/La%20Duck%20Conf/Histoire%20d'une%20architecture%20%C3%A9mergeante.pdf), [video](https://www.youtube.com/watch?v=qj3lVoaAe3Q)
-- Comptoir Octo, the same story from a business perspective, with [Marc Frignet](https://fr.linkedin.com/in/marc-frignet-0582b09): [video](https://www.youtube.com/watch?v=2gTdE6HI12g)
+- Comptoir OCTO, the same story from a business perspective, with [Marc Frignet](https://fr.linkedin.com/in/marc-frignet-0582b09): [video](https://www.youtube.com/watch?v=2gTdE6HI12g)
 
 Tags:
 - Architecture
@@ -188,7 +188,7 @@ This talk aims to reframe the why, for whom, for what, and the how of interpreta
 
 📍 Talk given at:
 - [Espace éthique d'Île de France](https://www.espace-ethique.org/), February 2020, Paris: [video](https://www.youtube.com/watch?v=Pa5YeciG2-8)
-- Octo's Ethical by Design morning event, November 2019, Paris: [video](https://youtu.be/o_TBFPvUQ30?si=kDOehwTVNQ93HRAa&t=5753), [press coverage](https://www.alliancy.fr/solution-ia-confiance-etait-ethical-by-design) by Christophe Auffray
+- OCTO's Ethical by Design morning event, November 2019, Paris: [video](https://youtu.be/o_TBFPvUQ30?si=kDOehwTVNQ93HRAa&t=5753), [press coverage](https://www.alliancy.fr/solution-ia-confiance-etait-ethical-by-design) by Christophe Auffray
 
 Tags:
 - Data Science
@@ -199,10 +199,10 @@ Tags:
 
 ## Tutorial on the dataPreparation library
 
-Presentation of the open source R library that I have developed and maintained for many years to perform efficient tabular data preparation.
+Presentation of the open-source R library that I have developed and maintained for many years to perform efficient tabular data preparation.
 
 📍 Talk given at:
-- [Data Science Conference Europe](https://datasciconference.com), November 2021, (remote)
+- [Data Science Conference Europe](https://datasciconference.com), November 2021 (remote)
 - Meetup [R addicts Paris](https://www.meetup.com/fr-FR/rparis/), August 2018, Paris: [slides](https://fr.slideshare.net/EmmanuelLinTOULEMOND/presentation-of-datapreparation-at-mett-up-raddicts)
 
 Tags:

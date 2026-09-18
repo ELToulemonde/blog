@@ -6,7 +6,7 @@ lang: en
 lang_alternate: /
 ---
 
-Welcome to this site which brings together the articles, conferences, and open source contributions that Emmanuel-Lin Toulemonde has made.
+Welcome to this site which brings together the articles, conferences, and open-source contributions that Emmanuel-Lin Toulemonde has made.
 
 ## Mini bio
 

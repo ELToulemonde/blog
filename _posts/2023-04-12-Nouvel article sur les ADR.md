@@ -6,5 +6,5 @@ date: 2023-04-12
 
 ## Nouvel article sur les ADR
 
-Dans mon dernier [article](https://blog.octo.com/architecture-decision-record/) sur le blog d'Octo j'aborde la notion
+Dans mon dernier [article](https://blog.octo.com/architecture-decision-record/) sur le blog d'OCTO, j'aborde la notion
 d'Architecture Decision Record.

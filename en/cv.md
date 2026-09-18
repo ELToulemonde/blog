@@ -12,7 +12,7 @@ nav_order: 4
 
 ### Consultant at OCTO Technology
 
-Since September 2018, I wear 4 hats:
+Since September 2018, I have worn 4 hats:
 - Consultant
 - Trainer
 - Manager & Team Leader
@@ -32,7 +32,7 @@ For large CAC 40 organizations and public sector clients, I work in data-intensi
 
 Manager of 5 consultants, balancing the interests of the individual, the company, and its clients.
 
-Leader of the MLOps tribe, a team of 10 people interested in MLEng and MLOps challenges. We conduct R&D on tools (MLFlow, Tensorflow Serving, DVC, ...) and methodologies (often inspired by software engineering best practices) to keep learning, sharing, and being ever more relevant in our assignments.
+Leader of the MLOps tribe, a team of 10 people interested in MLEng and MLOps challenges. We conduct R&D on tools (MLflow, TensorFlow Serving, DVC, ...) and methodologies (often inspired by software engineering best practices) to keep learning, sharing, and being ever more relevant in our assignments.
 
 #### Course Designer and Trainer at OCTO Academy
 
@@ -69,10 +69,10 @@ Master's degree in Applied Mathematics from Université Lille 1, 2014
 
 Technical:
 
-- Python, R, Angular, GoJs
+- Python, R, Angular, GoJS
 - Terraform, Docker
 - Azure, AWS
-- Azure DevOps, Github, Gitlab
+- Azure DevOps, GitHub, GitLab
 
 Methodological:
 

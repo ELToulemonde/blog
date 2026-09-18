@@ -25,11 +25,11 @@ Tags :
 
 ## 2026/05/26 : [Harnessing des agents : 9 pratiques venant du logiciel](https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel)
 
-C’est dans les vieux pots que l’on fait les meilleures soupes, cet article est un plaidoyer pour ne pas oublier les bonnes pratiques du logiciel mais plutôt les utiliser et les adapter pour maximiser l’impact des agents de code.
+C’est dans les vieux pots que l’on fait les meilleures soupes. Cet article est un plaidoyer pour ne pas oublier les bonnes pratiques du logiciel, mais plutôt pour les utiliser et les adapter afin de maximiser l’impact des agents de code.
 
-L’Agentic Engineering, terme proposé par Andrej Karpaty, débarque comme une déferlante sur nos projets. Pour que l’utilisation d’agent de code ne se transforme pas en catastrophe industrielle, en particulier en brownfield, en production, il faut des pratiques. Le terme harnessing a été proposé par OpenAI, Anthropic et d’autres pour désigner l’ensemble des pratiques qui visent à tenir en “laisse” les agents de code.
+L’Agentic Engineering, terme proposé par Andrej Karpaty, débarque comme une déferlante sur nos projets. Pour que l’utilisation d’agents de code ne se transforme pas en catastrophe industrielle, en particulier en brownfield, en production, il faut des pratiques. Le terme harnessing a été proposé par OpenAI, Anthropic et d’autres pour désigner l’ensemble des pratiques qui visent à tenir en « laisse » les agents de code.
 
-Le marché est alors vite tenté d’inventer des nouvelles pratiques pour faire cela, nous avons la conviction qu’il est préférable d’utiliser et adapter notre savoir faire du logiciel sans agent.
+Le marché est alors vite tenté d’inventer de nouvelles pratiques pour faire cela. Nous avons la conviction qu’il est préférable d’utiliser et d’adapter notre savoir-faire du logiciel sans agent.
 
 Dans cet article, nous explorons et adaptons 9 pratiques du logiciel qui permettent de bien cadrer l’agent de code comme le développeur.
 
@@ -44,10 +44,10 @@ Tags :
 Combien de fois, en tant que Tech Lead, avez-vous répété les mêmes remarques en code review ?
 Combien de fois, architecte, vos recommandations sont-elles restées lettre morte ?
 Combien de fois, développeur assisté par IA, avez-vous dû corriger un code généré qui ignorait vos consignes ?
-Combien de fois une limite technique (ex un nom de variable trop long) vous a-t-elle surpris en production ?
+Combien de fois une limite technique (par exemple, un nom de variable trop long) vous a-t-elle surpris en production ?
 Et combien de fois la documentation promise est-elle restée un simple ticket oublié ?
 
-Si vous aussi, vous avez répondu “souvent” ou “trop souvent” à au moins l’une de ses questions, les tests d’architecture devraient vous plaire !
+Si vous aussi, vous avez répondu « souvent » ou « trop souvent » à au moins l’une de ces questions, les tests d’architecture devraient vous plaire !
 
 Tags :
 - Architecture
@@ -57,11 +57,11 @@ Tags :
 
 ## 2024/02/20 [MLOps : En phase de run, le toil est un ennemi à regarder dans les yeux](https://blog.octo.com/mlops--en-phase-de-run-le-toil-est-un-ennemi-a-regarder-dans-les-yeux)
 
-⚠️ Si le nombre de personnes qui opèrent vos produits ML en phase de run est proportionnel au nombre de produits ML en production ; si la vitesse de développement de nouvelles fonctionnalités s’est écroulée au moment du passage en production ; le toil vous a, vous aussi, déjà paralysé sans que vous ne vous en rendiez compte.
+⚠️ Si le nombre de personnes qui opèrent vos produits ML en phase de run est proportionnel au nombre de produits ML en production, si la vitesse de développement de nouvelles fonctionnalités s’est écroulée au moment du passage en production, le toil vous a, vous aussi, déjà paralysé sans que vous ne vous en rendiez compte.
 
-ℹ️ Le toil, labeur en français, décrit l’exploitation d’un service en production. Elles peuvent être répétitives, manuelles, automatisables, elles ne changent pas le service rendu par le système, elles peuvent augmenter de façon linéaire avec le nombre d’utilisateurs.
+ℹ️ Le toil, labeur en français, désigne des tâches d’exploitation d’un service en production. Ces tâches peuvent être répétitives, manuelles et automatisables ; elles ne changent pas le service rendu par le système et leur volume peut augmenter de façon linéaire avec le nombre d’utilisateurs.
 
-🔭 Maintenant que certaines organisations ont passé le cap de la mise en production de nombreux modèles de ML, elles se retrouvent paralysé par ce toil.
+🔭 Maintenant que certaines organisations ont passé le cap de la mise en production de nombreux modèles de ML, elles se retrouvent paralysées par ce toil.
 
 📄 Avec [Aurélien Massiot](https://www.linkedin.com/in/aur%C3%A9lien-massiot-990bb6b1/), nous avons écrit un article à ce sujet sur le blog OCTO Technology. Au menu, prendre conscience de ce que c'est, de comment il vous paralyse, savoir le mesurer puis le traiter.
 
@@ -93,7 +93,7 @@ Tags :
 
 ## 2022/12/06 [Monitoring & proactive notification d’une application de ML](https://blog.octo.com/mlops-monitoring-et-proactive-notification/)
 
-Écrit sur le blog d'OCTO, cet article détail les origines des erreurs d'une application de ML en production, propose une démarche pour créer des sondes de _monitoring_ et d_'alerting_.
+Écrit sur le blog d'OCTO, cet article détaille les origines des erreurs d'une application de ML en production et propose une démarche pour créer des sondes de _monitoring_ et d'_alerting_.
 
 Tags :
 - MLOps
@@ -133,7 +133,8 @@ Tags :
 
 * * *
 
-## 2022/01/25 : [Rendre visible la chaine de valeur dans un projet de _Delivery_ de _Machine Learning_](https://blog.octo.com/rendre-visible-la-chaine-de-valeur-dans-un-projet-de-ml-delivery/)
+## 2022/01/25 : [Rendre visible la chaîne de valeur dans un projet de _Delivery_ de _Machine Learning_](https://blog.octo.com/rendre-visible-la-chaine-de-valeur-dans-un-projet-de-ml-delivery/)
+{: #20220125--rendre-visible-la-chaine-de-valeur-dans-un-projet-de-delivery-de-machine-learning}
 
 Article écrit avec [Guillaume Pivette](https://fr.linkedin.com/in/guillaume-pivette)
 
@@ -157,7 +158,7 @@ Tags :
 
 ## 2021/07/26 : [La gestion des données de tests en _delivery_ de _Machine Learning_](https://blog.octo.com/la-gestion-des-donnees-de-tests-en-delivery-de-machine-learnin/)
 
-Écrit sur le blog d'OCTO, cet article fait partie de la série “[_Accélérer le Delivery de projets de Machine Learning_](https://blog.octo.com/accelerer-le-delivery-de-projets-de-machine-learning/)” traitant de l’application du modèle _Accelerate_ dans un contexte incluant du _Machine Learning_. Dans cet article en particulier, nous proposons des pratiques qui permettrons de tester efficacement.
+Écrit sur le blog d'OCTO, cet article fait partie de la série “[_Accélérer le Delivery de projets de Machine Learning_](https://blog.octo.com/accelerer-le-delivery-de-projets-de-machine-learning/)” traitant de l’application du modèle _Accelerate_ dans un contexte incluant du _Machine Learning_. Dans cet article en particulier, nous proposons des pratiques qui permettront de tester efficacement.
 
 Tags :
 - MLOps
@@ -213,7 +214,7 @@ Tags :
 
 ## 2019/11/20 : [Interprétabilité des systèmes de _Data Science_](https://blog.octo.com/interpretabilite-des-systemes-de-data-science/)
 
-Écrit sur le blog d'OCTO, cet article vise à cadrer le problème de l'interprétabilité des systèmes de _Data Science_. En 3 parties, nous découvrons ce que l'on entend par interprétabilité (pour qui ? pourquoi ? quoi ? et sous quel effort ?) puis nous explorons les raisons de la non-interprétabilités, finalement nous proposons quelques solutions.
+Écrit sur le blog d'OCTO, cet article vise à cadrer le problème de l'interprétabilité des systèmes de _Data Science_. En 3 parties, nous découvrons ce que l'on entend par interprétabilité (pour qui ? pourquoi ? quoi ? et sous quel effort ?), puis nous explorons les raisons de la non-interprétabilité. Finalement, nous proposons quelques solutions.
 
 Tags :
 - Data Science
@@ -223,7 +224,7 @@ Tags :
 
 ## 2017/10/26 : [Benchmark de dataPreparation versus du R standard](https://rpubs.com/ELToulemonde/326980)
 
-Écrit sur RPUBS.com, cet article présente les intérêts de la librairie dataPreparation par rapport à du R standard sur une opération classique en préparation de donnée, centrer / réduire les données.
+Écrit sur RPubs.com, cet article présente les intérêts de la librairie dataPreparation par rapport à du R standard sur une opération classique en préparation de données : centrer / réduire les données.
 
 Tags :
 - Data Engineering
@@ -233,7 +234,7 @@ Tags :
 
 ## 2017/09/14 : [De la donnée et de la qualité](https://www.linkedin.com/pulse/de-la-donnée-et-qualité-emmanuel-lin-toulemonde)
 
-Écrit sur linkedin, cet article trace les raisons de la non-qualité de donnée et propose 5 actions pour l'améliorer.
+Écrit sur LinkedIn, cet article trace les raisons de la non-qualité des données et propose 5 actions pour l'améliorer.
 
 Tags :
 - Data Engineering
@@ -243,7 +244,7 @@ Tags :
 
 ## 2017/08/31 : [IA, la fin de l'emploi ?](https://www.linkedin.com/pulse/ia-la-fin-de-lemploi-emmanuel-lin-toulemonde)
 
-Écrit sur linkedin, ce billet est une réflexion sur l'impact des différentes révolutions technologiques sur l'emploi, de la révolution agricole à celle de l'intelligence artificielle.
+Écrit sur LinkedIn, ce billet est une réflexion sur l'impact des différentes révolutions technologiques sur l'emploi, de la révolution agricole à celle de l'intelligence artificielle.
 
 Tags :
 - Intelligence artificielle
