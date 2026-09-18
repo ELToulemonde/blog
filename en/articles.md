@@ -11,7 +11,6 @@ nav_order: 1
 ## 2026/09/18 : Agentic Engineering — Beyond the Prototype
 [https://blog.octo.com/agentic-engineering--au-dela-du-prototype](https://blog.octo.com/agentic-engineering--au-dela-du-prototype)
 
-
 🤖 Why don’t the 10x or 100x productivity gains promised by AI necessarily show up in your project?
 
 Because between a prototype and a complex production product, context changes everything.

@@ -8,6 +8,7 @@ nav_order: 1
 
 ## 2026/09/18 : Agentic Engineering : Au-delà du prototype
 [https://blog.octo.com/agentic-engineering--au-dela-du-prototype](https://blog.octo.com/agentic-engineering--au-dela-du-prototype)
+
 🤖 Pourquoi le x10 ou x100 annoncé avec l’IA ne se retrouve pas forcément dans votre projet ?
 
 Parce qu’entre un prototype et un produit complexe en production, le contexte change tout.
