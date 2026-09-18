@@ -11,13 +11,7 @@ nav_order: 1
 
 ## 2026/09/18 : [Agentic Engineering — Beyond the Prototype](https://blog.octo.com/agentic-engineering--au-dela-du-prototype)
 
-🤖 Why don’t the 10x or 100x productivity gains promised by AI necessarily show up in your project?
-
-Because between a prototype and a complex production product, context changes everything.
-
-More requirements, more information, more implicit knowledge, more constraints… and team dynamics that evolve along the way.
-
-In this article, we explore 5 key barriers that explain why Agentic Engineering looks very different when moving from a prototype to a real-world project.
+Coding agents shine in prototypes. In production, they face requirements, project history, and team context they cannot see. Five obstacles explain why the promised 10x gains collide with reality.
 
 
 Tags :
@@ -29,13 +23,7 @@ Tags :
 ## 2026/05/26 : [Harnessing: 9 practices from the software industry](https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel)
 {: #20260526--harnessing--9-practices-from-the-software-industry}
 
-Old habits die hard—this article is a plea not to forget software best practices, but rather to use and adapt them to maximize the impact of code agents.
-
-Agentic Engineering, a term coined by Andrej Karpaty, is sweeping through our projects like a tidal wave. To ensure that the use of code agents doesn’t turn into an industrial disaster—especially in brownfield environments and in production—we need best practices. The term “harnessing” has been proposed by OpenAI, Anthropic, and others to describe the set of practices aimed at keeping code agents on a “leash.”
-
-The market is then quickly tempted to invent new practices to do this, but we are convinced that it is better to use and adapt our expertise in agentless software.
-
-In this article, we explore and adapt nine software practices that help effectively manage both the code agent and the developer.
+There is no need to reinvent software engineering to keep coding agents under control: nine established practices can be adapted to working with them.
 
 Tags :
 - Agentic Engineering
@@ -45,13 +33,7 @@ Tags :
 
 ## 2026/03/13 : [Software architecture tests: 4 examples to get started](https://blog.octo.com/les-tests-d'architecture-logicielle--4-exemples-pour-les-adopter)
 
-How many times, as a Tech Lead, have you repeated the same remarks in code review?
-How many times, as an architect, have your recommendations been ignored?
-How many times, as an AI-assisted developer, have you had to correct generated code that ignored your guidelines?
-How many times has a technical limitation (e.g. a variable name that is too long) surprised you in production?
-And how many times has the promised documentation remained just a forgotten ticket?
-
-If you have answered "often" or "too often" to at least one of these questions, architecture tests should appeal to you!
+An architecture rule that nobody checks will eventually be forgotten. Here are four ways to make such rules executable as tests run in CI.
 
 Tags :
 - Architecture
@@ -61,13 +43,9 @@ Tags :
 
 ## 2024/02/20 [MLOps: In the run phase, toil is an enemy to face head-on](https://blog.octo.com/mlops--en-phase-de-run-le-toil-est-un-ennemi-a-regarder-dans-les-yeux)
 
-⚠️ If the number of people operating your ML products in the run phase is proportional to the number of ML products in production; if development speed has collapsed at the time of going to production — toil has already paralyzed you without you realizing it.
+One ML product can be maintained by hand. By the tenth, the same repeated tasks can bring a team to a standstill: that is toil. Before eliminating it, you have to see and measure it.
 
-ℹ️ Toil describes the operational work of running a service in production. It can be repetitive, manual, automatable, it does not change the service provided by the system, and it can grow linearly with the number of users.
-
-🔭 Now that some organizations have passed the milestone of putting many ML models into production, they find themselves paralyzed by this toil.
-
-📄 With [Aurélien Massiot](https://www.linkedin.com/in/aur%C3%A9lien-massiot-990bb6b1/), we wrote an article on the OCTO Technology blog. On the menu: raising awareness of what it is, how it paralyzes you, how to measure it, and how to address it.
+With [Aurélien Massiot](https://www.linkedin.com/in/aur%C3%A9lien-massiot-990bb6b1/).
 
 Tags :
 - MLOps
@@ -77,7 +55,7 @@ Tags :
 
 ## 2023/04/12 [Architecture Decision Record: let's start today](https://blog.octo.com/architecture-decision-record/)
 
-Published on the OCTO blog, this article describes the Architecture Decision Record as a powerful tool for facilitating and archiving decision-making. It proposes writing ADRs as-code and integrating as-code diagrams.
+Why was this architecture chosen? By the time nobody can answer, the decision should already have been recorded. Markdown, Git, and diagrams as code are enough to get started.
 
 Tags :
 - Architecture
@@ -87,7 +65,7 @@ Tags :
 
 ## 2023/04/04 [Summary of Benjamin Bayart's talk – "Under the hood of sovereign cloud"](https://blog.octo.com/duck-conf-2023-compte-rendu-du-talk-de-benjamin-bayart-sous-le-capot-du-cloud-souverain/)
 
-Summary of Benjamin Bayart's talk at Duck Conf 2023. Benjamin Bayart proposes to talk about cloud under constraints rather than sovereign cloud. He lists the constraints (regulatory, technical, etc.), enumerates existing solutions and encourages us to overcome our impostor syndrome.
+“Sovereign” is not a magical property of a cloud platform. This account of Benjamin Bayart’s talk starts with legal, technical, and strategic constraints, then examines the available options without the usual mystique.
 
 Tags :
 - Cloud
@@ -98,7 +76,7 @@ Tags :
 ## 2022/12/06 [Monitoring & proactive notification of an ML application](https://blog.octo.com/mlops-monitoring-et-proactive-notification/)
 {: #20221206-monitoring--proactive-notification-of-a-ml-application}
 
-Published on the OCTO blog, this article details the origins of errors in an ML application in production, and proposes an approach to create _monitoring_ and _alerting_ probes.
+An ML application can remain available while its results become steadily less reliable: this guide works back from possible failures to design useful probes and alerts.
 
 Tags :
 - MLOps
@@ -108,7 +86,7 @@ Tags :
 
 ## 2022/09/20 [Integrating security early into Machine Learning delivery](https://blog.octo.com/machine-learning-delivery-integrer-la-securite)
 
-Published on the OCTO blog, this article addresses the topic of machine learning model security. It describes concrete examples of attacks that impact your models, and proposes many practices to integrate security from the earliest stages.
+Data poisoning, model theft, information leakage: Machine Learning creates its own attack surfaces. Security therefore belongs in the delivery process, not after deployment.
 
 Tags :
 - MLOps
@@ -118,7 +96,7 @@ Tags :
 
 ## 2022/05/24 [Cynefin x Machine Learning matrix – Going fast to production to minimize the risk of complex systems](https://blog.octo.com/matrice-cynefin-machine-learning-quand-produire)
 
-Published on the OCTO blog, this article crosses the conceptual framework proposed by Cynefin and _Machine Learning_ to decide whether to go quickly (or not) to production.
+Does deploying early really reduce risk? It depends on the kind of problem being solved. Applied to Machine Learning, Cynefin helps distinguish when to learn from production and when to proceed more cautiously.
 
 Tags :
 - Data Science
@@ -128,9 +106,9 @@ Tags :
 
 ## 2022/05/10 : [What if ML monitoring metrics became features?](https://blog.octo.com/et-si-les-metriques-de-monitoring-de-ml-devenaient-fonctionnalites/)
 
-Article written with [Touraya El Hasssani](https://fr.linkedin.com/in/touraya-el-hassani) and [Antoine Moreau](https://fr.linkedin.com/in/antoine-moreau-esiee-paris)
+Monitoring does not have to remain an internal concern. Showing users how fresh the data is or how reliable a prediction may be can turn an operational metric into a product feature.
 
-Published on the OCTO blog, this article proposes reusing _Data Science_ monitoring metrics as features.
+With [Touraya El Hasssani](https://fr.linkedin.com/in/touraya-el-hassani) and [Antoine Moreau](https://fr.linkedin.com/in/antoine-moreau-esiee-paris).
 
 Tags :
 - MLOps
@@ -140,9 +118,9 @@ Tags :
 
 ## 2022/01/25 : [Making the value chain visible in a _Machine Learning Delivery_ project](https://blog.octo.com/rendre-visible-la-chaine-de-valeur-dans-un-projet-de-ml-delivery/)
 
-Article written with [Guillaume Pivette](https://fr.linkedin.com/in/guillaume-pivette)
+Mapping the journey from a business idea to a model in production exposes what delivery metrics often hide: queues, rework, and manual tasks.
 
-Published on the OCTO blog, this article is part of the series "[_Accelerating the Delivery of Machine Learning Projects_](https://blog.octo.com/accelerer-le-delivery-de-projets-de-machine-learning/)" dealing with the application of the _Accelerate_ model in a context that includes _Machine Learning_. In this article in particular, we propose an approach to make your value stream visible and optimized.
+With [Guillaume Pivette](https://fr.linkedin.com/in/guillaume-pivette).
 
 Tags :
 - MLOps
@@ -152,7 +130,7 @@ Tags :
 
 ## 2021/10 : [Business and Data Scientists must collaborate to design reliable algorithms](https://en.calameo.com/books/004800386209709439859)
 
-Pages 31-32 in the POLITHEIS review, this article aims to clarify the responsibilities of the _Data Scientist_ and the business representative in designing reliable algorithms.
+A reliable algorithm is not built in a private conversation between a Data Scientist and their data. The business must also define the objective, the trade-offs, and which errors are acceptable.
 
 Tags :
 - Data Science
@@ -162,7 +140,7 @@ Tags :
 
 ## 2021/07/26 : [Test data management in _Machine Learning delivery_](https://blog.octo.com/la-gestion-des-donnees-de-tests-en-delivery-de-machine-learnin/)
 
-Published on the OCTO blog, this article is part of the series "[_Accelerating the Delivery of Machine Learning Projects_](https://blog.octo.com/accelerer-le-delivery-de-projets-de-machine-learning/)". In this article in particular, we propose practices that will enable effective testing.
+Reliable tests require test data that teams can actually control. This article compares several ways to obtain it on demand without sacrificing relevance or confidentiality.
 
 Tags :
 - MLOps
@@ -172,9 +150,9 @@ Tags :
 
 ## 2021/03/02 : [Visual management in a _Machine Learning Delivery_ project](https://blog.octo.com/la-gestion-visuelle-dans-un-projet-de-machine-learning-delivery/)
 
-Article written with [Maria Mokbel](https://fr.linkedin.com/in/maria-mokbel-b4590512a)
+How do you make work built around experiments, training runs, and annotation visible? By adapting visual management to Machine Learning delivery instead of imposing a standard Kanban board.
 
-Published on the OCTO blog, this article is part of the series "[_Accelerating the Delivery of Machine Learning Projects_](https://blog.octo.com/accelerer-le-delivery-de-projets-de-machine-learning/)". In this article in particular, we propose practices for visualising work in progress and quality in a _Machine Learning delivery_.
+With [Maria Mokbel](https://fr.linkedin.com/in/maria-mokbel-b4590512a).
 
 Tags :
 - MLOps
@@ -182,11 +160,11 @@ Tags :
 
 * * *
 
-## 2021/01/13 : [Our 10 convictions to better succeed in our _Data Science_ projects in 2021](https://blog.octo.com/reussir-ses-projets-de-data-science-en-2021)
+## 2021/01/13 : [Ten convictions for more successful _Data Science_ projects in 2021](https://blog.octo.com/reussir-ses-projets-de-data-science-en-2021)
 
-Article written with [Eric Biernat](https://fr.linkedin.com/in/eric-biernat-0ab939b7)
+In 2021, we set out ten convictions drawn from our Data Science projects. The common thread remains straightforward: deliver early, put models in front of users, and work closely with the business.
 
-Published on the OCTO blog, this article proposes 10 orientations we observe at the start of 2021 in the _Data Science_ market. Methodology, organisation, collaboration, and continuous improvement are the themes covered.
+With [Eric Biernat](https://fr.linkedin.com/in/eric-biernat-0ab939b7).
 
 Tags :
 - Data Science
@@ -194,9 +172,9 @@ Tags :
 
 * * *
 
-## 2020/05/13 : [The challenges of retrieving the ideal prediction](https://blog.octo.com/data-science-en-production-les-difficultes-pour-recuperer-la-prediction-ideale/)
+## 2020/05/13 : [The challenge of obtaining ground truth](https://blog.octo.com/data-science-en-production-les-difficultes-pour-recuperer-la-prediction-ideale/)
 
-Published on the OCTO blog, this article digs into one of the difficulties in tracking the real performance of a _Data Science_ algorithm: retrieving the prediction ideally made by the algorithm to maximise the achievement of its objectives.
+In production, ground truth may remain unknown, arrive too late, or depend on user feedback. Without it, there is no way to know whether the model is still achieving its goal.
 
 Tags :
 - MLOps
@@ -206,9 +184,9 @@ Tags :
 
 ## 2019/12/17 : [An alternative to distribution monitoring](https://blog.octo.com/une-alternative-au-monitoring-de-distributions/)
 
-Article written with [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine)
+Monitoring every distribution often amounts to collecting charts. A better approach starts from uncertainty in the pipeline and places a few probes where failures can actually be observed.
 
-Published on the OCTO blog, this article proposes a methodology to obtain meaningful metrics and alerts for a _Data Science_ system. This methodology was also presented at [Duck Conf 2020.](https://www.youtube.com/watch?v=neZ4KnfHUtY&ab_channel=LaDuckConf) This article is one of the first French articles on _Data Science_ monitoring.
+With [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine).
 
 Tags :
 - MLOps
@@ -218,7 +196,7 @@ Tags :
 
 ## 2019/11/20 : [Interpretability of _Data Science_ Systems](https://blog.octo.com/interpretabilite-des-systemes-de-data-science/)
 
-Published on the OCTO blog, this article aims to frame the problem of _Data Science_ system interpretability. In 3 parts, we discover what is meant by interpretability (for whom? why? what? and at what effort?), then we explore the reasons for non-interpretability, and finally we propose some solutions.
+“This model must be interpretable.” Fine, but to whom, for which decision, and at what cost? Asking those questions avoids the search for a universal explanation that does not exist.
 
 Tags :
 - Data Science
@@ -228,7 +206,7 @@ Tags :
 
 ## 2017/10/26 : [Benchmark of dataPreparation versus standard R](https://rpubs.com/ELToulemonde/326980)
 
-Published on RPubs.com, this article presents the benefits of the dataPreparation library compared to standard R on a classic data preparation operation: centering and scaling data.
+For small datasets, standard R does the job. As the data grows, this benchmark measures how much time and memory `dataPreparation` saves when centering and scaling variables.
 
 Tags :
 - Data Engineering
@@ -238,7 +216,7 @@ Tags :
 
 ## 2017/09/14 : [On data and quality](https://www.linkedin.com/pulse/de-la-donnée-et-qualité-emmanuel-lin-toulemonde)
 
-Published on LinkedIn, this article traces the reasons for poor data quality and proposes 5 actions to improve it.
+Data quality problems often begin long before anyone uses the data; tracing them back to their source reveals five concrete ways to reduce them.
 
 Tags :
 - Data Engineering
@@ -248,7 +226,7 @@ Tags :
 
 ## 2017/08/31 : [AI, the end of employment?](https://www.linkedin.com/pulse/ia-la-fin-de-lemploi-emmanuel-lin-toulemonde)
 
-Published on LinkedIn, this post is a reflection on the impact of various technological revolutions on employment, from the agricultural revolution to that of artificial intelligence.
+Will AI end employment, or change what we mean by work? This essay looks back at earlier technological revolutions to place today’s fears in a longer history.
 
 Tags :
 - Artificial Intelligence

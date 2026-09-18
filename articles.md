@@ -9,13 +9,7 @@ nav_order: 1
 
 ## 2026/09/18 : [Agentic Engineering : Au-delà du prototype](https://blog.octo.com/agentic-engineering--au-dela-du-prototype)
 
-🤖 Pourquoi le x10 ou x100 annoncé avec l’IA ne se retrouve pas forcément dans votre projet ?
-
-Parce qu’entre un prototype et un produit complexe en production, le contexte change tout.
-
-Plus d’exigences, plus d’information, plus d’implicite, plus de contraintes… et une dynamique d’équipe qui évolue.
-
-Dans cet article, on explore 5 freins qui expliquent pourquoi l’Agentic Engineering est très différent lorsqu’on passe du prototype à un projet réel.
+Un agent de code impressionne sur un prototype. Sur un produit en production, il doit composer avec des exigences, un historique et une équipe qu’il ne voit pas. Cinq freins expliquent pourquoi la promesse du x10 s’y heurte.
 
 Tags :
 - Agentic Engineering
@@ -25,13 +19,7 @@ Tags :
 
 ## 2026/05/26 : [Harnessing des agents : 9 pratiques venant du logiciel](https://blog.octo.com/harnessing-des-agents--9-pratiques-venant-du-logiciel)
 
-C’est dans les vieux pots que l’on fait les meilleures soupes. Cet article est un plaidoyer pour ne pas oublier les bonnes pratiques du logiciel, mais plutôt pour les utiliser et les adapter afin de maximiser l’impact des agents de code.
-
-L’Agentic Engineering, terme proposé par Andrej Karpaty, débarque comme une déferlante sur nos projets. Pour que l’utilisation d’agents de code ne se transforme pas en catastrophe industrielle, en particulier en brownfield, en production, il faut des pratiques. Le terme harnessing a été proposé par OpenAI, Anthropic et d’autres pour désigner l’ensemble des pratiques qui visent à tenir en « laisse » les agents de code.
-
-Le marché est alors vite tenté d’inventer de nouvelles pratiques pour faire cela. Nous avons la conviction qu’il est préférable d’utiliser et d’adapter notre savoir-faire du logiciel sans agent.
-
-Dans cet article, nous explorons et adaptons 9 pratiques du logiciel qui permettent de bien cadrer l’agent de code comme le développeur.
+Pour encadrer les agents de code, pas besoin de réinventer l’ingénierie logicielle : neuf pratiques éprouvées peuvent être adaptées au travail avec eux.
 
 Tags :
 - Agentic Engineering
@@ -41,13 +29,7 @@ Tags :
 
 ## 2026/03/13 : [Les tests d’architecture logicielle : 4 exemples pour les adopter](https://blog.octo.com/les-tests-d'architecture-logicielle--4-exemples-pour-les-adopter)
 
-Combien de fois, en tant que Tech Lead, avez-vous répété les mêmes remarques en code review ?
-Combien de fois, architecte, vos recommandations sont-elles restées lettre morte ?
-Combien de fois, développeur assisté par IA, avez-vous dû corriger un code généré qui ignorait vos consignes ?
-Combien de fois une limite technique (par exemple, un nom de variable trop long) vous a-t-elle surpris en production ?
-Et combien de fois la documentation promise est-elle restée un simple ticket oublié ?
-
-Si vous aussi, vous avez répondu « souvent » ou « trop souvent » à au moins l’une de ces questions, les tests d’architecture devraient vous plaire !
+Une règle d’architecture que personne ne vérifie finit toujours par être oubliée. Voici quatre façons de l’exécuter comme un test, jusque dans la CI.
 
 Tags :
 - Architecture
@@ -57,13 +39,9 @@ Tags :
 
 ## 2024/02/20 [MLOps : En phase de run, le toil est un ennemi à regarder dans les yeux](https://blog.octo.com/mlops--en-phase-de-run-le-toil-est-un-ennemi-a-regarder-dans-les-yeux)
 
-⚠️ Si le nombre de personnes qui opèrent vos produits ML en phase de run est proportionnel au nombre de produits ML en production, si la vitesse de développement de nouvelles fonctionnalités s’est écroulée au moment du passage en production, le toil vous a, vous aussi, déjà paralysé sans que vous ne vous en rendiez compte.
+Le premier produit ML se maintient à la main. Au dixième, les mêmes gestes répétés paralysent l’équipe : c’est le toil. Il faut d’abord le voir et le mesurer avant de pouvoir l’éliminer.
 
-ℹ️ Le toil, labeur en français, désigne des tâches d’exploitation d’un service en production. Ces tâches peuvent être répétitives, manuelles et automatisables ; elles ne changent pas le service rendu par le système et leur volume peut augmenter de façon linéaire avec le nombre d’utilisateurs.
-
-🔭 Maintenant que certaines organisations ont passé le cap de la mise en production de nombreux modèles de ML, elles se retrouvent paralysées par ce toil.
-
-📄 Avec [Aurélien Massiot](https://www.linkedin.com/in/aur%C3%A9lien-massiot-990bb6b1/), nous avons écrit un article à ce sujet sur le blog OCTO Technology. Au menu, prendre conscience de ce que c'est, de comment il vous paralyse, savoir le mesurer puis le traiter.
+Avec [Aurélien Massiot](https://www.linkedin.com/in/aur%C3%A9lien-massiot-990bb6b1/).
 
 Tags :
 - MLOps
@@ -73,7 +51,7 @@ Tags :
 
 ## 2023/04/12 [Architecture Decision Record : on commence aujourd'hui](https://blog.octo.com/architecture-decision-record/)
 
-Écrit sur le blog d'OCTO, cet article décrit l'architecture decision record comme un puissant moyen de facilitation et d'archivage des prises de décisions. Il propose de rédiger l'ADR as-code et d'intégrer des diagrammes as-code.
+Pourquoi cette architecture a-t-elle été choisie ? Quand plus personne ne sait répondre, l’ADR manque déjà. Markdown, Git et diagrammes as code suffisent pour commencer.
 
 Tags :
 - Architecture
@@ -83,7 +61,7 @@ Tags :
 
 ## 2023/04/04 [Compte rendu du talk de Benjamin Bayart – « Sous le capot du cloud souverain »](https://blog.octo.com/duck-conf-2023-compte-rendu-du-talk-de-benjamin-bayart-sous-le-capot-du-cloud-souverain/)
 
-Compte rendu du talk de Benjamin Bayart à la Duck Conf 2023. Benjamin Bayart propose de parler de cloud sous contraintes plutôt que souverain. Il cite les contraintes (réglementaires, techniques, etc.), liste les solutions existantes et nous incite à sortir de notre syndrome de l'imposteur.
+« Souverain » n’est pas une propriété magique du cloud. Le compte rendu du talk de Benjamin Bayart invite à partir des contraintes juridiques, techniques et stratégiques, puis à regarder les solutions sans complexe.
 
 Tags :
 - Cloud
@@ -93,7 +71,7 @@ Tags :
 
 ## 2022/12/06 [Monitoring & proactive notification d’une application de ML](https://blog.octo.com/mlops-monitoring-et-proactive-notification/)
 
-Écrit sur le blog d'OCTO, cet article détaille les origines des erreurs d'une application de ML en production et propose une démarche pour créer des sondes de _monitoring_ et d'_alerting_.
+Une application ML peut rester disponible tout en donnant des résultats de moins en moins fiables : ce guide part des causes d’erreur pour construire des sondes et des alertes utiles.
 
 Tags :
 - MLOps
@@ -103,7 +81,7 @@ Tags :
 
 ## 2022/09/20 [Intégrer au plus tôt la sécurité dans les delivery de Machine Learning](https://blog.octo.com/machine-learning-delivery-integrer-la-securite)
 
-Écrit sur le blog d'OCTO, cet article aborde le sujet de la sécurité des modèles de machine learning. Il décrit des exemples concrets d'attaques qui impactent vos modèles, il propose ensuite de nombreuses pratiques à mettre en place pour intégrer la sécurité au plus tôt.
+Empoisonnement des données, vol du modèle, fuite d’informations : le Machine Learning ouvre des surfaces d’attaque particulières. La sécurité doit donc entrer dans le delivery avant la production.
 
 Tags :
 - MLOps
@@ -113,7 +91,7 @@ Tags :
 
 ## 2022/05/24 [Matrice Cynefin x Machine Learning – Aller vite en production pour minimiser le risque des systèmes complexes](https://blog.octo.com/matrice-cynefin-machine-learning-quand-produire)
 
-Écrit sur le blog d'OCTO, cet article croise le cadre conceptuel proposé par Cynefin et le _Machine Learning_ pour décider d'aller rapidement (ou non) en production.
+Mettre vite en production réduit-il vraiment le risque ? Cela dépend du type de problème. Croisé avec le Machine Learning, Cynefin aide à décider quand apprendre du réel et quand avancer avec davantage de précautions.
 
 Tags :
 - Data Science
@@ -123,9 +101,9 @@ Tags :
 
 ## 2022/05/10 : [Et si les métriques de monitoring de ML devenaient fonctionnalités ?](https://blog.octo.com/et-si-les-metriques-de-monitoring-de-ml-devenaient-fonctionnalites/)
 
-Article écrit avec [Touraya El Hasssani](https://fr.linkedin.com/in/touraya-el-hassani) et [Antoine Moreau](https://fr.linkedin.com/in/antoine-moreau-esiee-paris)
+Le monitoring n’est pas forcément réservé à l’équipe technique. Montrer à l’utilisateur la fraîcheur des données ou la fiabilité d’une prédiction peut devenir une fonctionnalité à part entière.
 
-Écrit sur le blog d'OCTO, cet article propose de réutiliser les métriques de monitoring en _Data Science_ sous la forme de fonctionnalités.
+Avec [Touraya El Hasssani](https://fr.linkedin.com/in/touraya-el-hassani) et [Antoine Moreau](https://fr.linkedin.com/in/antoine-moreau-esiee-paris).
 
 Tags :
 - MLOps
@@ -136,9 +114,9 @@ Tags :
 ## 2022/01/25 : [Rendre visible la chaîne de valeur dans un projet de _Delivery_ de _Machine Learning_](https://blog.octo.com/rendre-visible-la-chaine-de-valeur-dans-un-projet-de-ml-delivery/)
 {: #20220125--rendre-visible-la-chaine-de-valeur-dans-un-projet-de-delivery-de-machine-learning}
 
-Article écrit avec [Guillaume Pivette](https://fr.linkedin.com/in/guillaume-pivette)
+Cartographier le chemin entre l’idée métier et le modèle en production fait apparaître ce que les indicateurs de livraison cachent : attentes, reprises et tâches manuelles.
 
-Écrit sur le blog d'OCTO, cet article fait partie de la série “[_Accélérer le Delivery de projets de Machine Learning_](https://blog.octo.com/accelerer-le-delivery-de-projets-de-machine-learning/)” traitant de l’application du modèle _Accelerate_ dans un contexte incluant du _Machine Learning_. Dans cet article en particulier, nous proposons une approche pour rendre visible et optimiser votre chaîne de création de valeur.
+Avec [Guillaume Pivette](https://fr.linkedin.com/in/guillaume-pivette).
 
 Tags :
 - MLOps
@@ -148,7 +126,7 @@ Tags :
 
 ## 2021/10 : [Métiers et Data Scientists doivent collaborer pour concevoir des algorithmes fiables](https://en.calameo.com/books/004800386209709439859)
 
-Pages 31-32 dans la revue POLITHEIS, cet article vise à reposer les responsabilités du _Data Scientist_ et du représentant métier dans la conception d'algorithmes fiables.
+Un algorithme fiable ne se construit pas dans un tête-à-tête entre un Data Scientist et ses données. Le métier doit aussi expliciter l’objectif, les compromis et les erreurs acceptables.
 
 Tags :
 - Data Science
@@ -158,7 +136,7 @@ Tags :
 
 ## 2021/07/26 : [La gestion des données de tests en _delivery_ de _Machine Learning_](https://blog.octo.com/la-gestion-des-donnees-de-tests-en-delivery-de-machine-learnin/)
 
-Écrit sur le blog d'OCTO, cet article fait partie de la série “[_Accélérer le Delivery de projets de Machine Learning_](https://blog.octo.com/accelerer-le-delivery-de-projets-de-machine-learning/)” traitant de l’application du modèle _Accelerate_ dans un contexte incluant du _Machine Learning_. Dans cet article en particulier, nous proposons des pratiques qui permettront de tester efficacement.
+Pas de tests fiables sans données de test maîtrisées. L’article compare plusieurs stratégies pour en obtenir à la demande sans sacrifier leur pertinence ni leur confidentialité.
 
 Tags :
 - MLOps
@@ -168,9 +146,9 @@ Tags :
 
 ## 2021/03/02 : [La gestion visuelle dans un projet de _Machine Learning Delivery_](https://blog.octo.com/la-gestion-visuelle-dans-un-projet-de-machine-learning-delivery/)
 
-Article écrit avec [Maria Mokbel](https://fr.linkedin.com/in/maria-mokbel-b4590512a)
+Comment rendre visible un travail fait d’expérimentations, d’entraînements et d’annotations ? En adaptant la gestion visuelle au delivery de Machine Learning plutôt qu’en plaquant un Kanban standard.
 
-Écrit sur le blog d'OCTO, cet article fait partie de la série “[_Accélérer le Delivery de projets de Machine Learning_](https://blog.octo.com/accelerer-le-delivery-de-projets-de-machine-learning/)” traitant de l’application du modèle _Accelerate_ dans un contexte incluant du _Machine Learning_. Dans cet article en particulier, nous proposons des pratiques pour visualiser le travail en cours et la qualité dans un _delivery_ de _Machine Learning._
+Avec [Maria Mokbel](https://fr.linkedin.com/in/maria-mokbel-b4590512a).
 
 Tags :
 - MLOps
@@ -180,9 +158,9 @@ Tags :
 
 ## 2021/01/13 : [Nos 10 convictions pour mieux réussir nos projets de _Data Science_ en 2021](https://blog.octo.com/reussir-ses-projets-de-data-science-en-2021)
 
-Article écrit avec [Eric Biernat](https://fr.linkedin.com/in/eric-biernat-0ab939b7)
+En 2021, nous avons posé dix convictions issues de nos projets de Data Science. Leur fil conducteur reste simple : livrer tôt, confronter le modèle à ses utilisateurs et travailler réellement avec le métier.
 
-Écrit sur le blog d'OCTO, cet article propose 10 orientations que nous constatons début 2021 sur le marché de la _Data Science_. Méthodologie, organisation, collaboration, amélioration continue sont les thématiques abordées.
+Avec [Eric Biernat](https://fr.linkedin.com/in/eric-biernat-0ab939b7).
 
 Tags :
 - Data Science
@@ -192,7 +170,7 @@ Tags :
 
 ## 2020/05/13 : [Les difficultés pour récupérer la prédiction idéale](https://blog.octo.com/data-science-en-production-les-difficultes-pour-recuperer-la-prediction-ideale/)
 
-Écrit sur le blog d'OCTO, cet article creuse l'une des difficultés que l'on peut avoir pour suivre la performance réelle d'un algorithme de _Data Science_ : la récupération de la prédiction idéalement faite par l’algorithme pour maximiser l'atteinte de ses objectifs.
+En production, la bonne prédiction reste souvent inconnue, arrive trop tard ou dépend d’un retour utilisateur. Sans cette vérité terrain, impossible de savoir si le modèle atteint encore son objectif.
 
 Tags :
 - MLOps
@@ -202,9 +180,9 @@ Tags :
 
 ## 2019/12/17 : [Une alternative au monitoring de distributions](https://blog.octo.com/une-alternative-au-monitoring-de-distributions/)
 
-Article écrit avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine)
+Surveiller toutes les distributions revient souvent à collectionner les courbes. Mieux vaut partir des incertitudes du pipeline et placer quelques sondes là où une défaillance devient observable.
 
-Écrit sur le blog d'OCTO, cet article propose une méthodologie pour obtenir des métriques et des alertes intéressantes sur un système de _Data Science_. Cette méthodologie a également été présentée à [la Duck Conf 2020.](https://www.youtube.com/watch?v=neZ4KnfHUtY&ab_channel=LaDuckConf) Cet article est un des premiers articles français parlant de _monitoring_ de _Data Science._
+Avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine).
 
 Tags :
 - MLOps
@@ -214,7 +192,7 @@ Tags :
 
 ## 2019/11/20 : [Interprétabilité des systèmes de _Data Science_](https://blog.octo.com/interpretabilite-des-systemes-de-data-science/)
 
-Écrit sur le blog d'OCTO, cet article vise à cadrer le problème de l'interprétabilité des systèmes de _Data Science_. En 3 parties, nous découvrons ce que l'on entend par interprétabilité (pour qui ? pourquoi ? quoi ? et sous quel effort ?), puis nous explorons les raisons de la non-interprétabilité. Finalement, nous proposons quelques solutions.
+« Ce modèle doit être interprétable. » D’accord, mais pour qui, pour quelle décision et avec quel niveau d’effort ? Poser ces questions évite de chercher une explication universelle qui n’existe pas.
 
 Tags :
 - Data Science
@@ -224,7 +202,7 @@ Tags :
 
 ## 2017/10/26 : [Benchmark de dataPreparation versus du R standard](https://rpubs.com/ELToulemonde/326980)
 
-Écrit sur RPubs.com, cet article présente les intérêts de la librairie dataPreparation par rapport à du R standard sur une opération classique en préparation de données : centrer / réduire les données.
+Sur de petits volumes, R standard fait le travail. Quand les données grossissent, ce benchmark mesure ce que `dataPreparation` gagne en temps et en mémoire pour centrer et réduire les variables.
 
 Tags :
 - Data Engineering
@@ -234,7 +212,7 @@ Tags :
 
 ## 2017/09/14 : [De la donnée et de la qualité](https://www.linkedin.com/pulse/de-la-donnée-et-qualité-emmanuel-lin-toulemonde)
 
-Écrit sur LinkedIn, cet article trace les raisons de la non-qualité des données et propose 5 actions pour l'améliorer.
+Les problèmes de qualité commencent souvent bien avant que la donnée soit utilisée. Remonter à leur source fait apparaître cinq leviers concrets pour les réduire.
 
 Tags :
 - Data Engineering
@@ -244,7 +222,7 @@ Tags :
 
 ## 2017/08/31 : [IA, la fin de l'emploi ?](https://www.linkedin.com/pulse/ia-la-fin-de-lemploi-emmanuel-lin-toulemonde)
 
-Écrit sur LinkedIn, ce billet est une réflexion sur l'impact des différentes révolutions technologiques sur l'emploi, de la révolution agricole à celle de l'intelligence artificielle.
+L’IA annonce-t-elle la fin de l’emploi ou une nouvelle définition du travail ? Ce billet remonte aux précédentes révolutions technologiques pour replacer la peur actuelle dans une histoire plus longue.
 
 Tags :
 - Intelligence artificielle
