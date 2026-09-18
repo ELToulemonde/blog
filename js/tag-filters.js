@@ -31,6 +31,10 @@
     });
 
     if (!available.size) return;
+    const totals = new Map(Array.from(available.keys(), (key) => [
+      key,
+      entries.filter(({ tags }) => tags.has(key)).length,
+    ]));
 
     const toc = portfolio.querySelector("[data-portfolio-toc]");
     const targets = new Map();
@@ -62,7 +66,7 @@
       });
       buttons.forEach(({ button, count }, key) => {
         const isSelected = selected.has(key);
-        const total = entries.filter(({ tags }) => tags.has(key)).length;
+        const total = totals.get(key);
         const additional = selected.size === 0
           ? total
           : entries.filter(({ tags }) => tags.has(key) && !Array.from(selected).some((tag) => tags.has(tag))).length;
@@ -94,7 +98,9 @@
       if (toc) toc.hidden = tocItems.length > 0 && tocItems.every(({ item }) => item.hidden);
     };
 
-    Array.from(available).sort((a, b) => a[1].localeCompare(b[1], language)).forEach(([key, label]) => {
+    Array.from(available).sort((a, b) => (
+      totals.get(b[0]) - totals.get(a[0]) || a[1].localeCompare(b[1], language)
+    )).forEach(([key, label]) => {
       const button = document.createElement("button");
       const labelText = document.createElement("span");
       const count = document.createElement("span");

@@ -48,8 +48,6 @@ With many live demonstrations, this raw feedback includes successes, failures, a
 
 Tags:
 - Data Engineering
-- GenAI
-- Agents
 
 * * *
 
@@ -71,8 +69,6 @@ This talk is a look back at our architectural choices, our organization, and our
 Tags: 
 - Data Engineering
 - Architecture
-- Data Platform
-- Pragmatism
 
 * * *
 
@@ -94,7 +90,6 @@ After this presentation, you will understand the value of a model platform, iden
 Tags:
 - MLOps
 - Architecture
-- Prospective
 
 * * *
 
@@ -113,9 +108,9 @@ Rather than adding computing resources and technologies, think about architectur
 - Breizh Camp, June 2024, Rennes: [slides](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf), [video](https://www.youtube.com/watch?v=obKSKpPyaGo)
 
 Tags:
-- Data
 - Architecture
 - Sustainable IT
+- Data Engineering
 
 * * *
 
@@ -183,7 +178,6 @@ Once in production, you need to monitor your model system. Beyond data drift in 
 Tags:
 - MLOps
 - Data Science
-- Monitoring
 
 * * *
 
@@ -199,7 +193,6 @@ This talk aims to reframe the why, for whom, for what, and the how of interpreta
 
 Tags:
 - Data Science
-- Interpretability
 - Sustainable IT
 
 * * *
@@ -214,4 +207,3 @@ Presentation of the open-source R library that I have developed and maintained f
 
 Tags:
 - Data Engineering
-- R

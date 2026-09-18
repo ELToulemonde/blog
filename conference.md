@@ -48,9 +48,7 @@ Avec de nombreuses démonstrations, ce retour d'expérience brut présente des s
 
 Tags : 
 - Data Engineering
-- GenAI
-- Agents
-
+- Agentic Engineering
 
 * * *
 
@@ -72,8 +70,6 @@ Ce talk est un retour d’expérience sur nos choix d’architecture, notre orga
 Tags : 
 - Data Engineering
 - Architecture
-- Data Plateforme
-- Pragmatisme
 
 * * *
 
@@ -95,7 +91,6 @@ Une **démonstration** en direct d'une plateforme basée sur des **technologies 
 Tags : 
 - MLOps
 - Architecture
-- Prospective
 
 * * *
 
@@ -115,9 +110,9 @@ Plutôt que d'ajouter des ressources de calcul et des technologies, réfléchiss
 - Breizh Camp, juin 2024, Rennes : [slides](https://github.com/ELToulemonde/talks/blob/main/2024/Breizh%20Camp/Optimisation%20de%20performance%20b%C3%A9n%C3%A9fice%20ou%20sacrifice.pdf), [vidéo](https://www.youtube.com/watch?v=obKSKpPyaGo)
 
 Tags : 
-- Data
 - Architecture
 - Numérique responsable
+- Data Engineering
 
 * * * 
 ## La CI/CD à l'heure du Machine Learning
@@ -201,7 +196,6 @@ Ce talk vise à reposer le pourquoi, pour qui, pour quoi et le comment de l'inte
 
 Tags : 
 - Data Science
-- Interprétabilité
 - Numérique responsable
 
 * * *
@@ -216,4 +210,3 @@ Présentation de la librairie R open source que j'ai développée et maintiens d
 
 Tags : 
 - Data Engineering
-- R

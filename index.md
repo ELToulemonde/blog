@@ -41,7 +41,7 @@ Il écrit de nombreux [articles](https://eltoulemonde.fr/articles), intervient d
   </div>
   <div class="feature-card feature-card--conference">
     <div class="feature-copy">
-      <p class="feature-kicker">Curation · depuis 4 ans</p>
+      <p class="feature-kicker">Curation · depuis 2023</p>
       <h3>La Grosse Conf</h3>
       <p>Curateur de cette conférence conçue pour 300 professionnels de la data et de l’IA : choix des sujets, accompagnement des speakers et construction du programme.</p>
       <p class="feature-actions"><a class="feature-link" href="https://www.lagrosseconf.com/">Découvrir la conférence <span aria-hidden="true">→</span></a> <a href="https://www.youtube.com/@LaGrosseConf">Voir les vidéos</a></p>
