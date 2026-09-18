@@ -137,14 +137,18 @@ blockquote {
 .skip-link:focus { transform: none; }
 
 /* Page mastheads and language selector. */
-.post-header { position: relative; margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--line); }
+.post-header { position: relative; isolation: isolate; margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--line); }
 .post-header::before {
   content: "";
-  display: block;
-  width: 48px;
-  height: 36px;
-  margin-bottom: 1.25rem;
+  position: absolute;
+  z-index: -1;
+  top: -28px;
+  left: -42px;
+  width: 124px;
+  height: 124px;
   background: var(--accent);
+  opacity: 0.13;
+  transform: rotate(-5deg);
   -webkit-mask: url("../assets/signal-mark.svg") center / contain no-repeat;
   mask: url("../assets/signal-mark.svg") center / contain no-repeat;
 }
@@ -321,6 +325,17 @@ blockquote {
 /* Theme footer, tables and code follow the same palette. */
 .site-footer { padding-block: 40px; background: var(--surface); border-top: 1px solid var(--line); }
 .footer-heading { font-family: var(--serif); font-size: 1.45rem; }
+.footer-heading::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  vertical-align: -7px;
+  background: var(--accent);
+  -webkit-mask: url("../assets/signal-mark.svg") center / contain no-repeat;
+  mask: url("../assets/signal-mark.svg") center / contain no-repeat;
+}
 .footer-col-wrapper { display: grid; grid-template-columns: 1fr 1.4fr 1fr; gap: 28px; color: var(--muted); font-size: 0.85rem; margin-left: 0; }
 .footer-col-wrapper::after { display: none; }
 .footer-col { float: none; width: auto; padding: 0; margin: 0; min-width: 0; overflow-wrap: anywhere; }
@@ -360,6 +375,7 @@ pre code { overflow-wrap: normal; }
   .portfolio--projects .post-content, .post_navi, .footer-col-wrapper { grid-template-columns: 1fr; }
   .portfolio--projects .portfolio-section { padding: 24px; }
   .post-header { margin-bottom: 2rem; }
+  .post-header::before { top: -20px; left: -14px; width: 100px; height: 100px; opacity: 0.1; }
   .home-heading { grid-template-columns: minmax(0, 1fr) 92px; gap: 18px; }
   .profile-photo { width: 92px; border-width: 4px; }
   .feature-card--book { grid-template-columns: 112px minmax(0, 1fr); }
@@ -399,6 +415,7 @@ pre code { overflow-wrap: normal; }
 }
 @media print {
   .tag-sidebar { display: none; }
+  .post-header::before, .footer-heading::before { display: none; }
   :root { color-scheme: light; --paper: #fff; --surface: #fff; --ink: #000; --muted: #333; --accent: #075985; --line: #ccc; --accent-soft: #fff; --shadow: none; }
   .wrapper { max-width: none; padding: 0; }
   .page-content { padding-block: 20px; }
