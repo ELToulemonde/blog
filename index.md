@@ -49,7 +49,7 @@ Il écrit de nombreux [articles](https://eltoulemonde.fr/articles), intervient d
   </div>
 </div>
 
-## Derniers billets
+## Derniers posts
 
 <ul class="recent-posts">
 {% for post in site.posts limit: 3 %}
@@ -62,5 +62,3 @@ Il écrit de nombreux [articles](https://eltoulemonde.fr/articles), intervient d
   </li>
 {% endfor %}
 </ul>
-
-[Voir tous les articles →](/articles.html)
