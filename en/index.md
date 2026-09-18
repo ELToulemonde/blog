@@ -6,19 +6,19 @@ lang: en
 lang_alternate: /
 ---
 
-Welcome to this site which brings together the articles, conferences, and open-source contributions that Emmanuel-Lin Toulemonde has made.
+Welcome to my site, which brings together my articles, conference talks, and open-source contributions.
 
 ## Mini bio
 
-Emmanuel-Lin Toulemonde is driven by two things: learning and sharing.
+Two things drive me: learning and sharing.
 
-He has been working in the field of _Data Science_ since 2014 and software development since 2017. He is currently a consultant at OCTO Technology and a trainer at OCTO Academy.
+Since 2014, my career has combined _Data Science_ and, since 2017, software development. Today, it continues at OCTO Technology as a consultant and at OCTO Academy as a trainer.
 
-He enjoys building end-to-end projects, from business needs to production. He strives to build efficient environments that are enjoyable to work in.
+End-to-end projects, from business needs to production, are what appeal to me most. The goal remains to create efficient environments where people enjoy working.
 
-His areas of interest include: _data science_, _MLEng_, _MLOps_, monitoring of _data science_ systems, interpretability of _data science_ systems, software development, emergent architecture, agility, etc.
+My interests include _data science_, _MLEng_, _MLOps_, monitoring and interpretability of _data science_ systems, software development, emergent architecture, and agility.
 
-He writes many [articles](https://eltoulemonde.fr/en/articles), speaks at [conferences](https://eltoulemonde.fr/en/conference), and co-authored the [book Culture MLOps](https://publication.octo.com/culture-mlops).
+This work has led to numerous [articles](https://eltoulemonde.fr/en/articles), [conference talks](https://eltoulemonde.fr/en/conference), and the co-authored [book Culture MLOps](https://publication.octo.com/culture-mlops).
 
 ## Featured work
 {: .visually-hidden}
