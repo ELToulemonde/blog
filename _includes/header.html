@@ -22,6 +22,7 @@
           <a class="page-link{% if p.url == page.url %} active{% endif %}"{% if p.url == page.url %} aria-current="page"{% endif %} href="{{ p.url | relative_url }}">{{ p.title | escape }}</a>
         {% endif %}
       {% endfor %}
+      <a class="appointment-link" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0fMp2U9d96CUQB4tTWMj_ZVeYL2KYaHAGqukkDyCixcP4kAzd2sDwBRK2ty6CJZcwAgPBcgnFg">{% if page.url contains '/en/' %}Book a meeting{% else %}Prendre rendez-vous{% endif %}</a>
     </nav>
   </div>
 </header>
