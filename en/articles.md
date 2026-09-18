@@ -99,7 +99,7 @@ Tags :
 Does deploying early really reduce risk? It depends on the kind of problem being solved. Applied to Machine Learning, Cynefin helps distinguish when to learn from production and when to proceed more cautiously.
 
 Tags :
-- Data Science
+- Data Science & AI
 - Agility
 
 * * *
@@ -133,7 +133,7 @@ Tags :
 A reliable algorithm is not built in a private conversation between a Data Scientist and their data. The business must also define the objective, the trade-offs, and which errors are acceptable.
 
 Tags :
-- Data Science
+- Data Science & AI
 - Collaboration
 
 * * *
@@ -167,7 +167,7 @@ In 2021, we set out ten convictions drawn from our Data Science projects. The co
 With [Eric Biernat](https://fr.linkedin.com/in/eric-biernat-0ab939b7).
 
 Tags :
-- Data Science
+- Data Science & AI
 - Collaboration
 
 * * *
@@ -199,8 +199,7 @@ Tags :
 “This model must be interpretable.” Fine, but to whom, for which decision, and at what cost? Asking those questions avoids the search for a universal explanation that does not exist.
 
 Tags :
-- Data Science
-- Interpretability
+- Data Science & AI
 
 * * *
 
@@ -220,7 +219,7 @@ Data quality problems often begin long before anyone uses the data; tracing them
 
 Tags :
 - Data Engineering
-- Data Science
+- Data Science & AI
 
 * * *
 
@@ -229,5 +228,5 @@ Tags :
 Will AI end employment, or change what we mean by work? This essay looks back at earlier technological revolutions to place today’s fears in a longer history.
 
 Tags :
-- Artificial Intelligence
+- Data Science & AI
 - Society

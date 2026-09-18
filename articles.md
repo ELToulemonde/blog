@@ -94,7 +94,7 @@ Tags :
 Mettre vite en production réduit-il vraiment le risque ? Cela dépend du type de problème. Croisé avec le Machine Learning, Cynefin aide à décider quand apprendre du réel et quand avancer avec davantage de précautions.
 
 Tags :
-- Data Science
+- Data Science & IA
 - Agilité
 
 * * *
@@ -129,7 +129,7 @@ Tags :
 Un algorithme fiable ne se construit pas dans un tête-à-tête entre un Data Scientist et ses données. Le métier doit aussi expliciter l’objectif, les compromis et les erreurs acceptables.
 
 Tags :
-- Data Science
+- Data Science & IA
 - Collaboration
 
 * * *
@@ -163,7 +163,7 @@ En 2021, nous avons posé dix convictions issues de nos projets de Data Science.
 Avec [Eric Biernat](https://fr.linkedin.com/in/eric-biernat-0ab939b7).
 
 Tags :
-- Data Science
+- Data Science & IA
 - Collaboration
 
 * * *
@@ -195,8 +195,7 @@ Tags :
 « Ce modèle doit être interprétable. » D’accord, mais pour qui, pour quelle décision et avec quel niveau d’effort ? Poser ces questions évite de chercher une explication universelle qui n’existe pas.
 
 Tags :
-- Data Science
-- Interprétabilité
+- Data Science & IA
 
 * * *
 
@@ -216,7 +215,7 @@ Les problèmes de qualité commencent souvent bien avant que la donnée soit uti
 
 Tags :
 - Data Engineering
-- Data Science
+- Data Science & IA
 
 * * *
 
@@ -225,5 +224,5 @@ Tags :
 L’IA annonce-t-elle la fin de l’emploi ou une nouvelle définition du travail ? Ce billet remonte aux précédentes révolutions technologiques pour replacer la peur actuelle dans une histoire plus longue.
 
 Tags :
-- Intelligence artificielle
+- Data Science & IA
 - Société
