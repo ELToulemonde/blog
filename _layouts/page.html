@@ -12,6 +12,19 @@ layout: default
       </div>
       <img class="profile-photo" src="{{ '/assets/photo/photo_profil.jpg' | relative_url }}" alt="{% if page.lang == 'en' %}Portrait of Emmanuel-Lin Toulemonde{% else %}Portrait d'Emmanuel-Lin Toulemonde{% endif %}" width="300" height="300">
     </div>
+    {% elsif page.presentation == 'conferences' %}
+    <div class="conference-heading">
+      <div>
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+        {% include lang_switcher.html %}
+      </div>
+      <aside class="curation-note">
+        <p class="feature-kicker">{% if page.lang == 'en' %}Beyond the stage{% else %}Au-delà de la scène{% endif %}</p>
+        <p class="curation-note-title">{% if page.lang == 'en' %}Curator of La Grosse Conf{% else %}Curateur de La Grosse Conf{% endif %}</p>
+        <p>{% if page.lang == 'en' %}For 4 years, I have helped shape the programme for 300 data and AI professionals: defining the editorial direction, selecting topics, and supporting speakers all the way to the stage.{% else %}Depuis 4 ans, je contribue à construire le programme destiné à 300 professionnels de la data et de l’IA : définition de la ligne éditoriale, sélection des sujets et accompagnement des speakers jusqu’à la scène.{% endif %}</p>
+        <p class="feature-actions"><a class="feature-link" href="https://www.lagrosseconf.com/">{% if page.lang == 'en' %}Website{% else %}Site{% endif %} <span aria-hidden="true">↗</span></a> <a href="https://www.youtube.com/@LaGrosseConf">{% if page.lang == 'en' %}Videos{% else %}Vidéos{% endif %}</a></p>
+      </aside>
+    </div>
     {% else %}
     <h1 class="post-title">{{ page.title | escape }}</h1>
     {% include lang_switcher.html %}

@@ -7,13 +7,6 @@ lang_alternate: /conference
 nav_order: 2
 ---
 
-<aside class="curation-callout">
-  <p class="feature-kicker">Beyond the stage</p>
-  <p class="curation-title">Curator of La Grosse Conf for 4 years</p>
-  <p>I help shape the programme of this conference for 300 data and AI professionals, from selecting topics to supporting speakers.</p>
-  <p class="feature-actions"><a class="feature-link" href="https://www.lagrosseconf.com/">Visit the website <span aria-hidden="true">→</span></a> <a href="https://www.youtube.com/@LaGrosseConf">Watch the videos</a></p>
-</aside>
-
 ## Table of contents
 
 - [Agents & GenAI: How we boosted a data engineering project at the scale of 150 microservices](#agents--genai-how-we-boosted-a-data-engineering-project-at-the-scale-of-150-microservices)

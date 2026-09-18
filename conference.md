@@ -7,13 +7,6 @@ lang_alternate: /en/conference
 nav_order: 2
 ---
 
-<aside class="curation-callout">
-  <p class="feature-kicker">Au-delà de la scène</p>
-  <p class="curation-title">Curateur de La Grosse Conf depuis 4 ans</p>
-  <p>Je contribue à construire le programme de cette conférence destinée à 300 professionnels de la data et de l’IA, de la sélection des sujets à l’accompagnement des speakers.</p>
-  <p class="feature-actions"><a class="feature-link" href="https://www.lagrosseconf.com/">Visiter le site <span aria-hidden="true">→</span></a> <a href="https://www.youtube.com/@LaGrosseConf">Regarder les vidéos</a></p>
-</aside>
-
 ## Sommaire
 
 - [Agents & GenAI : Comment nous avons boosté un projet de data engineering à l’échelle de 150 microservices](#agents--genai--comment-nous-avons-boosté-un-projet-de-data-engineering-à-léchelle-de-150-microservices)

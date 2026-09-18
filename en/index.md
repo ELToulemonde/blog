@@ -39,7 +39,7 @@ He writes many [articles](https://eltoulemonde.fr/en/articles), speaks at [confe
     <div class="feature-copy">
       <p class="feature-kicker">Curation · for 4 years</p>
       <h3>La Grosse Conf</h3>
-      <p>Curator of this conference designed for 300 data and AI professionals: selecting topics, supporting speakers, and shaping the programme.</p>
+      <p>For 4 years, I have helped shape the programme for 300 data and AI professionals: defining the editorial direction, selecting topics, and supporting speakers all the way to the stage.</p>
       <p class="feature-actions"><a class="feature-link" href="https://www.lagrosseconf.com/">Discover the conference <span aria-hidden="true">→</span></a> <a href="https://www.youtube.com/@LaGrosseConf">Watch the videos</a></p>
     </div>
   </div>
