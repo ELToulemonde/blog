@@ -1,7 +1,9 @@
 {% comment %}
   Portfolio Markdown uses top-level h2 headings for its sections. At the layout
   stage content is already HTML: wrap these sections without rewriting their
-  text, links or generated heading IDs. Nested headings remain inside a section.
+  summaries, links or generated heading IDs. Article dates are extracted into a
+  metadata row; tags are ordinary Markdown lists in each page. Nested headings
+  stay intact.
   Use this only for portfolio pages, not arbitrary post HTML.
 {% endcomment %}
 {% assign sections = include.content | split: '<h2' %}
@@ -9,16 +11,20 @@
 {% for section in sections offset: 1 %}
   <section class="portfolio-section">
     {% if page.presentation == 'articles' %}
-      {% assign heading = section | split: '</h2>' | first | prepend: '<h2' %}
-      {% assign heading_text = heading | strip_html | strip %}
+      {% assign heading = section | split: '</h2>' | first %}
+      {% assign heading_text = heading | prepend: '<h2' | strip_html | strip %}
       {% assign date_label = heading_text | split: ' ' | first %}
       {% if date_label contains '/' %}
+        {% assign date_prefix = date_label %}
         {% assign dated_prefix = date_label | append: ' :' %}
         {% if heading_text contains dated_prefix %}
-          {% assign date_label = dated_prefix %}
+          {% assign date_prefix = dated_prefix %}
         {% endif %}
-        {% capture date_markup %}<span class="entry-date">{{ date_label }}</span>{% endcapture %}
-        <h2{{ section | replace_first: date_label, date_markup }}
+        <div class="entry-meta">
+          <span class="entry-date">{{ date_label }}</span>
+        </div>
+        <h2{{ heading | remove_first: date_prefix }}</h2>
+        {{ section | remove_first: heading | remove_first: '</h2>' }}
       {% else %}
         <h2{{ section }}
       {% endif %}

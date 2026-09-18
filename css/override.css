@@ -1,19 +1,19 @@
 /* Shared design tokens: all portfolio pages, in both languages. */
 :root {
   color-scheme: light dark;
-  --paper: #f7f8f5;
+  --paper: #f6f8fb;
   --surface: #ffffff;
-  --ink: #203331;
-  --muted: #526763;
-  --accent: #0f766e;
-  --accent-hover: #115e59;
-  --accent-soft: #e6f3ef;
-  --line: #d7e2dc;
-  --code: #edf1ee;
+  --ink: #243447;
+  --muted: #52667b;
+  --accent: #0369a1;
+  --accent-hover: #075985;
+  --accent-soft: #e4f2fc;
+  --line: #d7e2ed;
+  --code: #edf2f7;
   --serif: Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --radius: 18px;
-  --shadow: 0 12px 36px rgb(32 51 49 / 5%);
+  --shadow: 0 12px 36px rgb(36 52 71 / 5%);
 }
 
 * { box-sizing: border-box; }
@@ -137,12 +137,19 @@ blockquote {
 .portfolio-section:last-child { border-bottom: 0; padding-bottom: 0; }
 .portfolio-section > :last-child { margin-bottom: 0; }
 .portfolio-section > hr { display: none; }
-.entry-date { display: block; margin-bottom: 0.75rem; color: var(--muted); font-family: var(--sans); font-size: 0.8rem; line-height: 1.6; font-weight: 500; letter-spacing: 0.06em; font-variant-numeric: tabular-nums; }
-.portfolio--articles .portfolio-section > h2 + p { font-size: 0.9rem; }
+.entry-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-bottom: 0.65rem; }
+.entry-date { color: var(--muted); font-family: var(--sans); font-size: 0.8rem; line-height: 1.6; font-weight: 500; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.portfolio--articles .portfolio-section { padding-block: 1.5rem; }
+.portfolio--articles .portfolio-section:first-of-type { padding-top: 0; }
+.portfolio--articles .portfolio-section > h2 { margin-bottom: 0.85rem; }
+.portfolio--articles .portfolio-section > h2 a { text-decoration: none; }
+.portfolio--articles .portfolio-section > h2 a:hover { text-decoration: underline; }
+.portfolio--articles .portfolio-section > p { margin-bottom: 0.75rem; }
+.portfolio--articles .portfolio-section > p:last-of-type { margin-bottom: 0; }
 
 /* Home: generous introduction, a quiet biography panel, then recent work. */
 .portfolio--home .post-header { border: 0; padding: 0; margin-bottom: 1.75rem; }
-.portfolio--home .post-title { max-width: 900px; font-size: clamp(2.8rem, 7.2vw, 5.5rem); }
+.portfolio--home .post-title { max-width: 100%; font-size: clamp(2rem, 4.5vw, 3.25rem); }
 .portfolio--home .post-content > p:first-child { max-width: 720px; font-size: 1.2rem; color: var(--muted); margin-bottom: 3rem; }
 .portfolio--home .portfolio-section:first-of-type {
   padding: clamp(24px, 4vw, 48px);
@@ -180,8 +187,10 @@ blockquote {
 .portfolio--conferences .portfolio-section:first-of-type > h2 { font-family: var(--sans); font-size: 1rem; font-weight: 650; }
 .portfolio--conferences .portfolio-section:first-of-type > ul { margin: 0; list-style: none; font-size: 0.95rem; }
 .portfolio--conferences .portfolio-section:first-of-type li + li { margin-top: 0.8rem; }
-.portfolio--conferences .portfolio-section:not(:first-of-type) > ul:last-of-type { display: flex; flex-wrap: wrap; gap: 8px; margin-left: 0; list-style: none; }
-.portfolio--conferences .portfolio-section:not(:first-of-type) > ul:last-of-type > li { margin: 0; padding: 3px 12px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); color: var(--muted); font-size: 0.8rem; }
+.portfolio--conferences .portfolio-section:not(:first-of-type) > ul:last-of-type,
+.portfolio--articles .portfolio-section > ul:last-of-type { display: flex; flex-wrap: wrap; gap: 8px; margin-left: 0; list-style: none; }
+.portfolio--conferences .portfolio-section:not(:first-of-type) > ul:last-of-type > li,
+.portfolio--articles .portfolio-section > ul:last-of-type > li { margin: 0; padding: 3px 12px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); color: var(--muted); font-size: 0.8rem; }
 
 /* Open source gets project cards; CV keeps a long-form reading rhythm. */
 .portfolio--projects .post-content { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
@@ -250,15 +259,15 @@ pre code { overflow-wrap: normal; }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #142220;
-    --surface: #1b2d29;
-    --ink: #e7efea;
-    --muted: #afc3ba;
-    --accent: #78d6c4;
-    --accent-hover: #b1eddf;
-    --accent-soft: #263f37;
-    --line: #395249;
-    --code: #20362f;
+    --paper: #152231;
+    --surface: #1c2d40;
+    --ink: #e7eff8;
+    --muted: #afc2d6;
+    --accent: #7dcafa;
+    --accent-hover: #b8e3ff;
+    --accent-soft: #243f59;
+    --line: #39536b;
+    --code: #21364c;
     --shadow: none;
   }
   .highlight, .highlight span, .hljs span { background: transparent; color: var(--ink); }
@@ -270,7 +279,7 @@ pre code { overflow-wrap: normal; }
   .recent-posts a { transition: none; }
 }
 @media print {
-  :root { color-scheme: light; --paper: #fff; --surface: #fff; --ink: #000; --muted: #333; --accent: #145c54; --line: #ccc; --accent-soft: #fff; --shadow: none; }
+  :root { color-scheme: light; --paper: #fff; --surface: #fff; --ink: #000; --muted: #333; --accent: #075985; --line: #ccc; --accent-soft: #fff; --shadow: none; }
   .wrapper { max-width: none; padding: 0; }
   .page-content { padding-block: 20px; }
   .recent-posts, .portfolio--projects .post-content { display: block; }
