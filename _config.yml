@@ -8,13 +8,9 @@ stackoverflow_username: 5227259/emmanuel-lin
 
 theme: "minima"
 
-header_pages: []
-
-kramdown:
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
 plugins:
   - jekyll-feed
   - jekyll-sitemap

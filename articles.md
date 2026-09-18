@@ -16,6 +16,8 @@ Plus d’exigences, plus d’information, plus d’implicite, plus de contrainte
 
 Dans cet article, on explore 5 freins qui expliquent pourquoi l’Agentic Engineering est très différent lorsqu’on passe du prototype à un projet réel.
 
+🔗 [Voir mon billet et le partager](/2026/09/18/Nouvel-article-agentic-engineering.html)
+
 * * * 
 
 ## 2026/05/26 : Harnessing des agents : 9 pratiques venant du logiciel
@@ -28,6 +30,8 @@ L’Agentic Engineering, terme proposé par Andrej Karpaty, débarque comme une 
 Le marché est alors vite tenté d’inventer des nouvelles pratiques pour faire cela, nous avons la conviction qu’il est préférable d’utiliser et adapter notre savoir faire du logiciel sans agent.
 
 Dans cet article, nous explorons et adaptons 9 pratiques du logiciel qui permettent de bien cadrer l’agent de code comme le développeur.
+
+🔗 [Voir mon billet et le partager](/2026/05/26/Nouvel-article-harnessing-agents.html)
 
 * * *
 
@@ -42,7 +46,7 @@ Et combien de fois la documentation promise est-elle restée un simple ticket ou
 
 Si vous aussi, vous avez répondu “souvent” ou “trop souvent” à au moins l’une de ses questions, les tests d’architecture devraient vous plaire !
 
-🔗 [Voir mon billet et le partager](/2026/03/13/Nouvel-article-sur-les-tests-d'architecture.html)
+🔗 [Voir mon billet et le partager](/2026/03/13/Nouvel-article-tests-architecture.html)
 
 * * *
 
