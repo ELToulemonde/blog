@@ -91,7 +91,7 @@ Tags :
 
 * * *
 
-## 2022/12/06 [\[MLOps\] Monitoring & proactive notification d’une application de ML](https://blog.octo.com/mlops-monitoring-et-proactive-notification/)
+## 2022/12/06 [Monitoring & proactive notification d’une application de ML](https://blog.octo.com/mlops-monitoring-et-proactive-notification/)
 
 Écrit sur le blog d'OCTO, cet article détail les origines des erreurs d'une application de ML en production, propose une démarche pour créer des sondes de _monitoring_ et d_'alerting_.
 
@@ -189,7 +189,7 @@ Tags :
 
 * * *
 
-## 2020/05/13 : [\[MLOps\] les difficultés pour récupérer la prédiction idéale](https://blog.octo.com/data-science-en-production-les-difficultes-pour-recuperer-la-prediction-ideale/)
+## 2020/05/13 : [Les difficultés pour récupérer la prédiction idéale](https://blog.octo.com/data-science-en-production-les-difficultes-pour-recuperer-la-prediction-ideale/)
 
 Écrit sur le blog d'OCTO, cet article creuse l'une des difficultés que l'on peut avoir pour suivre la performance réelle d'un algorithme de _Data Science_ : la récupération de la prédiction idéalement faite par l’algorithme pour maximiser l'atteinte de ses objectifs.
 
@@ -199,7 +199,7 @@ Tags :
 
 * * *
 
-## 2019/12/17 : [\[MLOps\] Une alternative au monitoring de distributions](https://blog.octo.com/une-alternative-au-monitoring-de-distributions/)
+## 2019/12/17 : [Une alternative au monitoring de distributions](https://blog.octo.com/une-alternative-au-monitoring-de-distributions/)
 
 Article écrit avec [Mehdi Houacine](https://fr.linkedin.com/in/mehdihouacine)
 

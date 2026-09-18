@@ -11,7 +11,11 @@ layout: default
     {% endif %}
     {% include lang_switcher.html %}
   </header>
-  <div class="post-content">
+  {% if page.presentation == 'articles' or page.presentation == 'conferences' %}
+    {% include tag-filters.html %}
+    <script src="{{ '/js/tag-filters.js' | relative_url }}" defer></script>
+  {% endif %}
+  <div class="post-content" id="portfolio-content">
     {% if page.presentation %}
       {% include portfolio-sections.html content=content %}
     {% else %}

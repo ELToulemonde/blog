@@ -6,10 +6,16 @@
   stay intact.
   Use this only for portfolio pages, not arbitrary post HTML.
 {% endcomment %}
-{% assign sections = include.content | split: '<h2' %}
+{% assign display_content = include.content %}
+{% if page.presentation == 'articles' or page.presentation == 'conferences' %}
+  {% comment %}Keep the editable Tags label in Markdown, but show only the styled tags.{% endcomment %}
+  {% assign tag_marker = '<span data-tag-marker hidden></span>' %}
+  {% assign display_content = display_content | replace: '<p>Tags :</p>', tag_marker | replace: '<p>Tags:</p>', tag_marker | replace: '<p>Tags : </p>', tag_marker | replace: '<p>Tags: </p>', tag_marker %}
+{% endif %}
+{% assign sections = display_content | split: '<h2' %}
 {{ sections.first }}
 {% for section in sections offset: 1 %}
-  <section class="portfolio-section">
+  <section class="portfolio-section"{% if page.presentation == 'conferences' and forloop.first %} data-portfolio-toc{% endif %}>
     {% if page.presentation == 'articles' %}
       {% assign heading = section | split: '</h2>' | first %}
       {% assign heading_text = heading | prepend: '<h2' | strip_html | strip %}
