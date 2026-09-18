@@ -60,7 +60,28 @@
         section.hidden = !matches;
         if (matches) visible += 1;
       });
-      buttons.forEach((button, key) => button.setAttribute("aria-pressed", String(selected.has(key))));
+      buttons.forEach(({ button, count }, key) => {
+        const isSelected = selected.has(key);
+        const total = entries.filter(({ tags }) => tags.has(key)).length;
+        const additional = selected.size === 0
+          ? total
+          : entries.filter(({ tags }) => tags.has(key) && !Array.from(selected).some((tag) => tags.has(tag))).length;
+        count.textContent = isSelected ? String(total) : `${selected.size ? "+" : ""}${additional}`;
+        button.setAttribute("aria-pressed", String(isSelected));
+        if (isSelected) {
+          button.setAttribute("aria-label", language === "en"
+            ? `${available.get(key)}, selected, ${total} ${total === 1 ? "result" : "results"}`
+            : `${available.get(key)}, sélectionné, ${total} ${total === 1 ? "résultat" : "résultats"}`);
+        } else if (selected.size) {
+          button.setAttribute("aria-label", language === "en"
+            ? `${available.get(key)}, adds ${additional} ${additional === 1 ? "result" : "results"}`
+            : `${available.get(key)}, ajoute ${additional} ${additional === 1 ? "résultat" : "résultats"}`);
+        } else {
+          button.setAttribute("aria-label", language === "en"
+            ? `${available.get(key)}, ${total} ${total === 1 ? "result" : "results"}`
+            : `${available.get(key)}, ${total} ${total === 1 ? "résultat" : "résultats"}`);
+        }
+      });
       reset.setAttribute("aria-pressed", String(selected.size === 0));
       status.textContent = language === "en"
         ? `${visible} of ${entries.length} ${entries.length === 1 ? "result" : "results"}`
@@ -75,8 +96,13 @@
 
     Array.from(available).sort((a, b) => a[1].localeCompare(b[1], language)).forEach(([key, label]) => {
       const button = document.createElement("button");
+      const labelText = document.createElement("span");
+      const count = document.createElement("span");
       button.type = "button";
-      button.textContent = label;
+      labelText.textContent = label;
+      count.className = "tag-filter-count";
+      count.setAttribute("aria-hidden", "true");
+      button.append(labelText, count);
       button.setAttribute("aria-pressed", "false");
       button.setAttribute("aria-controls", "portfolio-content");
       button.addEventListener("click", () => {
@@ -84,7 +110,7 @@
         else selected.add(key);
         update();
       });
-      buttons.set(key, button);
+      buttons.set(key, { button, count });
       options.appendChild(button);
     });
 

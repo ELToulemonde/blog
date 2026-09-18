@@ -21,17 +21,18 @@ His areas of interest include: _data science_, _MLEng_, _MLOps_, monitoring of _
 He writes many [articles](https://eltoulemonde.fr/en/articles), speaks at [conferences](https://eltoulemonde.fr/en/conference), and co-authored the [book Culture MLOps](https://publication.octo.com/culture-mlops).
 
 ## Featured work
+{: .visually-hidden}
 
 <div class="home-highlights">
   <div class="feature-card feature-card--book">
     <div class="feature-cover">
-      <img src="/assets/photo/culture-mlops.png" alt="Cover of the book Culture MLOps" width="474" height="666">
+      <img src="/assets/photo/culture-mlops.png" alt="Cover of the book Culture MLOps" width="1000" height="1037">
     </div>
     <div class="feature-copy">
       <p class="feature-kicker">Book · free download in French</p>
-      <h3>Culture MLOps</h3>
+      <h3><a href="/en/culture-mlops.html">Culture MLOps</a></h3>
       <p>Co-authored with Sofia Calcagno, a book about treating Machine Learning like software and putting models into production sustainably.</p>
-      <a class="feature-link" href="https://publication.octo.com/culture-mlops">Download for free <span aria-hidden="true">→</span></a>
+      <p class="feature-actions"><a class="feature-link" href="/en/culture-mlops.html">Discover the book <span aria-hidden="true">→</span></a> <a href="https://publication.octo.com/culture-mlops">Download for free</a></p>
     </div>
   </div>
   <div class="feature-card feature-card--conference">

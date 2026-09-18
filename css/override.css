@@ -18,6 +18,7 @@
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
+.visually-hidden { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0, 0, 0, 0) !important; white-space: nowrap !important; border: 0 !important; }
 body {
   background: var(--paper);
   color: var(--ink);
@@ -37,7 +38,7 @@ a:focus-visible, button:focus-visible {
 .wrapper { width: 100%; max-width: 1160px; padding-inline: 32px; }
 .page-content { padding: 64px 0 88px; }
 .post { max-width: 760px; margin-inline: auto; }
-.portfolio--home, .portfolio--projects { max-width: 1024px; }
+.portfolio--home, .portfolio--projects, .portfolio--book { max-width: 1024px; }
 .portfolio--articles, .portfolio--conferences { max-width: 1080px; }
 p, ul, ol, blockquote, pre { margin-bottom: 1.35rem; }
 li + li { margin-top: 0.35rem; }
@@ -133,9 +134,9 @@ blockquote {
 .lang-switcher a:hover { background: var(--surface); }
 .eyebrow { color: var(--accent); font-size: 0.78rem; font-weight: 650; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 1rem; }
 .home-heading { display: grid; grid-template-columns: minmax(0, 1fr) 152px; align-items: center; gap: clamp(28px, 6vw, 72px); }
-.profile-photo { width: 152px; aspect-ratio: 1; object-fit: cover; border-radius: 50% 50% 46% 54% / 48% 44% 56% 52%; border: 6px solid var(--surface); box-shadow: 0 0 0 1px var(--line), var(--shadow); transform: rotate(2deg); }
-.conference-hero { margin: -0.5rem 0 3rem; overflow: hidden; border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
-.conference-hero img { display: block; width: 100%; aspect-ratio: 2.25 / 1; object-fit: cover; object-position: center 34%; }
+.profile-photo { width: 152px; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 50% 50% 46% 54% / 48% 44% 56% 52%; border: 6px solid var(--surface); box-shadow: 0 0 0 1px var(--line), var(--shadow); transform: rotate(2deg); }
+.conference-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 320px); align-items: center; gap: clamp(28px, 6vw, 72px); }
+.conference-photo { display: block; width: 100%; height: auto; aspect-ratio: 1.65 / 1; object-fit: cover; object-position: 56% center; border-radius: 12px 42px 12px 42px; box-shadow: var(--shadow); }
 
 /* The content stays in Markdown; the layout groups its existing h2 sections. */
 .portfolio-section { padding-block: 2.5rem; border-bottom: 1px solid var(--line); min-width: 0; }
@@ -164,6 +165,8 @@ blockquote {
 .tag-filter-options button { display: inline-flex; align-items: center; width: 100%; min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); color: var(--muted); font: inherit; font-size: 0.85rem; line-height: 1.4; text-align: left; cursor: pointer; }
 .tag-filter-options button:hover { border-color: var(--accent); color: var(--accent); }
 .tag-filter-options button[aria-pressed="true"] { color: var(--accent); background: var(--accent-soft); border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); font-weight: 650; }
+.tag-filter-count { min-width: 2em; margin-left: auto; padding: 1px 7px; border-radius: 12px; background: var(--accent-soft); color: var(--accent); font-size: 0.72rem; line-height: 1.6; text-align: center; font-variant-numeric: tabular-nums; }
+.tag-filter-options button[aria-pressed="true"] .tag-filter-count { background: var(--surface); }
 .tag-filter-status { margin: 1rem 0 0; font-size: 0.8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 [data-tag-marker] + ul { display: none !important; }
 
@@ -186,10 +189,12 @@ blockquote {
 .feature-card { min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
 .feature-card--book { display: grid; grid-template-columns: minmax(150px, 0.72fr) minmax(0, 1.28fr); }
 .feature-cover { min-height: 100%; padding: 24px; display: flex; align-items: center; justify-content: center; background: var(--accent-soft); }
-.feature-cover img { display: block; width: min(100%, 190px); max-height: 300px; object-fit: contain; filter: drop-shadow(0 12px 12px rgb(36 52 71 / 18%)); transform: rotate(-2deg); }
+.feature-cover img { display: block; width: min(100%, 190px); height: auto; max-height: 300px; object-fit: contain; filter: drop-shadow(0 12px 12px rgb(36 52 71 / 18%)); transform: rotate(-2deg); }
 .feature-copy { padding: clamp(24px, 4vw, 36px); }
 .feature-kicker { margin: 0 0 0.8rem; color: var(--accent); font-size: 0.72rem; line-height: 1.4; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
 .feature-card h3, .curation-title { margin: 0 0 1rem; color: var(--ink); font-family: var(--serif); font-size: clamp(1.55rem, 3vw, 2rem); font-weight: 400; line-height: 1.2; }
+.feature-card h3 a { color: inherit; text-decoration: none; }
+.feature-card h3 a:hover { color: var(--accent); text-decoration: underline; }
 .feature-card p { font-size: 0.94rem; line-height: 1.65; }
 .feature-card--conference { position: relative; background: linear-gradient(145deg, var(--surface) 52%, var(--accent-soft)); }
 .feature-card--conference::after { content: ""; position: absolute; right: -22px; bottom: -28px; width: 110px; height: 110px; border: 16px solid var(--accent); border-radius: 50%; opacity: 0.13; }
@@ -240,6 +245,11 @@ blockquote {
 .portfolio--resume h3::before { content: ""; position: absolute; left: -35px; top: 0.5em; width: 12px; height: 12px; border: 3px solid var(--paper); border-radius: 50%; background: var(--accent); }
 .portfolio--resume h4 { color: var(--accent); }
 .book-cover-post { display: block; float: right; width: min(38%, 230px); height: auto; margin: 0 0 1.5rem 2rem; filter: drop-shadow(0 12px 16px rgb(36 52 71 / 16%)); transform: rotate(1deg); }
+.book-page-intro { display: grid; grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1.28fr); align-items: center; gap: clamp(32px, 6vw, 72px); margin-bottom: 3rem; padding: clamp(24px, 5vw, 52px); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+.book-page-intro > img { display: block; width: 100%; height: auto; filter: drop-shadow(0 18px 20px rgb(36 52 71 / 18%)); transform: rotate(-2deg); }
+.book-lead { font-family: var(--serif); color: var(--ink); font-size: clamp(1.35rem, 3vw, 1.85rem); line-height: 1.35; }
+.book-download { display: inline-flex; align-items: center; min-height: 48px; padding: 10px 18px; border-radius: 9px; background: var(--accent); color: #fff !important; font-weight: 650; text-decoration: none !important; }
+.book-download:hover { background: var(--accent-hover); color: #fff; }
 
 /* Posts: comfortable sharing controls and balanced adjacent-post links. */
 .share-links { margin: -0.5rem 0 2.5rem; }
@@ -299,14 +309,16 @@ pre code { overflow-wrap: normal; }
   .post-header { margin-bottom: 2rem; }
   .home-heading { grid-template-columns: minmax(0, 1fr) 92px; gap: 18px; }
   .profile-photo { width: 92px; border-width: 4px; }
-  .conference-hero { margin-bottom: 2rem; border-radius: 12px; }
-  .conference-hero img { aspect-ratio: 1.55 / 1; object-position: 57% center; }
+  .conference-heading { grid-template-columns: minmax(0, 1fr) 128px; gap: 18px; }
+  .conference-photo { border-radius: 8px 24px 8px 24px; }
   .feature-card--book { grid-template-columns: 112px minmax(0, 1fr); }
   .feature-cover { padding: 16px 10px; }
   .feature-copy { padding: 22px; }
   .feature-card--book .feature-copy { padding-left: 16px; }
   .feature-card h3 { font-size: 1.45rem; }
   .book-cover-post { float: none; width: min(70%, 240px); margin: 0 auto 2rem; }
+  .book-page-intro { grid-template-columns: 1fr; }
+  .book-page-intro > img { width: min(72%, 280px); margin-inline: auto; }
   .portfolio-section { padding-block: 2rem; }
   .portfolio--conferences .portfolio-section:first-of-type { padding: 22px; }
   .post_navi .nav_next { text-align: left; }

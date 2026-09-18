@@ -25,17 +25,18 @@ l'interprétabilité des systèmes de _data science_, le développement logiciel
 Il écrit de nombreux [articles](https://eltoulemonde.fr/articles), intervient dans des [conférences](https://eltoulemonde.fr/conference) et a coécrit le [livre Culture MLOps](https://publication.octo.com/culture-mlops).
 
 ## À la une
+{: .visually-hidden}
 
 <div class="home-highlights">
   <div class="feature-card feature-card--book">
     <div class="feature-cover">
-      <img src="/assets/photo/culture-mlops.png" alt="Couverture du livre Culture MLOps" width="474" height="666">
+      <img src="/assets/photo/culture-mlops.png" alt="Couverture du livre Culture MLOps" width="1000" height="1037">
     </div>
     <div class="feature-copy">
       <p class="feature-kicker">Livre · téléchargement libre</p>
-      <h3>Culture MLOps</h3>
+      <h3><a href="/livre-culture-mlops.html">Culture MLOps</a></h3>
       <p>Coécrit avec Sofia Calcagno, un livre pour traiter le Machine Learning comme un logiciel et mettre durablement les modèles en production.</p>
-      <a class="feature-link" href="https://publication.octo.com/culture-mlops">Télécharger gratuitement <span aria-hidden="true">→</span></a>
+      <p class="feature-actions"><a class="feature-link" href="/livre-culture-mlops.html">Découvrir le livre <span aria-hidden="true">→</span></a> <a href="https://publication.octo.com/culture-mlops">Télécharger gratuitement</a></p>
     </div>
   </div>
   <div class="feature-card feature-card--conference">
