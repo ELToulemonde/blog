@@ -9,6 +9,7 @@ nav_order: 2
 
 ## Sommaire
 
+- [Data Platform : 350 microservices, 7 To par semaine… et tout est en Python](#data-platform--350-microservices-7-to-par-semaine-et-tout-est-en-python)
 - [Agents & GenAI : Comment nous avons boosté un projet de data engineering à l’échelle de 150 microservices](#agents--genai--comment-nous-avons-boosté-un-projet-de-data-engineering-à-léchelle-de-150-microservices)
 - [MLOps à l’échelle : Plateformiser le registre et l’inférence pour accélérer les déploiements](#mlops-à-léchelle--plateformiser-le-registre-et-linférence-pour-accélérer-les-déploiements)
 - [Optimisation de performance : bénéfice ou sacrifice ?](#optimisation-de-performance-bénéfice-ou-sacrifice-)
@@ -19,9 +20,32 @@ nav_order: 2
 - [Interprétabilité des Systèmes de Data Science](#interprétabilité-des-systèmes-de-data-science)
 - [Tutoriel sur la librairie dataPreparation](#tutoriel-sur-la-librairie-datapreparation)
 
-## Agents & GenAI : Comment nous avons boosté un projet de data engineering à l’échelle de 150 microservices
+## Data Platform : 350 microservices, 7 To par semaine… et tout est en Python
 
-Depuis 2,5 ans, notre équipe livre un projet de data engineering à grande échelle : plus de 150 microservices, des pipelines complexes, et des exigences de qualité élevées.
+Construire une Data Platform à l'échelle ne nécessite pas forcément une multitude d'outils. Notre plateforme traite 7 To de données et plus d'un million d'événements par semaine, intègre 40 sources de données et expose plus de 250 objets de données... tout en reposant principalement sur Python.
+
+Dans ce retour d'expérience, je montrerai comment nous avons utilisé Python pour construire les briques d'une plateforme de données moderne : 
+- une architecture orientée événements pour remplacer les traitements batch lorsque cela est pertinent ; 
+- l'ensemble des transformations de données en python ;
+- le suivi de la qualité de données en python
+- un modèle de stockage garantissant l'organisation et la gouvernance des données dans le temps ; 
+- des data contracts ; 
+- un catalogue de données custom développé en python ; 
+- une anonymisation contextualisée permettant de préserver la valeur métier des données ; des composants techniques réutilisables qui imposent naturellement les bonnes pratiques aux équipes.
+
+L'objectif est de partager les choix d'architecture, les abstractions Python et les compromis qui nous ont permis de faire grandir une plateforme de données tout en restant simple à faire évoluer.
+
+📍 Talk donné à :
+- PyConf Fr, Octobre 2026, Biarritz : [slides](https://github.com/ELToulemonde/talks/blob/main/2026/PyCon%20Fr/Pycon_%20Data%20plateforme%20%C3%A0%20l'%C3%A9chelle%20en%20python.pdf)
+
+Tags : 
+- Data Engineering
+
+* * *
+
+## Agents & GenAI : Comment nous avons boosté un projet de data engineering à l’échelle de 350 microservices
+
+Depuis 3,5 ans, notre équipe livre un projet de data engineering à grande échelle : plus de 350 microservices, des pipelines complexes, et des exigences de qualité élevées.
 Depuis un an, nous avons intégré la GenAI et des agents pour transformer notre façon de travailler.
 
 Dans ce talk, nous partagerons comment l’IA a accéléré certaines tâches critiques :

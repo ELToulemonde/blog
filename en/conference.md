@@ -9,6 +9,7 @@ nav_order: 2
 
 ## Table of contents
 
+- [Data Platform: 350 microservices, 7 TB per week… and it's all Python](#data-platform-350-microservices-7-tb-per-week-and-its-all-python)
 - [Agents & GenAI: How we boosted a data engineering project at the scale of 150 microservices](#agents--genai-how-we-boosted-a-data-engineering-project-at-the-scale-of-150-microservices)
 - [MLOps at scale: Platforming the registry and inference to accelerate deployments](#mlops-at-scale-platforming-the-registry-and-inference-to-accelerate-deployments)
 - [Performance optimization: benefit or sacrifice?](#performance-optimization-benefit-or-sacrifice)
@@ -18,6 +19,29 @@ nav_order: 2
 - [MLOps: Production deployment, and then?](#mlops-production-deployment-and-then)
 - [Interpretability of Data Science Systems](#interpretability-of-data-science-systems)
 - [Tutorial on the dataPreparation library](#tutorial-on-the-datapreparation-library)
+
+## Data Platform: 350 microservices, 7 TB per week… and it's all Python
+
+Building a Data Platform at scale does not necessarily require a multitude of tools. Our platform processes 7 TB of data and more than one million events per week, integrates 40 data sources and exposes more than 250 data objects… while relying mainly on Python.
+
+In this feedback, I will show how we used Python to build the bricks of a modern data platform:
+- an event-driven architecture to replace batch processing where relevant;
+- all data transformations in Python;
+- data quality monitoring in Python;
+- a storage model ensuring the organization and governance of data over time;
+- data contracts;
+- a custom data catalog developed in Python;
+- contextualized anonymization preserving the business value of data; reusable technical components that naturally enforce good practices on the teams.
+
+The goal is to share the architecture choices, Python abstractions and trade-offs that allowed us to grow a data platform while keeping it simple to evolve.
+
+📍 Talk given at:
+- PyConf Fr, October 2026, Biarritz: [slides](https://github.com/ELToulemonde/talks/blob/main/2026/PyCon%20Fr/Pycon_%20Data%20plateforme%20%C3%A0%20l'%C3%A9chelle%20en%20python.pdf)
+
+Tags:
+- Data Engineering
+
+* * *
 
 ## Agents & GenAI: How we boosted a data engineering project at the scale of 150 microservices
 
