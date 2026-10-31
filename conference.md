@@ -7,19 +7,6 @@ lang_alternate: /en/conference
 nav_order: 2
 ---
 
-## Sommaire
-
-- [Data Platform : 350 microservices, 7 To par semaine… et tout est en Python](#data-platform--350-microservices-7-to-par-semaine-et-tout-est-en-python)
-- [Agents & GenAI : Comment nous avons boosté un projet de data engineering à l’échelle de 150 microservices](#agents--genai--comment-nous-avons-boosté-un-projet-de-data-engineering-à-léchelle-de-150-microservices)
-- [MLOps à l’échelle : Plateformiser le registre et l’inférence pour accélérer les déploiements](#mlops-à-léchelle--plateformiser-le-registre-et-linférence-pour-accélérer-les-déploiements)
-- [Optimisation de performance : bénéfice ou sacrifice ?](#optimisation-de-performance-bénéfice-ou-sacrifice-)
-- [La CI/CD à l'heure du Machine Learning](#la-cicd-à-lheure-du-machine-learning)
-- [Dessine-moi une architecture de Data Science](#dessine-moi-une-architecture-de-data-science)
-- [L'histoire d'une architecture émergente](#lhistoire-dune-architecture-émergente)
-- [MLOps : Mise en production, et après](#mlops--mise-en-production-et-après-)
-- [Interprétabilité des Systèmes de Data Science](#interprétabilité-des-systèmes-de-data-science)
-- [Tutoriel sur la librairie dataPreparation](#tutoriel-sur-la-librairie-datapreparation)
-
 ## Data Platform : 350 microservices, 7 To par semaine… et tout est en Python
 
 Construire une Data Platform à l'échelle ne nécessite pas forcément une multitude d'outils. Notre plateforme traite 7 To de données et plus d'un million d'événements par semaine, intègre 40 sources de données et expose plus de 250 objets de données... tout en reposant principalement sur Python.

@@ -279,14 +279,10 @@ blockquote {
 .card-arrow { color: var(--accent); margin-top: auto; padding-top: 1.25rem; font-size: 1.4rem; }
 .portfolio--home .portfolio-section:last-child > p:last-child > a { font-weight: 600; }
 
-/* Conference contents and tags remain the original lists and links. */
-.portfolio--conferences .portfolio-section:first-of-type { padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--accent-soft); margin-bottom: 1rem; }
-.portfolio--conferences .portfolio-section:first-of-type > h2 { font-family: var(--sans); font-size: 1rem; font-weight: 650; }
-.portfolio--conferences .portfolio-section:first-of-type > ul { margin: 0; list-style: none; font-size: 0.95rem; }
-.portfolio--conferences .portfolio-section:first-of-type li + li { margin-top: 0.8rem; }
-.portfolio--conferences .portfolio-section:not(:first-of-type) > ul:last-of-type,
+/* Conference tags remain the original lists and links. */
+.portfolio--conferences .portfolio-section > ul:last-of-type,
 .portfolio--articles .portfolio-section > ul:last-of-type { display: flex; flex-wrap: wrap; gap: 8px; margin-left: 0; list-style: none; }
-.portfolio--conferences .portfolio-section:not(:first-of-type) > ul:last-of-type > li,
+.portfolio--conferences .portfolio-section > ul:last-of-type > li,
 .portfolio--articles .portfolio-section > ul:last-of-type > li { margin: 0; padding: 3px 12px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); color: var(--muted); font-size: 0.8rem; }
 
 /* Open source gets project cards; CV keeps a long-form reading rhythm. */
@@ -387,7 +383,6 @@ pre code { overflow-wrap: normal; }
   .book-page-intro { grid-template-columns: 1fr; }
   .book-page-intro > img { width: min(72%, 280px); margin-inline: auto; }
   .portfolio-section { padding-block: 2rem; }
-  .portfolio--conferences .portfolio-section:first-of-type { padding: 22px; }
   .post_navi .nav_next { text-align: left; }
   .footer-col-wrapper { gap: 16px; }
 }

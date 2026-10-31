@@ -7,19 +7,6 @@ lang_alternate: /conference
 nav_order: 2
 ---
 
-## Table of contents
-
-- [Data Platform: 350 microservices, 7 TB per week… and it's all Python](#data-platform-350-microservices-7-tb-per-week-and-its-all-python)
-- [Agents & GenAI: How we boosted a data engineering project at the scale of 150 microservices](#agents--genai-how-we-boosted-a-data-engineering-project-at-the-scale-of-150-microservices)
-- [MLOps at scale: Platforming the registry and inference to accelerate deployments](#mlops-at-scale-platforming-the-registry-and-inference-to-accelerate-deployments)
-- [Performance optimization: benefit or sacrifice?](#performance-optimization-benefit-or-sacrifice)
-- [CI/CD in the age of Machine Learning](#cicd-in-the-age-of-machine-learning)
-- [Draw me a Data Science architecture](#draw-me-a-data-science-architecture)
-- [The story of an emergent architecture](#the-story-of-an-emergent-architecture)
-- [MLOps: Production deployment, and then?](#mlops-production-deployment-and-then)
-- [Interpretability of Data Science Systems](#interpretability-of-data-science-systems)
-- [Tutorial on the dataPreparation library](#tutorial-on-the-datapreparation-library)
-
 ## Data Platform: 350 microservices, 7 TB per week… and it's all Python
 
 Building a Data Platform at scale does not necessarily require a multitude of tools. Our platform processes 7 TB of data and more than one million events per week, integrates 40 data sources and exposes more than 250 data objects… while relying mainly on Python.

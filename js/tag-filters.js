@@ -13,8 +13,8 @@
     const keyFor = (text) => normalize(text).toLocaleLowerCase(language);
 
     // Only a list explicitly introduced by "Tags :" in Markdown is a tag list.
-    // Other lists (slides, coauthors, contents...) must never become filters.
-    const entries = Array.from(portfolio.querySelectorAll(".portfolio-section:not([data-portfolio-toc])"), (section) => {
+    // Other lists (slides, coauthors...) must never become filters.
+    const entries = Array.from(portfolio.querySelectorAll(".portfolio-section"), (section) => {
       const marker = section.querySelector("[data-tag-marker]");
       const list = marker && marker.nextElementSibling;
       const tags = new Set();
@@ -35,26 +35,6 @@
       key,
       entries.filter(({ tags }) => tags.has(key)).length,
     ]));
-
-    const toc = portfolio.querySelector("[data-portfolio-toc]");
-    const targets = new Map();
-    entries.forEach(({ section }) => {
-      section.querySelectorAll("[id]").forEach((heading) => {
-        targets.set(heading.id.normalize("NFC"), section);
-      });
-    });
-    const tocItems = toc ? Array.from(toc.querySelectorAll("li"), (item) => {
-      const link = item.querySelector('a[href^="#"]');
-      let target;
-      if (link) {
-        try {
-          target = targets.get(decodeURIComponent(link.getAttribute("href").slice(1)).normalize("NFC"));
-        } catch {
-          // Keep malformed or outdated anchors as-is when showing all content.
-        }
-      }
-      return { item, target };
-    }) : [];
 
     const buttons = new Map();
     const update = () => {
@@ -90,12 +70,6 @@
       status.textContent = language === "en"
         ? `${visible} of ${entries.length} ${entries.length === 1 ? "result" : "results"}`
         : `${visible} ${visible === 1 ? "résultat" : "résultats"} sur ${entries.length}`;
-
-      // The contents list must not link to sections hidden by the filters.
-      tocItems.forEach(({ item, target }) => {
-        item.hidden = selected.size > 0 && (!target || target.hidden);
-      });
-      if (toc) toc.hidden = tocItems.length > 0 && tocItems.every(({ item }) => item.hidden);
     };
 
     Array.from(available).sort((a, b) => (

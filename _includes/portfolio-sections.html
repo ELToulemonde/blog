@@ -1,7 +1,7 @@
 {% comment %}
   Portfolio Markdown uses top-level h2 headings for its sections. At the layout
   stage content is already HTML: wrap these sections without rewriting their
-  summaries, links or generated heading IDs. Article dates are extracted into a
+  links or generated heading IDs. Article dates are extracted into a
   metadata row; tags are ordinary Markdown lists in each page. Nested headings
   stay intact.
   Use this only for portfolio pages, not arbitrary post HTML.
@@ -15,7 +15,7 @@
 {% assign sections = display_content | split: '<h2' %}
 {{ sections.first }}
 {% for section in sections offset: 1 %}
-  <section class="portfolio-section"{% if page.presentation == 'conferences' and forloop.first %} data-portfolio-toc{% endif %}>
+  <section class="portfolio-section">
     {% if page.presentation == 'articles' %}
       {% assign heading = section | split: '</h2>' | first %}
       {% assign heading_text = heading | prepend: '<h2' | strip_html | strip %}
